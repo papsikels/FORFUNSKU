@@ -1,0 +1,516 @@
+// ==UserScript==
+// @name         PANCAKE
+// @namespace    http://tampermonkey.net/
+// @version      3.3
+// @description  Firebase dashboard with Add, Edit, Delete, and Search features
+// @match        *://*/*
+// @grant        none
+// ==/UserScript==
+
+(function () {
+    'use strict';
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyB5k4ktm_k0FL2Esq2szyEz6uQe5d6smPI",
+        authDomain: "forfun-5584e.firebaseapp.com",
+        databaseURL: "https://forfun-5584e-default-rtdb.firebaseio.com",
+        projectId: "forfun-5584e",
+        storageBucket: "forfun-5584e.appspot.com",
+        messagingSenderId: "103887112043",
+        appId: "1:103887112043:web:72337f8a4fbe9944996e2e",
+        measurementId: "G-MRHBC0VM1E"
+    };
+
+    let detectionInterval;
+    let clockInterval;
+
+    function loadFirebaseScripts(callback) {
+        const scripts = [
+            "https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js",
+            "https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"
+        ];
+        let loaded = 0;
+        scripts.forEach(src => {
+            const script = document.createElement("script");
+            script.src = src;
+            script.onload = () => {
+                loaded++;
+                if (loaded === scripts.length) callback();
+            };
+            document.head.appendChild(script);
+        });
+    }
+
+    function waitForFirebase(callback) {
+        const interval = setInterval(() => {
+            if (window.firebase && firebase.apps) {
+                clearInterval(interval);
+                callback();
+            }
+        }, 100);
+    }
+
+    function makeDraggable(element) {
+        let isDragging = false;
+        let offsetX, offsetY;
+
+        element.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            offsetX = e.clientX - element.offsetLeft;
+            offsetY = e.clientY - element.offsetTop;
+            element.style.cursor = 'grabbing';
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                element.style.left = (e.clientX - offsetX) + 'px';
+                element.style.top = (e.clientY - offsetY) + 'px';
+            }
+        });
+
+        document.addEventListener('mouseup', () => {
+            isDragging = false;
+            element.style.cursor = 'move';
+        });
+    }
+
+    function hideElement(element) {
+        if (element) element.style.display = 'none';
+    }
+
+    function showElement(element) {
+        if (element) element.style.display = 'block';
+    }
+
+    function createDashboard() {
+        const dashboard = document.createElement('div');
+        dashboard.id = 'dashboard';
+        dashboard.style = `
+            position: fixed;
+            top: 50px;
+            left: 50px;
+            width: 250px;
+            background: #333;
+            color: white;
+            border: 1px solid white;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: Arial;
+            z-index: 9999;
+        `;
+        dashboard.innerHTML = `
+            <strong>Dashboard</strong><br><br>
+            <button id="addItemBtn" style="width:100%; margin-bottom: 10px; background:#444; color:white;">Add Item</button>
+            <button id="updateBtn" style="width:100%; margin-bottom: 10px; background:#444; color:white;">Update</button>
+            <button id="startBtn" style="width:100%; background:#444; color:white;">Start</button>
+        `;
+        document.body.appendChild(dashboard);
+        makeDraggable(dashboard);
+
+        document.getElementById('addItemBtn').addEventListener('click', () => {
+            hideElement(dashboard);
+            showElement(document.getElementById('addItemForm'));
+        });
+
+        document.getElementById('updateBtn').addEventListener('click', () => {
+            hideElement(dashboard);
+            refreshItemList();
+            showElement(document.getElementById('updateForm'));
+        });
+
+        document.getElementById('startBtn').addEventListener('click', () => {
+            hideElement(dashboard);
+            showElement(document.getElementById('startPanel'));
+            updateClock();
+            clockInterval = setInterval(updateClock, 1000);
+            detectAndDisplaySKU(); // Initial detection
+            if (detectionInterval) clearInterval(detectionInterval);
+            detectionInterval = setInterval(detectAndDisplaySKU, 2000); // Periodic checks
+        });
+    }
+
+    function createAddItemForm() {
+        const form = document.createElement('div');
+        form.id = 'addItemForm';
+        form.style = `
+            position: fixed;
+            top: 150px;
+            left: 100px;
+            width: 250px;
+            background: black;
+            color: white;
+            border: 1px solid white;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: Arial;
+            z-index: 9999;
+            display: none;
+            cursor: move;
+        `;
+        form.innerHTML = `
+            <strong>Add Item</strong><br>
+            <input type="text" id="itemName" placeholder="Item name" style="width:100%; margin-top:5px; background:white; color:black;">
+            <input type="text" id="itemValue" placeholder="Value" style="width:100%; margin-top:5px; background:white; color:black;">
+            <button id="saveBtn" style="margin-top:10px; width:100%; background:#444; color:white;">Save</button><br><br>
+            <button id="backBtn" style="width:100%; background:#444; color:white;">Back</button>
+        `;
+        document.body.appendChild(form);
+        makeDraggable(form);
+
+        document.getElementById('saveBtn').addEventListener('click', saveItem);
+        document.getElementById('backBtn').addEventListener('click', () => {
+            hideElement(form);
+            showElement(document.getElementById('dashboard'));
+        });
+    }
+
+    function saveItem() {
+        const name = document.getElementById('itemName').value.trim();
+        const value = document.getElementById('itemValue').value.trim();
+        if (!name || !value) return alert("Both fields are required!");
+
+        const db = firebase.database();
+        const itemsRef = db.ref('items');
+
+        itemsRef.orderByChild('name').equalTo(name).once('value', snapshot => {
+            if (snapshot.exists()) {
+                alert("❌ Name already exists!");
+            } else {
+                itemsRef.push({ name, value })
+                    .then(() => {
+                        alert("✅ Saved!");
+                        document.getElementById('itemName').value = '';
+                        document.getElementById('itemValue').value = '';
+                    });
+            }
+        });
+    }
+
+    function createUpdateForm() {
+        const updateForm = document.createElement('div');
+        updateForm.id = 'updateForm';
+        updateForm.style = `
+            position: fixed;
+            top: 150px;
+            left: 350px;
+            width: 350px;
+            max-height: 500px;
+            overflow-y: auto;
+            background: #222;
+            color: white;
+            border: 1px solid white;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: Arial;
+            z-index: 9999;
+            display: none;
+            cursor: move;
+        `;
+        updateForm.innerHTML = `
+            <strong>Update Items</strong><br>
+            <input type="text" id="searchInput" placeholder="Search item..." style="width: 100%; margin: 10px 0; color:black;"><br>
+            <div id="itemList"></div><br>
+            <button id="backToDashboardBtn" style="width:100%; background:#444; color:white;">Back</button>
+        `;
+        document.body.appendChild(updateForm);
+        makeDraggable(updateForm);
+
+        document.getElementById('searchInput').addEventListener('input', refreshItemList);
+        document.getElementById('backToDashboardBtn').addEventListener('click', () => {
+            hideElement(updateForm);
+            showElement(document.getElementById('dashboard'));
+        });
+    }
+
+    function refreshItemList() {
+        const db = firebase.database();
+        const itemsRef = db.ref('items');
+        const list = document.getElementById('itemList');
+        const filter = document.getElementById('searchInput').value.toLowerCase();
+
+        itemsRef.once('value', snapshot => {
+            list.innerHTML = '';
+            snapshot.forEach(child => {
+                const item = child.val();
+                const key = child.key;
+
+                if (item.name.toLowerCase().includes(filter)) {
+                    const div = document.createElement('div');
+                    div.style.marginBottom = '5px';
+                    div.innerHTML = `
+                        <input value="${item.name}" data-key="${key}" style="width: 40%; color:black;">
+                        <input value="${item.value}" data-key="${key}" style="width: 30%; color:black;">
+                        <button data-key="${key}" class="updateSingleBtn">💾</button>
+                        <button data-key="${key}" class="deleteSingleBtn">❌</button>
+                    `;
+                    list.appendChild(div);
+                }
+            });
+
+            list.querySelectorAll('.updateSingleBtn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const key = btn.getAttribute('data-key');
+                    const inputs = btn.parentElement.querySelectorAll('input');
+                    const updatedName = inputs[0].value;
+                    const updatedValue = inputs[1].value;
+                    db.ref('items/' + key).update({ name: updatedName, value: updatedValue });
+                });
+            });
+
+            list.querySelectorAll('.deleteSingleBtn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const key = btn.getAttribute('data-key');
+                    if (confirm("Delete this item?")) {
+                        db.ref('items/' + key).remove();
+                        refreshItemList();
+                    }
+                });
+            });
+        });
+    }
+
+function createStartPanel() {
+    const startPanel = document.createElement('div');
+    startPanel.id = 'startPanel';
+    startPanel.style = `
+        position: fixed;
+        top: 150px;
+        left: 100px;
+        width: 250px;
+        min-width: 200px;
+        max-width: 400px;
+        min-height: 180px;
+        background: #333;
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: Arial;
+        z-index: 9999;
+        display: none;
+        cursor: move;
+        resize: both;
+        overflow: auto;
+        box-sizing: border-box;
+    `;
+    startPanel.innerHTML = `
+        <div class="panel-header" style="position: relative; display: flex; flex-direction: column; align-items: center; margin-bottom: 10px;">
+            <div id="updateNotice" style="font-size: 14px; font-weight: bold; color: yellow; display: none; margin-bottom: 5px;">⚠ UPDATE ⚠</div>
+            <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                <button id="backFromStartBtn" style="background: none; border: none; color: white; font-size: 20px;">←</button>
+                <div id="clockDisplay" style="font-size: 14px;"></div>
+            </div>
+            <div class="resize-handle" style="position: absolute; right: 0; bottom: -10px; width: 20px; height: 20px; cursor: se-resize; z-index: 10000;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="white">
+                    <path d="M20 20H0V0h20z" fill="none"/>
+                    <path d="M8 16H4v-4l4 4zm4-4h-4v4l4-4zm4-4h-4v4l4-4z"/>
+                </svg>
+            </div>
+        </div>
+        <div style="margin-bottom: 10px;">
+            <div style="font-size: 12px; color: #aaa;">Detected Name:</div>
+            <div id="detectedName" style="font-weight: bold; word-break: break-word;">No name detected</div>
+        </div>
+        <div style="margin-bottom: 10px;">
+            <div style="font-size: 12px; color: #aaa;">SKU Value:</div>
+            <div id="skuValue" style="font-weight: bold; word-break: break-word;">No detected SKU</div>
+        </div>
+        <button id="copyBtn" style="width:100%; background:#444; color:white; margin-top: auto;">Copy SKU</button>
+    `;
+    document.body.appendChild(startPanel);
+    makeDraggable(startPanel);
+
+    // Add custom resize handle functionality
+    const resizeHandle = startPanel.querySelector('.resize-handle');
+    let isResizing = false;
+    let startX, startY, startWidth, startHeight;
+
+    resizeHandle.addEventListener('mousedown', function(e) {
+        e.preventDefault();
+        isResizing = true;
+        startX = e.clientX;
+        startY = e.clientY;
+        startWidth = parseInt(document.defaultView.getComputedStyle(startPanel).width, 10);
+        startHeight = parseInt(document.defaultView.getComputedStyle(startPanel).height, 10);
+        document.documentElement.style.cursor = 'se-resize';
+        startPanel.style.userSelect = 'none';
+    });
+
+    document.addEventListener('mousemove', function(e) {
+        if (!isResizing) return;
+
+        const width = startWidth + e.clientX - startX;
+        const height = startHeight + e.clientY - startY;
+
+        startPanel.style.width = Math.max(200, Math.min(400, width)) + 'px';
+        startPanel.style.height = Math.max(180, height) + 'px';
+    });
+
+    document.addEventListener('mouseup', function() {
+        if (!isResizing) return;
+        isResizing = false;
+        document.documentElement.style.cursor = '';
+        startPanel.style.userSelect = '';
+    });
+
+    // Panel functionality remains the same
+    let currentSKUListener = null;
+
+    document.getElementById('backFromStartBtn').addEventListener('click', () => {
+        if (detectionInterval) clearInterval(detectionInterval);
+        if (clockInterval) clearInterval(clockInterval);
+        if (currentSKUListener) {
+            currentSKUListener.off();
+            currentSKUListener = null;
+        }
+        hideElement(startPanel);
+        showElement(document.getElementById('dashboard'));
+    });
+
+    document.getElementById('copyBtn').addEventListener('click', () => {
+        const skuValue = document.getElementById('skuValue').textContent;
+        if (skuValue && skuValue !== "No detected SKU") {
+            navigator.clipboard.writeText(skuValue)
+                .then(() => {
+                    const copyBtn = document.getElementById('copyBtn');
+                    const originalText = copyBtn.textContent;
+                    copyBtn.textContent = "Copied!";
+                    setTimeout(() => {
+                        copyBtn.textContent = originalText;
+                    }, 2000);
+                })
+                .catch(err => console.error('Failed to copy: ', err));
+        }
+    });
+
+    function updateClock() {
+        const now = new Date();
+        const clock = document.getElementById('clockDisplay');
+        clock.textContent = now.toLocaleTimeString();
+    }
+
+    const clockInterval = setInterval(updateClock, 1000);
+    updateClock();
+
+    function checkTimeAndUpdatePanel() {
+    const now = new Date();
+    const minutes = now.getMinutes();
+    const updateNotice = document.getElementById('updateNotice');
+
+    const isBlinkTime = (minutes >= 28 && minutes < 31) || (minutes >= 58 || minutes < 1);
+
+    if (isBlinkTime) {
+        startPanel.style.animation = 'blinkRedYellow 1s infinite';
+        updateNotice.style.display = 'block';
+    } else {
+        startPanel.style.animation = 'none';
+        startPanel.style.background = '#333';
+        updateNotice.style.display = 'none';
+    }
+}
+
+
+    setInterval(checkTimeAndUpdatePanel, 1000);
+
+    const style = document.createElement('style');
+    style.innerHTML = `
+        @keyframes blinkRedYellow {
+            0% { background-color: red; }
+            50% { background-color: yellow; }
+            100% { background-color: red; }
+        }
+        #startPanel::-webkit-resizer {
+            background: transparent;
+        }
+        .resize-handle:hover {
+            opacity: 0.8;
+        }
+        #startPanel {
+            transition: width 0.1s ease, height 0.1s ease;
+        }
+    `;
+    document.head.appendChild(style);
+}
+
+
+    function updateClock() {
+        const clock = document.getElementById('clockDisplay');
+        const now = new Date();
+        clock.textContent = now.toLocaleTimeString();
+    }
+
+function detectAndDisplaySKU() {
+    try {
+        // First check if panel is visible
+        const startPanel = document.getElementById('startPanel');
+        if (!startPanel || startPanel.style.display !== 'block') return;
+
+        // Find all matching elements
+        const nameElements = document.querySelectorAll('.text-ellipsis.text-other-info span span');
+        let detectedName = "No name detected";
+        let found = false;
+
+        // Get the first matching name
+        nameElements.forEach(element => {
+            if (element.textContent && element.textContent.trim()) {
+                detectedName = element.textContent.trim();
+                found = true;
+            }
+        });
+
+        // Update detected name immediately
+        const detectedNameElement = document.getElementById('detectedName');
+        if (detectedNameElement.textContent !== detectedName) {
+            detectedNameElement.textContent = detectedName;
+        }
+
+        if (found) {
+            const db = firebase.database();
+            const itemsRef = db.ref('items');
+
+            // Use realtime listener instead of once()
+            itemsRef.orderByChild('name').equalTo(detectedName).on('value', snapshot => {
+                // Double check panel is still visible
+                if (startPanel.style.display === 'block') {
+                    if (snapshot.exists()) {
+                        let value = "No value found";
+                        snapshot.forEach(child => {
+                            value = child.val().value;
+                        });
+                        const skuValueElement = document.getElementById('skuValue');
+                        if (skuValueElement.textContent !== value) {
+                            skuValueElement.textContent = value;
+                        }
+                    } else {
+                        const skuValueElement = document.getElementById('skuValue');
+                        if (skuValueElement.textContent !== "No detected SKU") {
+                            skuValueElement.textContent = "No detected SKU";
+                        }
+                    }
+                }
+            });
+        } else {
+            const skuValueElement = document.getElementById('skuValue');
+            if (skuValueElement.textContent !== "No detected SKU") {
+                skuValueElement.textContent = "No detected SKU";
+            }
+        }
+    } catch (error) {
+        console.error("Detection error:", error);
+        // Don't let errors affect panel visibility
+    }
+}
+
+
+
+    loadFirebaseScripts(() => {
+        waitForFirebase(() => {
+            firebase.initializeApp(firebaseConfig);
+            createDashboard();
+            createAddItemForm();
+            createUpdateForm();
+            createStartPanel();
+        });
+    });
+
+})();
