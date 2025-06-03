@@ -26129,957 +26129,957 @@ Northern Samar Lope De Vega San Jose	D2D
 Northern Samar Lope De Vega San Miguel	D2D
 Northern Samar Lope De Vega Somoroy	D2D
 Northern Samar Lope De Vega Upper Caynaga	D2D
-Samar Almagro Bacjao	NoD2D
-Samar Almagro Biasong I	NoD2D
-Samar Almagro Costa Rica	NoD2D
-Samar Almagro Guin-ansan	NoD2D
-Samar Almagro Kerikite	NoD2D
-Samar Almagro Lunang I	NoD2D
-Samar Almagro Lunang II	NoD2D
-Samar Almagro Malobago	NoD2D
-Samar Almagro Marasbaras	NoD2D
-Samar Almagro Panjobjoban I	NoD2D
-Samar Almagro Poblacion	NoD2D
-Samar Almagro Talahid	NoD2D
-Samar Almagro Tonga-tonga	NoD2D
-Samar Almagro Imelda	NoD2D
-Samar Almagro Biasong II	NoD2D
-Samar Almagro Costa Rica II	NoD2D
-Samar Almagro Mabuhay	NoD2D
-Samar Almagro Magsaysay	NoD2D
-Samar Almagro Panjobjoban II	NoD2D
-Samar Almagro Roño	NoD2D
-Samar Almagro San Isidro	NoD2D
-Samar Almagro San Jose	NoD2D
-Samar Almagro Veloso	NoD2D
-Samar Basey Amandayehan	D2D
-Samar Basey Anglit	D2D
-Samar Basey Bacubac	D2D
-Samar Basey Baloog	D2D
-Samar Basey Basiao	D2D
-Samar Basey Buenavista	D2D
-Samar Basey Burgos	D2D
-Samar Basey Cambayan	D2D
-Samar Basey Can-abay	D2D
-Samar Basey Cancaiyas	D2D
-Samar Basey Canmanila	D2D
-Samar Basey Catadman	D2D
-Samar Basey Cogon	D2D
-Samar Basey Dolongan	D2D
-Samar Basey Guintigui-an	D2D
-Samar Basey Guirang	D2D
-Samar Basey Balante	D2D
-Samar Basey Iba	D2D
-Samar Basey Inuntan	D2D
-Samar Basey Loog	D2D
-Samar Basey Mabini	D2D
-Samar Basey Magallanes	D2D
-Samar Basey Manlilinab	D2D
-Samar Basey Del Pilar	D2D
-Samar Basey May-it	D2D
-Samar Basey Mongabong	D2D
-Samar Basey New San Agustin	D2D
-Samar Basey Nouvelas Occidental	D2D
-Samar Basey San Fernando	D2D
-Samar Basey Old San Agustin	D2D
-Samar Basey Panugmonon	D2D
-Samar Basey Pelit	D2D
-Samar Basey Baybay (Pob.)	D2D
-Samar Basey Buscada (Pob.)	D2D
-Samar Basey Lawa-an (Pob.)	D2D
-Samar Basey Loyo (Pob.)	D2D
-Samar Basey Mercado (Pob.)	D2D
-Samar Basey Palaypay (Pob.)	D2D
-Samar Basey Sulod (Pob.)	D2D
-Samar Basey Roxas	D2D
-Samar Basey Salvacion	NoD2D
-Samar Basey San Antonio	D2D
-Samar Basey Sawa	D2D
-Samar Basey Serum	D2D
-Samar Basey Sugca	D2D
-Samar Basey Sugponon	D2D
-Samar Basey Tinaogan	D2D
-Samar Basey Tingib	D2D
-Samar Basey Villa Aurora	D2D
-Samar Basey Binongtu-an	D2D
-Samar Basey Bulao	D2D
-Samar Calbayog City Jose A. Roño	D2D
-Samar Calbayog City Acedillo	D2D
-Samar Calbayog City Alibaba	D2D
-Samar Calbayog City Amampacang	D2D
-Samar Calbayog City Anislag	D2D
-Samar Calbayog City Ba-ay	D2D
-Samar Calbayog City Bagacay	D2D
-Samar Calbayog City Baja	D2D
-Samar Calbayog City Balud (Pob.)	D2D
-Samar Calbayog City Bante	D2D
-Samar Calbayog City Bantian	D2D
-Samar Calbayog City Basud	D2D
-Samar Calbayog City Bayo	D2D
-Samar Calbayog City Begaho	D2D
-Samar Calbayog City Binaliw	D2D
-Samar Calbayog City Bugtong	D2D
-Samar Calbayog City Buenavista	D2D
-Samar Calbayog City Cabacungan	D2D
-Samar Calbayog City Cabatuan	D2D
-Samar Calbayog City Cabicahan	D2D
-Samar Calbayog City Cabugawan	D2D
-Samar Calbayog City Cacaransan	D2D
-Samar Calbayog City Cag-olango	D2D
-Samar Calbayog City Cag-anahaw	D2D
-Samar Calbayog City Cagbanayacao	D2D
-Samar Calbayog City Cagbayang	D2D
-Samar Calbayog City Cagbilwang	D2D
-Samar Calbayog City Cagboborac	D2D
-Samar Calbayog City Caglanipao Sur	D2D
-Samar Calbayog City Cagmanipes Norte	D2D
-Samar Calbayog City Cag-anibong	D2D
-Samar Calbayog City Cagnipa	D2D
-Samar Calbayog City Cagsalaosao	D2D
-Samar Calbayog City Cahumpan	D2D
-Samar Calbayog City Calocnayan	D2D
-Samar Calbayog City Cangomaod	D2D
-Samar Calbayog City Canhumadac	D2D
-Samar Calbayog City Capacuhan	D2D
-Samar Calbayog City Capoocan	D2D
-Samar Calbayog City Carayman	D2D
-Samar Calbayog City Catabunan	D2D
-Samar Calbayog City Caybago	D2D
-Samar Calbayog City Central (Pob.)	D2D
-Samar Calbayog City Cogon	D2D
-Samar Calbayog City Dagum	D2D
-Samar Calbayog City Dawo	D2D
-Samar Calbayog City De Victoria	D2D
-Samar Calbayog City Dinabongan	D2D
-Samar Calbayog City Dinagan	D2D
-Samar Calbayog City Dinawacan	D2D
-Samar Calbayog City Esperanza	D2D
-Samar Calbayog City Gadgaran	D2D
-Samar Calbayog City Gasdo	D2D
-Samar Calbayog City Helino	D2D
-Samar Calbayog City Geraga-an	D2D
-Samar Calbayog City Guin-on	D2D
-Samar Calbayog City Guimbaoyan Norte	D2D
-Samar Calbayog City Guimbaoyan Sur	D2D
-Samar Calbayog City Hamorawon	D2D
-Samar Calbayog City Hibabngan	D2D
-Samar Calbayog City Hibatang	D2D
-Samar Calbayog City Higasaan	D2D
-Samar Calbayog City Himalandrog	D2D
-Samar Calbayog City Jimautan	D2D
-Samar Calbayog City Hugon Rosales	D2D
-Samar Calbayog City Jacinto	D2D
-Samar Calbayog City Aguit-itan (Pob.)	D2D
-Samar Calbayog City Kilikili	D2D
-Samar Calbayog City La Paz	D2D
-Samar Calbayog City Langoyon	D2D
-Samar Calbayog City Lapaan	D2D
-Samar Calbayog City Libertad	D2D
-Samar Calbayog City Limarayon	D2D
-Samar Calbayog City Looc	D2D
-Samar Calbayog City Longsob	D2D
-Samar Calbayog City Lonoy	D2D
-Samar Calbayog City Mabini I	D2D
-Samar Calbayog City Mabini II	D2D
-Samar Calbayog City Macatingog	D2D
-Samar Calbayog City Mag-ubay	D2D
-Samar Calbayog City Maguino-o	D2D
-Samar Calbayog City Malaga	D2D
-Samar Calbayog City Malajog	D2D
-Samar Calbayog City Malayog	D2D
-Samar Calbayog City Malopalo	D2D
-Samar Calbayog City Marcatubig	D2D
-Samar Calbayog City Mancol	D2D
-Samar Calbayog City Mantaong	D2D
-Samar Calbayog City Matobato	D2D
-Samar Calbayog City Mawacat	D2D
-Samar Calbayog City Maybog	D2D
-Samar Calbayog City Maysalong	D2D
-Samar Calbayog City Migara	D2D
-Samar Calbayog City Nabang	D2D
-Samar Calbayog City Naga	D2D
-Samar Calbayog City Naguma	D2D
-Samar Calbayog City Navarro	D2D
-Samar Calbayog City Nijaga	D2D
-Samar Calbayog City Oboob	D2D
-Samar Calbayog City Obrero	D2D
-Samar Calbayog City Olera	D2D
-Samar Calbayog City Oquendo (Pob.)	D2D
-Samar Calbayog City Osmeña	D2D
-Samar Calbayog City Palanas	D2D
-Samar Calbayog City Palanogan	D2D
-Samar Calbayog City Panlayahan	D2D
-Samar Calbayog City Panonongan	D2D
-Samar Calbayog City Panoypoy	D2D
-Samar Calbayog City Patong	D2D
-Samar Calbayog City Peña	D2D
-Samar Calbayog City Pilar	D2D
-Samar Calbayog City Pinamorotan	D2D
-Samar Calbayog City Quezon	D2D
-Samar Calbayog City Rawis	D2D
-Samar Calbayog City Rizal I	D2D
-Samar Calbayog City Rizal II	D2D
-Samar Calbayog City Roxas I	D2D
-Samar Calbayog City Roxas II	D2D
-Samar Calbayog City Saljag	D2D
-Samar Calbayog City Salvacion	D2D
-Samar Calbayog City San Antonio	D2D
-Samar Calbayog City San Isidro	D2D
-Samar Calbayog City San Joaquin	D2D
-Samar Calbayog City San Jose	D2D
-Samar Calbayog City San Policarpio	D2D
-Samar Calbayog City San Rufino	D2D
-Samar Calbayog City Saputan	D2D
-Samar Calbayog City Sigo	D2D
-Samar Calbayog City Sinantan	D2D
-Samar Calbayog City Sinidman Occidental	D2D
-Samar Calbayog City Sinidman Oriental	D2D
-Samar Calbayog City Tabawan	D2D
-Samar Calbayog City Talahiban	D2D
-Samar Calbayog City Tapa-e	D2D
-Samar Calbayog City Tarabucan	D2D
-Samar Calbayog City Tigbe	D2D
-Samar Calbayog City Tinaplacan	D2D
-Samar Calbayog City Tomaliguez	D2D
-Samar Calbayog City Trinidad	D2D
-Samar Calbayog City Victory	D2D
-Samar Calbayog City Villahermosa	D2D
-Samar Calbayog City Awang East (Pob.)	D2D
-Samar Calbayog City Awang West (Pob.)	D2D
-Samar Calbayog City Bagong Lipunan	D2D
-Samar Calbayog City Bontay	D2D
-Samar Calbayog City Kalilihan	D2D
-Samar Calbayog City Carmen	D2D
-Samar Calbayog City Danao I	D2D
-Samar Calbayog City Danao II	D2D
-Samar Calbayog City Gabay	D2D
-Samar Calbayog City Pagbalican	D2D
-Samar Calbayog City Payahan	D2D
-Samar Calbayog City Tanval	D2D
-Samar Calbayog City Tinambacan Norte	D2D
-Samar Calbayog City Tinambacan Sur	D2D
-Samar Calbayog City Cagmanipes Sur	D2D
-Samar Calbayog City Manuel Barral, Sr.	D2D
-Samar Calbiga Antol	D2D
-Samar Calbiga Bacyaran	D2D
-Samar Calbiga Beri	D2D
-Samar Calbiga Barobaybay	D2D
-Samar Calbiga Binanggaran	D2D
-Samar Calbiga Borong	D2D
-Samar Calbiga Bulao	D2D
-Samar Calbiga Buluan	D2D
-Samar Calbiga Caamlongan	D2D
-Samar Calbiga Calayaan	D2D
-Samar Calbiga Calingonan	D2D
-Samar Calbiga Canbagtic	D2D
-Samar Calbiga Canticum	D2D
-Samar Calbiga Daligan	D2D
-Samar Calbiga Guinbanga	D2D
-Samar Calbiga Hubasan	D2D
-Samar Calbiga Literon	D2D
-Samar Calbiga Lubang	D2D
-Samar Calbiga Mahangcao	D2D
-Samar Calbiga Macaalan	D2D
-Samar Calbiga Malabal	D2D
-Samar Calbiga Minata	D2D
-Samar Calbiga Otoc	D2D
-Samar Calbiga Panayuran	D2D
-Samar Calbiga Pasigay	D2D
-Samar Calbiga Patong	D2D
-Samar Calbiga Barangay 1 (Pob.)	D2D
-Samar Calbiga Barangay 2 (Pob.)	D2D
-Samar Calbiga Barangay 3 (Pob.)	D2D
-Samar Calbiga Barangay 4 (Pob.)	D2D
-Samar Calbiga Barangay 5 (Pob.)	D2D
-Samar Calbiga Barangay 6 (Pob.)	D2D
-Samar Calbiga Barangay 7 (Pob.)	D2D
-Samar Calbiga Polangi	D2D
-Samar Calbiga Rawis	D2D
-Samar Calbiga San Ignacio	D2D
-Samar Calbiga San Mauricio	D2D
-Samar Calbiga Sinalangtan	D2D
-Samar Calbiga Timbangan	D2D
-Samar Calbiga Tinago	D2D
-Samar Calbiga Hindang	D2D
-Samar Catbalogan City Albalate	D2D
-Samar Catbalogan City Bagongon	NoD2D
-Samar Catbalogan City Bangon	D2D
-Samar Catbalogan City Basiao	NoD2D
-Samar Catbalogan City Buluan	NoD2D
-Samar Catbalogan City Bunuanan	D2D
-Samar Catbalogan City Cabugawan	D2D
-Samar Catbalogan City Cagudalo	D2D
-Samar Catbalogan City Cagusipan	D2D
-Samar Catbalogan City Cagutian	D2D
-Samar Catbalogan City Cagutsan	NoD2D
-Samar Catbalogan City Canhawan Gote	D2D
-Samar Catbalogan City Canlapwas (Pob.)	D2D
-Samar Catbalogan City Cawayan	D2D
-Samar Catbalogan City Cinco	NoD2D
-Samar Catbalogan City Darahuway Daco	NoD2D
-Samar Catbalogan City Darahuway Gote	NoD2D
-Samar Catbalogan City Estaka	D2D
-Samar Catbalogan City Guinsorongan	D2D
-Samar Catbalogan City Iguid	D2D
-Samar Catbalogan City Lagundi	D2D
-Samar Catbalogan City Libas	D2D
-Samar Catbalogan City Lobo	D2D
-Samar Catbalogan City Manguehay	D2D
-Samar Catbalogan City Maulong	D2D
-Samar Catbalogan City Mercedes	D2D
-Samar Catbalogan City Mombon	NoD2D
-Samar Catbalogan City New Mahayag	D2D
-Samar Catbalogan City Old Mahayag	D2D
-Samar Catbalogan City Palanyogon	D2D
-Samar Catbalogan City Pangdan	D2D
-Samar Catbalogan City Payao	D2D
-Samar Catbalogan City Poblacion 1	D2D
-Samar Catbalogan City Poblacion 2	D2D
-Samar Catbalogan City Poblacion 3	D2D
-Samar Catbalogan City Poblacion 4	D2D
-Samar Catbalogan City Poblacion 5	D2D
-Samar Catbalogan City Poblacion 6	D2D
-Samar Catbalogan City Poblacion 7	D2D
-Samar Catbalogan City Poblacion 8	D2D
-Samar Catbalogan City Poblacion 9	D2D
-Samar Catbalogan City Poblacion 10	D2D
-Samar Catbalogan City Poblacion 11	D2D
-Samar Catbalogan City Poblacion 12	D2D
-Samar Catbalogan City Poblacion 13	D2D
-Samar Catbalogan City Muñoz	D2D
-Samar Catbalogan City Pupua	D2D
-Samar Catbalogan City Guindaponan	D2D
-Samar Catbalogan City Rama	NoD2D
-Samar Catbalogan City San Andres	D2D
-Samar Catbalogan City San Pablo	D2D
-Samar Catbalogan City San Roque	D2D
-Samar Catbalogan City San Vicente	D2D
-Samar Catbalogan City Silanga	D2D
-Samar Catbalogan City Totoringon	D2D
-Samar Catbalogan City Ibol	D2D
-Samar Catbalogan City Socorro	D2D
-Samar Daram Arawane	NoD2D
-Samar Daram Astorga	NoD2D
-Samar Daram Bachao	NoD2D
-Samar Daram Baclayan	NoD2D
-Samar Daram Bagacay	NoD2D
-Samar Daram Bayog	NoD2D
-Samar Daram Birawan	NoD2D
-Samar Daram Betaug	NoD2D
-Samar Daram Bono-anon	NoD2D
-Samar Daram Buenavista	NoD2D
-Samar Daram Burgos	NoD2D
-Samar Daram Cabac	NoD2D
-Samar Daram Cabil-isan	NoD2D
-Samar Daram Cabiton-an	NoD2D
-Samar Daram Cabugao	NoD2D
-Samar Daram Calawan-an	NoD2D
-Samar Daram Cambuhay	NoD2D
-Samar Daram Candugue	NoD2D
-Samar Daram Canloloy	NoD2D
-Samar Daram Campelipa	NoD2D
-Samar Daram Cansaganay	NoD2D
-Samar Daram Poblacion 3	NoD2D
-Samar Daram Casab-ahan	NoD2D
-Samar Daram Guindapunan	NoD2D
-Samar Daram Guintampilan	NoD2D
-Samar Daram Iquiran	NoD2D
-Samar Daram Jacopon	NoD2D
-Samar Daram Losa	NoD2D
-Samar Daram Mabini	NoD2D
-Samar Daram Macalpe	NoD2D
-Samar Daram Mandoyucan	NoD2D
-Samar Daram Mongolbongol	NoD2D
-Samar Daram Marupangdan	NoD2D
-Samar Daram Mayabay	NoD2D
-Samar Daram Nipa	NoD2D
-Samar Daram Parasan	NoD2D
-Samar Daram Poblacion 1	NoD2D
-Samar Daram Poblacion 2	NoD2D
-Samar Daram Pondang	NoD2D
-Samar Daram Poso	NoD2D
-Samar Daram Real	NoD2D
-Samar Daram Rizal	NoD2D
-Samar Daram San Antonio	NoD2D
-Samar Daram San Jose	NoD2D
-Samar Daram San Miguel	NoD2D
-Samar Daram San Roque	NoD2D
-Samar Daram Saugan	NoD2D
-Samar Daram So-ong	NoD2D
-Samar Daram Sua	NoD2D
-Samar Daram Talisay	NoD2D
-Samar Daram Tugas	NoD2D
-Samar Daram Ubo	NoD2D
-Samar Daram Valles-Bello	NoD2D
-Samar Daram Cagboboto	NoD2D
-Samar Daram Lucob-lucob	NoD2D
-Samar Daram San Vicente	NoD2D
-Samar Daram Sugod	NoD2D
-Samar Daram Yangta	NoD2D
-Samar Gandara Balocawe	D2D
-Samar Gandara Beslig	D2D
-Samar Gandara Burabod I (Pob.)	D2D
-Samar Gandara Burabod II (Pob.)	D2D
-Samar Gandara Buao	D2D
-Samar Gandara Bunyagan	D2D
-Samar Gandara Calirocan	D2D
-Samar Gandara Canhumawid	D2D
-Samar Gandara Caparangasan	D2D
-Samar Gandara Caranas	D2D
-Samar Gandara Carmona	D2D
-Samar Gandara Casab-ahan	D2D
-Samar Gandara Casandig	D2D
-Samar Gandara Caugbusan	D2D
-Samar Gandara Concepcion	D2D
-Samar Gandara Dumalo-ong (Pob.)	D2D
-Samar Gandara Elcano	D2D
-Samar Gandara Gerali	D2D
-Samar Gandara Giaboc	D2D
-Samar Gandara Hampton	D2D
-Samar Gandara Hinayagan	D2D
-Samar Gandara Hinugacan	D2D
-Samar Gandara Jasminez	D2D
-Samar Gandara Lungib	D2D
-Samar Gandara Mabuhay	D2D
-Samar Gandara Macugo	D2D
-Samar Gandara Minda (Pob.)	D2D
-Samar Gandara Nacube	D2D
-Samar Gandara Nalihugan	D2D
-Samar Gandara Napalisan	NoD2D
-Samar Gandara Natimonan	D2D
-Samar Gandara Ngoso	D2D
-Samar Gandara Palambrag	D2D
-Samar Gandara Palanas	D2D
-Samar Gandara Piñaplata	D2D
-Samar Gandara Pizarro	D2D
-Samar Gandara Pologon	D2D
-Samar Gandara Purog	D2D
-Samar Gandara Rawis	D2D
-Samar Gandara Rizal	D2D
-Samar Gandara Samoyao	D2D
-Samar Gandara San Agustin	D2D
-Samar Gandara San Antonio	D2D
-Samar Gandara San Enrique	D2D
-Samar Gandara San Francisco	D2D
-Samar Gandara San Isidro	D2D
-Samar Gandara San Jose	D2D
-Samar Gandara San Miguel	D2D
-Samar Gandara San Pelayo	D2D
-Samar Gandara San Ramon	D2D
-Samar Gandara Santa Elena	D2D
-Samar Gandara Santo Niño	D2D
-Samar Gandara Senibaran	D2D
-Samar Gandara Tagnao	D2D
-Samar Gandara Tambongan	D2D
-Samar Gandara Tawiran	D2D
-Samar Gandara Tigbawon	D2D
-Samar Gandara Marcos	D2D
-Samar Gandara Bangahon	D2D
-Samar Gandara Adela Heights (Pob.)	D2D
-Samar Gandara Arong	D2D
-Samar Gandara Catorse De Agosto	D2D
-Samar Gandara Diaz	D2D
-Samar Gandara Gereganan	D2D
-Samar Gandara Hetebac	D2D
-Samar Gandara Himamaloto	D2D
-Samar Gandara Hiparayan	D2D
-Samar Gandara Malayog	D2D
-Samar Gandara Sidmon	D2D
-Samar Hinabangan Bagacay	D2D
-Samar Hinabangan Binobucalan	D2D
-Samar Hinabangan Bucalan	D2D
-Samar Hinabangan Cabalagnan	D2D
-Samar Hinabangan Canano	D2D
-Samar Hinabangan Consolabao	D2D
-Samar Hinabangan Concord	D2D
-Samar Hinabangan Dalosdoson	D2D
-Samar Hinabangan Lim-ao	D2D
-Samar Hinabangan Osmeña	D2D
-Samar Hinabangan Poblacion 1	D2D
-Samar Hinabangan Poblacion 2	D2D
-Samar Hinabangan Rawis	D2D
-Samar Hinabangan San Rafael	D2D
-Samar Hinabangan Tabay	D2D
-Samar Hinabangan Yabon	D2D
-Samar Hinabangan Cabang	D2D
-Samar Hinabangan Malihao	D2D
-Samar Hinabangan San Jose	D2D
-Samar Hinabangan Fatima	D2D
-Samar Hinabangan Mugdo	D2D
-Samar Jiabong Bawang	D2D
-Samar Jiabong Bugho	D2D
-Samar Jiabong Camarobo-an	D2D
-Samar Jiabong Candayao	D2D
-Samar Jiabong Cantongtong	D2D
-Samar Jiabong Casapa	D2D
-Samar Jiabong Catalina	D2D
-Samar Jiabong Cristina	D2D
-Samar Jiabong Dogongan	D2D
-Samar Jiabong Garcia	D2D
-Samar Jiabong Hinaga	D2D
-Samar Jiabong Jia-an	D2D
-Samar Jiabong Jidanao	D2D
-Samar Jiabong Lulugayan	D2D
-Samar Jiabong Macabetas	D2D
-Samar Jiabong Malino	D2D
-Samar Jiabong Malobago	D2D
-Samar Jiabong Mercedes	D2D
-Samar Jiabong Nagbac	D2D
-Samar Jiabong Parina	D2D
-Samar Jiabong Barangay No. 1 (Pob.)	D2D
-Samar Jiabong Barangay No. 2 (Pob.)	D2D
-Samar Jiabong Barangay No. 3 (Pob.)	D2D
-Samar Jiabong Barangay No. 4 (Pob.)	D2D
-Samar Jiabong Barangay No. 5 (Pob.)	D2D
-Samar Jiabong Barangay No. 6 (Pob.)	D2D
-Samar Jiabong Barangay No. 7 (Pob.)	D2D
-Samar Jiabong Barangay No. 8 (Pob.)	D2D
-Samar Jiabong Salvacion	D2D
-Samar Jiabong San Andres	D2D
-Samar Jiabong San Fernando	D2D
-Samar Jiabong San Miguel	D2D
-Samar Jiabong Tagbayaon	D2D
-Samar Jiabong Victory	D2D
-Samar Marabut Amambucale	D2D
-Samar Marabut Caluwayan	D2D
-Samar Marabut Canyoyo	D2D
-Samar Marabut Ferreras	D2D
-Samar Marabut Legaspi	D2D
-Samar Marabut Logero	D2D
-Samar Marabut Osmeña	D2D
-Samar Marabut Pinalanga	D2D
-Samar Marabut Pinamitinan (Pob.)	D2D
-Samar Marabut Catato Pob.	D2D
-Samar Marabut San Roque	D2D
-Samar Marabut Santo Niño Pob.	D2D
-Samar Marabut Tagalag	D2D
-Samar Marabut Tinabanan	D2D
-Samar Marabut Amantillo	D2D
-Samar Marabut Binukyahan	D2D
-Samar Marabut Lipata	D2D
-Samar Marabut Mabuhay	D2D
-Samar Marabut Malobago	D2D
-Samar Marabut Odoc	D2D
-Samar Marabut Panan-awan	D2D
-Samar Marabut Roño	D2D
-Samar Marabut Santa Rita	D2D
-Samar Marabut Veloso	D2D
-Samar Matuguinao Angyap	D2D
-Samar Matuguinao Barruz	D2D
-Samar Matuguinao Camonoan	D2D
-Samar Matuguinao Carolina	D2D
-Samar Matuguinao Deit	D2D
-Samar Matuguinao Del Rosario	D2D
-Samar Matuguinao Libertad	D2D
-Samar Matuguinao Ligaya	D2D
-Samar Matuguinao Mabuligon Pob.	D2D
-Samar Matuguinao Maduroto Pob.	D2D
-Samar Matuguinao Mahanud	D2D
-Samar Matuguinao Mahayag	D2D
-Samar Matuguinao Nagpapacao	D2D
-Samar Matuguinao Rizal	D2D
-Samar Matuguinao Salvacion	D2D
-Samar Matuguinao San Isidro	D2D
-Samar Matuguinao Santa Cruz	D2D
-Samar Matuguinao Bag-otan	D2D
-Samar Matuguinao Inubod	D2D
-Samar Matuguinao San Roque	D2D
-Samar Motiong Poblacion I	D2D
-Samar Motiong Poblacion I-A	D2D
-Samar Motiong Angyap	D2D
-Samar Motiong Barayong	D2D
-Samar Motiong Bayog	D2D
-Samar Motiong Beri	D2D
-Samar Motiong Bonga	D2D
-Samar Motiong Calantawan	D2D
-Samar Motiong Calapi	D2D
-Samar Motiong Caluyahan	D2D
-Samar Motiong Canvais	D2D
-Samar Motiong Canatuan	D2D
-Samar Motiong Candomacol	D2D
-Samar Motiong Capaysagan	D2D
-Samar Motiong Caranas	D2D
-Samar Motiong Caulayanan	D2D
-Samar Motiong Hinica-an	D2D
-Samar Motiong Inalad	D2D
-Samar Motiong Linonoban	D2D
-Samar Motiong Malobago	D2D
-Samar Motiong Malonoy	D2D
-Samar Motiong Mararangsi	D2D
-Samar Motiong Maypange	D2D
-Samar Motiong New Minarog	D2D
-Samar Motiong Oyandic	D2D
-Samar Motiong Pamamasan	D2D
-Samar Motiong San Andres	D2D
-Samar Motiong Santo Niño	D2D
-Samar Motiong Sarao	D2D
-Samar Motiong Pusongan	D2D
-Samar Pinabacdao Bangon	D2D
-Samar Pinabacdao Barangay I (Pob.)	D2D
-Samar Pinabacdao Barangay II (Pob.)	D2D
-Samar Pinabacdao Botoc	D2D
-Samar Pinabacdao Bugho	D2D
-Samar Pinabacdao Calampong	D2D
-Samar Pinabacdao Canlobo	D2D
-Samar Pinabacdao Catigawan	D2D
-Samar Pinabacdao Dolores	D2D
-Samar Pinabacdao Lale	D2D
-Samar Pinabacdao Lawaan	D2D
-Samar Pinabacdao Laygayon	D2D
-Samar Pinabacdao Layo	D2D
-Samar Pinabacdao Loctob	D2D
-Samar Pinabacdao Madalunot	D2D
-Samar Pinabacdao Magdawat	D2D
-Samar Pinabacdao Mambog	D2D
-Samar Pinabacdao Manaing	D2D
-Samar Pinabacdao Obayan	D2D
-Samar Pinabacdao Pahug	D2D
-Samar Pinabacdao Parasanon	D2D
-Samar Pinabacdao Pelaon	D2D
-Samar Pinabacdao San Isidro	D2D
-Samar Pinabacdao Nabong	D2D
-Samar San Jose De Buan Aguingayan	D2D
-Samar San Jose De Buan Babaclayon	D2D
-Samar San Jose De Buan Can-aponte	D2D
-Samar San Jose De Buan Cataydongan	D2D
-Samar San Jose De Buan Gusa	D2D
-Samar San Jose De Buan Hagbay	D2D
-Samar San Jose De Buan Hiduroma	D2D
-Samar San Jose De Buan Hilumot	D2D
-Samar San Jose De Buan Barangay 1 (Pob.)	D2D
-Samar San Jose De Buan Barangay 2 (Pob.)	D2D
-Samar San Jose De Buan Barangay 3 (Pob.)	D2D
-Samar San Jose De Buan Barangay 4 (Pob.)	D2D
-Samar San Jose De Buan San Nicolas	D2D
-Samar San Jose De Buan Hibaca-an	D2D
-Samar San Sebastian Poblacion Barangay 1	D2D
-Samar San Sebastian Poblacion Barangay 2	D2D
-Samar San Sebastian Poblacion Barangay 3	D2D
-Samar San Sebastian Poblacion Barangay 4	D2D
-Samar San Sebastian Balogo	D2D
-Samar San Sebastian Bontod	D2D
-Samar San Sebastian Camanhagay	D2D
-Samar San Sebastian Campiyak	D2D
-Samar San Sebastian Dolores	D2D
-Samar San Sebastian Hita-asan I	D2D
-Samar San Sebastian Inobongan	D2D
-Samar San Sebastian Cabaywa	D2D
-Samar San Sebastian Canduyucan	D2D
-Samar San Sebastian Hita-asan II	D2D
-Samar Santa Margarita Agrupacion	D2D
-Samar Santa Margarita Arapison	D2D
-Samar Santa Margarita Avelino	D2D
-Samar Santa Margarita Bahay	D2D
-Samar Santa Margarita Balud	D2D
-Samar Santa Margarita Bana-ao	D2D
-Samar Santa Margarita Burabod	D2D
-Samar Santa Margarita Cautod (Pob.)	D2D
-Samar Santa Margarita Camperito	D2D
-Samar Santa Margarita Campeig	D2D
-Samar Santa Margarita Can-ipulan	D2D
-Samar Santa Margarita Canmoros	D2D
-Samar Santa Margarita Cinco	D2D
-Samar Santa Margarita Curry	D2D
-Samar Santa Margarita Gajo	D2D
-Samar Santa Margarita Hindang	D2D
-Samar Santa Margarita Ilo	D2D
-Samar Santa Margarita Imelda	D2D
-Samar Santa Margarita Inoraguiao	D2D
-Samar Santa Margarita Jolacao	D2D
-Samar Santa Margarita Lambao	D2D
-Samar Santa Margarita Mabuhay	D2D
-Samar Santa Margarita Mahayag	D2D
-Samar Santa Margarita Monbon (Pob.)	D2D
-Samar Santa Margarita Nabulo	D2D
-Samar Santa Margarita Napuro	D2D
-Samar Santa Margarita Palale	D2D
-Samar Santa Margarita Panabatan	D2D
-Samar Santa Margarita Panaruan	D2D
-Samar Santa Margarita Roxas	D2D
-Samar Santa Margarita Salvacion	D2D
-Samar Santa Margarita Solsogon	D2D
-Samar Santa Margarita Sundara	D2D
-Samar Santa Margarita Cagsumji	D2D
-Samar Santa Margarita Matayonas	D2D
-Samar Santa Margarita Napuro II	D2D
-Samar Santa Rita Alegria	D2D
-Samar Santa Rita Anibongan	D2D
-Samar Santa Rita Aslum	D2D
-Samar Santa Rita Bagolibas	D2D
-Samar Santa Rita Binanalan	D2D
-Samar Santa Rita Cabacungan	D2D
-Samar Santa Rita Cabunga-an	D2D
-Samar Santa Rita Camayse	D2D
-Samar Santa Rita Cansadong	D2D
-Samar Santa Rita Caticugan	D2D
-Samar Santa Rita Dampigan	D2D
-Samar Santa Rita Guinbalot-an	D2D
-Samar Santa Rita Hinangudtan	D2D
-Samar Santa Rita Igang-igang	D2D
-Samar Santa Rita La Paz	D2D
-Samar Santa Rita Lupig	D2D
-Samar Santa Rita Magsaysay	D2D
-Samar Santa Rita Maligaya	D2D
-Samar Santa Rita New Manunca	D2D
-Samar Santa Rita Old Manunca	D2D
-Samar Santa Rita Pagsulhogon	D2D
-Samar Santa Rita Salvacion	D2D
-Samar Santa Rita San Eduardo	D2D
-Samar Santa Rita San Isidro	D2D
-Samar Santa Rita San Juan	D2D
-Samar Santa Rita San Pascual	D2D
-Samar Santa Rita San Pedro	D2D
-Samar Santa Rita San Roque	D2D
-Samar Santa Rita Santa Elena	D2D
-Samar Santa Rita Tagacay	D2D
-Samar Santa Rita Tominamos	D2D
-Samar Santa Rita Tulay	D2D
-Samar Santa Rita Union	D2D
-Samar Santa Rita Bokinggan Pob.	D2D
-Samar Santa Rita Bougainvilla Pob.	D2D
-Samar Santa Rita Gumamela Pob.	D2D
-Samar Santa Rita Rosal Pob.	D2D
-Samar Santa Rita Santan Pob.	D2D
-Samar Santo Niño Balatguti	D2D
-Samar Santo Niño Baras	D2D
-Samar Santo Niño Basud (Pob.)	D2D
-Samar Santo Niño Buenavista	D2D
-Samar Santo Niño Cabunga-an	D2D
-Samar Santo Niño Corocawayan	D2D
-Samar Santo Niño Ilijan	D2D
-Samar Santo Niño Ilo (Pob.)	D2D
-Samar Santo Niño Lobelobe	D2D
-Samar Santo Niño Pinanangnan	D2D
-Samar Santo Niño Sevilla	D2D
-Samar Santo Niño Takut	D2D
-Samar Santo Niño Villahermosa	D2D
-Samar Talalora Bo. Independencia	D2D
-Samar Talalora Malaguining	D2D
-Samar Talalora Mallorga	D2D
-Samar Talalora Navatas Daku	D2D
-Samar Talalora Navatas Guti	D2D
-Samar Talalora Placer	D2D
-Samar Talalora Poblacion Barangay 1	D2D
-Samar Talalora Poblacion Barangay 2	D2D
-Samar Talalora San Juan	D2D
-Samar Talalora Tatabunan	D2D
-Samar Talalora Victory	D2D
-Samar Tarangnan Alcazar	D2D
-Samar Tarangnan Awang	D2D
-Samar Tarangnan Bahay	D2D
-Samar Tarangnan Balonga-as	D2D
-Samar Tarangnan Balugo	D2D
-Samar Tarangnan Bangon Gote	D2D
-Samar Tarangnan Baras	D2D
-Samar Tarangnan Binalayan	D2D
-Samar Tarangnan Bisitahan	D2D
-Samar Tarangnan Bonga	D2D
-Samar Tarangnan Cabunga-an	D2D
-Samar Tarangnan Cagtutulo	D2D
-Samar Tarangnan Cambatutay Nuevo	D2D
-Samar Tarangnan Cambatutay Viejo	D2D
-Samar Tarangnan Canunghan	D2D
-Samar Tarangnan Catan-agan	D2D
-Samar Tarangnan Dapdap	D2D
-Samar Tarangnan Gallego	D2D
-Samar Tarangnan Imelda Pob.	D2D
-Samar Tarangnan Lucerdoni	D2D
-Samar Tarangnan Lahong	D2D
-Samar Tarangnan Libucan Dacu	D2D
-Samar Tarangnan Libucan Gote	D2D
-Samar Tarangnan Majacob	D2D
-Samar Tarangnan Mancares	D2D
-Samar Tarangnan Marabut	D2D
-Samar Tarangnan Oeste - A	D2D
-Samar Tarangnan Oeste - B	D2D
-Samar Tarangnan Pajo	D2D
-Samar Tarangnan Palencia	D2D
-Samar Tarangnan Poblacion A	D2D
-Samar Tarangnan Poblacion B	D2D
-Samar Tarangnan Poblacion C	D2D
-Samar Tarangnan Poblacion D	D2D
-Samar Tarangnan Poblacion E	D2D
-Samar Tarangnan San Vicente	D2D
-Samar Tarangnan Santa Cruz	D2D
-Samar Tarangnan Sugod	D2D
-Samar Tarangnan Talinga	D2D
-Samar Tarangnan Tigdaranao	D2D
-Samar Tarangnan Tizon	D2D
-Samar Villareal Banquil	D2D
-Samar Villareal Bino-ongan	D2D
-Samar Villareal Burabod	NoD2D
-Samar Villareal Cambaguio	D2D
-Samar Villareal Canmucat	D2D
-Samar Villareal Villarosa Pob.	D2D
-Samar Villareal Conant	D2D
-Samar Villareal Guintarcan	NoD2D
-Samar Villareal Himyangan	NoD2D
-Samar Villareal Igot	D2D
-Samar Villareal Inarumbacan	D2D
-Samar Villareal Inasudlan	D2D
-Samar Villareal Lam-awan	D2D
-Samar Villareal Lamingao	NoD2D
-Samar Villareal Lawa-an	D2D
-Samar Villareal Macopa	D2D
-Samar Villareal Mahayag	D2D
-Samar Villareal Malonoy	D2D
-Samar Villareal Mercado (Pob.)	D2D
-Samar Villareal Miramar (Pob.)	D2D
-Samar Villareal Nagcaduha	D2D
-Samar Villareal Pacao	D2D
-Samar Villareal Pacoyoy	D2D
-Samar Villareal Pangpang	D2D
-Samar Villareal Plaridel	D2D
-Samar Villareal Central (Pob.)	D2D
-Samar Villareal Polangi	D2D
-Samar Villareal San Andres	D2D
-Samar Villareal San Fernando	D2D
-Samar Villareal San Rafael	D2D
-Samar Villareal San Roque	D2D
-Samar Villareal Santa Rosa	D2D
-Samar Villareal Santo Niño	D2D
-Samar Villareal Soledad (Pob.)	D2D
-Samar Villareal Tayud (Pob.)	D2D
-Samar Villareal Tomabe	D2D
-Samar Villareal Ulayan	D2D
-Samar Villareal Patag	D2D
-Samar Paranas Anagasi	D2D
-Samar Paranas Apolonia	D2D
-Samar Paranas Bagsa	D2D
-Samar Paranas Balbagan	D2D
-Samar Paranas Bato	D2D
-Samar Paranas Buray	D2D
-Samar Paranas Cantaguic	D2D
-Samar Paranas Cantao-an	D2D
-Samar Paranas Cantato	D2D
-Samar Paranas Casandig I	D2D
-Samar Paranas Concepcion	D2D
-Samar Paranas Jose Roño	D2D
-Samar Paranas Cawayan	D2D
-Samar Paranas Lawaan I	D2D
-Samar Paranas Lipata	D2D
-Samar Paranas Lokilokon	D2D
-Samar Paranas Mangcal	D2D
-Samar Paranas Maylobe	D2D
-Samar Paranas Minarog	D2D
-Samar Paranas Nawi	D2D
-Samar Paranas Pabanog	D2D
-Samar Paranas Paco	D2D
-Samar Paranas Pagsa-ogan	D2D
-Samar Paranas Pagsanjan	D2D
-Samar Paranas Patag	D2D
-Samar Paranas Pequit	D2D
-Samar Paranas Poblacion 1	D2D
-Samar Paranas Poblacion 2	D2D
-Samar Paranas Poblacion 3	D2D
-Samar Paranas Poblacion 4	D2D
-Samar Paranas Poblacion 5	D2D
-Samar Paranas Poblacion 6	D2D
-Samar Paranas Salay	D2D
-Samar Paranas San Isidro	D2D
-Samar Paranas Santo Niño	D2D
-Samar Paranas Sulopan	D2D
-Samar Paranas Tabucan	D2D
-Samar Paranas Tapul	D2D
-Samar Paranas Tenani	D2D
-Samar Paranas Tigbawon	D2D
-Samar Paranas Tula	D2D
-Samar Paranas Tutubigan	D2D
-Samar Paranas Casandig II	D2D
-Samar Paranas Lawaan II	D2D
-Samar Zumarraga Alegria	NoD2D
-Samar Zumarraga Arteche	NoD2D
-Samar Zumarraga Bioso	NoD2D
-Samar Zumarraga Boblaran	NoD2D
-Samar Zumarraga Botaera	NoD2D
-Samar Zumarraga Buntay	NoD2D
-Samar Zumarraga Camayse	NoD2D
-Samar Zumarraga Canwarak	NoD2D
-Samar Zumarraga Ibarra	NoD2D
-Samar Zumarraga Lumalantang	NoD2D
-Samar Zumarraga Macalunod	NoD2D
-Samar Zumarraga Maga-an	NoD2D
-Samar Zumarraga Maputi	NoD2D
-Samar Zumarraga Monbon	NoD2D
-Samar Zumarraga Mualbual	NoD2D
-Samar Zumarraga Pangdan	NoD2D
-Samar Zumarraga Poro	NoD2D
-Samar Zumarraga San Isidro	NoD2D
-Samar Zumarraga Sugod	NoD2D
-Samar Zumarraga Tinaugan	NoD2D
-Samar Zumarraga Tubigan	NoD2D
-Samar Zumarraga Poblacion 1	NoD2D
-Samar Zumarraga Poblacion 2	NoD2D
-Samar Zumarraga Marapilit	NoD2D
-Samar Zumarraga Talib	NoD2D
-Samar Tagapul-An Baguiw	NoD2D
-Samar Tagapul-An Balocawe	NoD2D
-Samar Tagapul-An Guinbarucan	NoD2D
-Samar Tagapul-An Labangbaybay	NoD2D
-Samar Tagapul-An Luna	NoD2D
-Samar Tagapul-An Mataluto	NoD2D
-Samar Tagapul-An Nipa	NoD2D
-Samar Tagapul-An Pantalan	NoD2D
-Samar Tagapul-An Pulangbato	NoD2D
-Samar Tagapul-An San Vicente	NoD2D
-Samar Tagapul-An Sugod (Pob.)	NoD2D
-Samar Tagapul-An Suarez	NoD2D
-Samar Tagapul-An San Jose (Pob.)	NoD2D
-Samar Tagapul-An Trinidad	NoD2D
-Samar San Jorge Aurora	D2D
-Samar San Jorge Blanca Aurora	D2D
-Samar San Jorge Buenavista I	D2D
-Samar San Jorge Bulao	D2D
-Samar San Jorge Bungliw	D2D
-Samar San Jorge Cogtoto-og	D2D
-Samar San Jorge Calundan	D2D
-Samar San Jorge Cantaguic	D2D
-Samar San Jorge Canyaki	D2D
-Samar San Jorge Erenas	D2D
-Samar San Jorge Guadalupe	D2D
-Samar San Jorge Hernandez	D2D
-Samar San Jorge Himay	D2D
-Samar San Jorge Janipon	D2D
-Samar San Jorge La Paz	D2D
-Samar San Jorge Libertad	D2D
-Samar San Jorge Lincoro	D2D
-Samar San Jorge Matalud	D2D
-Samar San Jorge Mobo-ob	D2D
-Samar San Jorge Quezon	D2D
-Samar San Jorge Ranera	D2D
-Samar San Jorge Rosalim	D2D
-Samar San Jorge San Isidro	D2D
-Samar San Jorge San Jorge I (Pob.)	D2D
-Samar San Jorge Sapinit	D2D
-Samar San Jorge Sinit-an	D2D
-Samar San Jorge Tomogbong	D2D
-Samar San Jorge Gayondato	D2D
-Samar San Jorge Puhagan	D2D
-Samar San Jorge Anquiana	D2D
-Samar San Jorge Bay-ang	D2D
-Samar San Jorge Buenavista II	D2D
-Samar San Jorge Cabugao	D2D
-Samar San Jorge Cag-olo-olo	D2D
-Samar San Jorge Guindapunan	D2D
-Samar San Jorge Mabuhay	D2D
-Samar San Jorge Mancol (Pob.)	D2D
-Samar San Jorge Mombon	D2D
-Samar San Jorge Rawis	D2D
-Samar San Jorge San Jorge II (Pob.)	D2D
-Samar San Jorge San Juan	D2D
-Samar Pagsanghan Bangon	D2D
-Samar Pagsanghan Buenos Aires	D2D
-Samar Pagsanghan Calanyugan	D2D
-Samar Pagsanghan Caloloma	D2D
-Samar Pagsanghan Cambaye	D2D
-Samar Pagsanghan Pañge	D2D
-Samar Pagsanghan San Luis	D2D
-Samar Pagsanghan Villahermosa Occidental	D2D
-Samar Pagsanghan Canlapwas (Pob.)	D2D
-Samar Pagsanghan Libertad	D2D
-Samar Pagsanghan Santo Niño	D2D
-Samar Pagsanghan Viejo	D2D
-Samar Pagsanghan Villahermosa Oriental	D2D
+Western Samar Almagro Bacjao	NoD2D
+Western Samar Almagro Biasong I	NoD2D
+Western Samar Almagro Costa Rica	NoD2D
+Western Samar Almagro Guin-ansan	NoD2D
+Western Samar Almagro Kerikite	NoD2D
+Western Samar Almagro Lunang I	NoD2D
+Western Samar Almagro Lunang II	NoD2D
+Western Samar Almagro Malobago	NoD2D
+Western Samar Almagro Marasbaras	NoD2D
+Western Samar Almagro Panjobjoban I	NoD2D
+Western Samar Almagro Poblacion	NoD2D
+Western Samar Almagro Talahid	NoD2D
+Western Samar Almagro Tonga-tonga	NoD2D
+Western Samar Almagro Imelda	NoD2D
+Western Samar Almagro Biasong II	NoD2D
+Western Samar Almagro Costa Rica II	NoD2D
+Western Samar Almagro Mabuhay	NoD2D
+Western Samar Almagro Magsaysay	NoD2D
+Western Samar Almagro Panjobjoban II	NoD2D
+Western Samar Almagro Roño	NoD2D
+Western Samar Almagro San Isidro	NoD2D
+Western Samar Almagro San Jose	NoD2D
+Western Samar Almagro Veloso	NoD2D
+Western Samar Basey Amandayehan	D2D
+Western Samar Basey Anglit	D2D
+Western Samar Basey Bacubac	D2D
+Western Samar Basey Baloog	D2D
+Western Samar Basey Basiao	D2D
+Western Samar Basey Buenavista	D2D
+Western Samar Basey Burgos	D2D
+Western Samar Basey Cambayan	D2D
+Western Samar Basey Can-abay	D2D
+Western Samar Basey Cancaiyas	D2D
+Western Samar Basey Canmanila	D2D
+Western Samar Basey Catadman	D2D
+Western Samar Basey Cogon	D2D
+Western Samar Basey Dolongan	D2D
+Western Samar Basey Guintigui-an	D2D
+Western Samar Basey Guirang	D2D
+Western Samar Basey Balante	D2D
+Western Samar Basey Iba	D2D
+Western Samar Basey Inuntan	D2D
+Western Samar Basey Loog	D2D
+Western Samar Basey Mabini	D2D
+Western Samar Basey Magallanes	D2D
+Western Samar Basey Manlilinab	D2D
+Western Samar Basey Del Pilar	D2D
+Western Samar Basey May-it	D2D
+Western Samar Basey Mongabong	D2D
+Western Samar Basey New San Agustin	D2D
+Western Samar Basey Nouvelas Occidental	D2D
+Western Samar Basey San Fernando	D2D
+Western Samar Basey Old San Agustin	D2D
+Western Samar Basey Panugmonon	D2D
+Western Samar Basey Pelit	D2D
+Western Samar Basey Baybay (Pob.)	D2D
+Western Samar Basey Buscada (Pob.)	D2D
+Western Samar Basey Lawa-an (Pob.)	D2D
+Western Samar Basey Loyo (Pob.)	D2D
+Western Samar Basey Mercado (Pob.)	D2D
+Western Samar Basey Palaypay (Pob.)	D2D
+Western Samar Basey Sulod (Pob.)	D2D
+Western Samar Basey Roxas	D2D
+Western Samar Basey Salvacion	NoD2D
+Western Samar Basey San Antonio	D2D
+Western Samar Basey Sawa	D2D
+Western Samar Basey Serum	D2D
+Western Samar Basey Sugca	D2D
+Western Samar Basey Sugponon	D2D
+Western Samar Basey Tinaogan	D2D
+Western Samar Basey Tingib	D2D
+Western Samar Basey Villa Aurora	D2D
+Western Samar Basey Binongtu-an	D2D
+Western Samar Basey Bulao	D2D
+Western Samar Calbayog City Jose A. Roño	D2D
+Western Samar Calbayog City Acedillo	D2D
+Western Samar Calbayog City Alibaba	D2D
+Western Samar Calbayog City Amampacang	D2D
+Western Samar Calbayog City Anislag	D2D
+Western Samar Calbayog City Ba-ay	D2D
+Western Samar Calbayog City Bagacay	D2D
+Western Samar Calbayog City Baja	D2D
+Western Samar Calbayog City Balud (Pob.)	D2D
+Western Samar Calbayog City Bante	D2D
+Western Samar Calbayog City Bantian	D2D
+Western Samar Calbayog City Basud	D2D
+Western Samar Calbayog City Bayo	D2D
+Western Samar Calbayog City Begaho	D2D
+Western Samar Calbayog City Binaliw	D2D
+Western Samar Calbayog City Bugtong	D2D
+Western Samar Calbayog City Buenavista	D2D
+Western Samar Calbayog City Cabacungan	D2D
+Western Samar Calbayog City Cabatuan	D2D
+Western Samar Calbayog City Cabicahan	D2D
+Western Samar Calbayog City Cabugawan	D2D
+Western Samar Calbayog City Cacaransan	D2D
+Western Samar Calbayog City Cag-olango	D2D
+Western Samar Calbayog City Cag-anahaw	D2D
+Western Samar Calbayog City Cagbanayacao	D2D
+Western Samar Calbayog City Cagbayang	D2D
+Western Samar Calbayog City Cagbilwang	D2D
+Western Samar Calbayog City Cagboborac	D2D
+Western Samar Calbayog City Caglanipao Sur	D2D
+Western Samar Calbayog City Cagmanipes Norte	D2D
+Western Samar Calbayog City Cag-anibong	D2D
+Western Samar Calbayog City Cagnipa	D2D
+Western Samar Calbayog City Cagsalaosao	D2D
+Western Samar Calbayog City Cahumpan	D2D
+Western Samar Calbayog City Calocnayan	D2D
+Western Samar Calbayog City Cangomaod	D2D
+Western Samar Calbayog City Canhumadac	D2D
+Western Samar Calbayog City Capacuhan	D2D
+Western Samar Calbayog City Capoocan	D2D
+Western Samar Calbayog City Carayman	D2D
+Western Samar Calbayog City Catabunan	D2D
+Western Samar Calbayog City Caybago	D2D
+Western Samar Calbayog City Central (Pob.)	D2D
+Western Samar Calbayog City Cogon	D2D
+Western Samar Calbayog City Dagum	D2D
+Western Samar Calbayog City Dawo	D2D
+Western Samar Calbayog City De Victoria	D2D
+Western Samar Calbayog City Dinabongan	D2D
+Western Samar Calbayog City Dinagan	D2D
+Western Samar Calbayog City Dinawacan	D2D
+Western Samar Calbayog City Esperanza	D2D
+Western Samar Calbayog City Gadgaran	D2D
+Western Samar Calbayog City Gasdo	D2D
+Western Samar Calbayog City Helino	D2D
+Western Samar Calbayog City Geraga-an	D2D
+Western Samar Calbayog City Guin-on	D2D
+Western Samar Calbayog City Guimbaoyan Norte	D2D
+Western Samar Calbayog City Guimbaoyan Sur	D2D
+Western Samar Calbayog City Hamorawon	D2D
+Western Samar Calbayog City Hibabngan	D2D
+Western Samar Calbayog City Hibatang	D2D
+Western Samar Calbayog City Higasaan	D2D
+Western Samar Calbayog City Himalandrog	D2D
+Western Samar Calbayog City Jimautan	D2D
+Western Samar Calbayog City Hugon Rosales	D2D
+Western Samar Calbayog City Jacinto	D2D
+Western Samar Calbayog City Aguit-itan (Pob.)	D2D
+Western Samar Calbayog City Kilikili	D2D
+Western Samar Calbayog City La Paz	D2D
+Western Samar Calbayog City Langoyon	D2D
+Western Samar Calbayog City Lapaan	D2D
+Western Samar Calbayog City Libertad	D2D
+Western Samar Calbayog City Limarayon	D2D
+Western Samar Calbayog City Looc	D2D
+Western Samar Calbayog City Longsob	D2D
+Western Samar Calbayog City Lonoy	D2D
+Western Samar Calbayog City Mabini I	D2D
+Western Samar Calbayog City Mabini II	D2D
+Western Samar Calbayog City Macatingog	D2D
+Western Samar Calbayog City Mag-ubay	D2D
+Western Samar Calbayog City Maguino-o	D2D
+Western Samar Calbayog City Malaga	D2D
+Western Samar Calbayog City Malajog	D2D
+Western Samar Calbayog City Malayog	D2D
+Western Samar Calbayog City Malopalo	D2D
+Western Samar Calbayog City Marcatubig	D2D
+Western Samar Calbayog City Mancol	D2D
+Western Samar Calbayog City Mantaong	D2D
+Western Samar Calbayog City Matobato	D2D
+Western Samar Calbayog City Mawacat	D2D
+Western Samar Calbayog City Maybog	D2D
+Western Samar Calbayog City Maysalong	D2D
+Western Samar Calbayog City Migara	D2D
+Western Samar Calbayog City Nabang	D2D
+Western Samar Calbayog City Naga	D2D
+Western Samar Calbayog City Naguma	D2D
+Western Samar Calbayog City Navarro	D2D
+Western Samar Calbayog City Nijaga	D2D
+Western Samar Calbayog City Oboob	D2D
+Western Samar Calbayog City Obrero	D2D
+Western Samar Calbayog City Olera	D2D
+Western Samar Calbayog City Oquendo (Pob.)	D2D
+Western Samar Calbayog City Osmeña	D2D
+Western Samar Calbayog City Palanas	D2D
+Western Samar Calbayog City Palanogan	D2D
+Western Samar Calbayog City Panlayahan	D2D
+Western Samar Calbayog City Panonongan	D2D
+Western Samar Calbayog City Panoypoy	D2D
+Western Samar Calbayog City Patong	D2D
+Western Samar Calbayog City Peña	D2D
+Western Samar Calbayog City Pilar	D2D
+Western Samar Calbayog City Pinamorotan	D2D
+Western Samar Calbayog City Quezon	D2D
+Western Samar Calbayog City Rawis	D2D
+Western Samar Calbayog City Rizal I	D2D
+Western Samar Calbayog City Rizal II	D2D
+Western Samar Calbayog City Roxas I	D2D
+Western Samar Calbayog City Roxas II	D2D
+Western Samar Calbayog City Saljag	D2D
+Western Samar Calbayog City Salvacion	D2D
+Western Samar Calbayog City San Antonio	D2D
+Western Samar Calbayog City San Isidro	D2D
+Western Samar Calbayog City San Joaquin	D2D
+Western Samar Calbayog City San Jose	D2D
+Western Samar Calbayog City San Policarpio	D2D
+Western Samar Calbayog City San Rufino	D2D
+Western Samar Calbayog City Saputan	D2D
+Western Samar Calbayog City Sigo	D2D
+Western Samar Calbayog City Sinantan	D2D
+Western Samar Calbayog City Sinidman Occidental	D2D
+Western Samar Calbayog City Sinidman Oriental	D2D
+Western Samar Calbayog City Tabawan	D2D
+Western Samar Calbayog City Talahiban	D2D
+Western Samar Calbayog City Tapa-e	D2D
+Western Samar Calbayog City Tarabucan	D2D
+Western Samar Calbayog City Tigbe	D2D
+Western Samar Calbayog City Tinaplacan	D2D
+Western Samar Calbayog City Tomaliguez	D2D
+Western Samar Calbayog City Trinidad	D2D
+Western Samar Calbayog City Victory	D2D
+Western Samar Calbayog City Villahermosa	D2D
+Western Samar Calbayog City Awang East (Pob.)	D2D
+Western Samar Calbayog City Awang West (Pob.)	D2D
+Western Samar Calbayog City Bagong Lipunan	D2D
+Western Samar Calbayog City Bontay	D2D
+Western Samar Calbayog City Kalilihan	D2D
+Western Samar Calbayog City Carmen	D2D
+Western Samar Calbayog City Danao I	D2D
+Western Samar Calbayog City Danao II	D2D
+Western Samar Calbayog City Gabay	D2D
+Western Samar Calbayog City Pagbalican	D2D
+Western Samar Calbayog City Payahan	D2D
+Western Samar Calbayog City Tanval	D2D
+Western Samar Calbayog City Tinambacan Norte	D2D
+Western Samar Calbayog City Tinambacan Sur	D2D
+Western Samar Calbayog City Cagmanipes Sur	D2D
+Western Samar Calbayog City Manuel Barral, Sr.	D2D
+Western Samar Calbiga Antol	D2D
+Western Samar Calbiga Bacyaran	D2D
+Western Samar Calbiga Beri	D2D
+Western Samar Calbiga Barobaybay	D2D
+Western Samar Calbiga Binanggaran	D2D
+Western Samar Calbiga Borong	D2D
+Western Samar Calbiga Bulao	D2D
+Western Samar Calbiga Buluan	D2D
+Western Samar Calbiga Caamlongan	D2D
+Western Samar Calbiga Calayaan	D2D
+Western Samar Calbiga Calingonan	D2D
+Western Samar Calbiga Canbagtic	D2D
+Western Samar Calbiga Canticum	D2D
+Western Samar Calbiga Daligan	D2D
+Western Samar Calbiga Guinbanga	D2D
+Western Samar Calbiga Hubasan	D2D
+Western Samar Calbiga Literon	D2D
+Western Samar Calbiga Lubang	D2D
+Western Samar Calbiga Mahangcao	D2D
+Western Samar Calbiga Macaalan	D2D
+Western Samar Calbiga Malabal	D2D
+Western Samar Calbiga Minata	D2D
+Western Samar Calbiga Otoc	D2D
+Western Samar Calbiga Panayuran	D2D
+Western Samar Calbiga Pasigay	D2D
+Western Samar Calbiga Patong	D2D
+Western Samar Calbiga Barangay 1 (Pob.)	D2D
+Western Samar Calbiga Barangay 2 (Pob.)	D2D
+Western Samar Calbiga Barangay 3 (Pob.)	D2D
+Western Samar Calbiga Barangay 4 (Pob.)	D2D
+Western Samar Calbiga Barangay 5 (Pob.)	D2D
+Western Samar Calbiga Barangay 6 (Pob.)	D2D
+Western Samar Calbiga Barangay 7 (Pob.)	D2D
+Western Samar Calbiga Polangi	D2D
+Western Samar Calbiga Rawis	D2D
+Western Samar Calbiga San Ignacio	D2D
+Western Samar Calbiga San Mauricio	D2D
+Western Samar Calbiga Sinalangtan	D2D
+Western Samar Calbiga Timbangan	D2D
+Western Samar Calbiga Tinago	D2D
+Western Samar Calbiga Hindang	D2D
+Western Samar Catbalogan City Albalate	D2D
+Western Samar Catbalogan City Bagongon	NoD2D
+Western Samar Catbalogan City Bangon	D2D
+Western Samar Catbalogan City Basiao	NoD2D
+Western Samar Catbalogan City Buluan	NoD2D
+Western Samar Catbalogan City Bunuanan	D2D
+Western Samar Catbalogan City Cabugawan	D2D
+Western Samar Catbalogan City Cagudalo	D2D
+Western Samar Catbalogan City Cagusipan	D2D
+Western Samar Catbalogan City Cagutian	D2D
+Western Samar Catbalogan City Cagutsan	NoD2D
+Western Samar Catbalogan City Canhawan Gote	D2D
+Western Samar Catbalogan City Canlapwas (Pob.)	D2D
+Western Samar Catbalogan City Cawayan	D2D
+Western Samar Catbalogan City Cinco	NoD2D
+Western Samar Catbalogan City Darahuway Daco	NoD2D
+Western Samar Catbalogan City Darahuway Gote	NoD2D
+Western Samar Catbalogan City Estaka	D2D
+Western Samar Catbalogan City Guinsorongan	D2D
+Western Samar Catbalogan City Iguid	D2D
+Western Samar Catbalogan City Lagundi	D2D
+Western Samar Catbalogan City Libas	D2D
+Western Samar Catbalogan City Lobo	D2D
+Western Samar Catbalogan City Manguehay	D2D
+Western Samar Catbalogan City Maulong	D2D
+Western Samar Catbalogan City Mercedes	D2D
+Western Samar Catbalogan City Mombon	NoD2D
+Western Samar Catbalogan City New Mahayag	D2D
+Western Samar Catbalogan City Old Mahayag	D2D
+Western Samar Catbalogan City Palanyogon	D2D
+Western Samar Catbalogan City Pangdan	D2D
+Western Samar Catbalogan City Payao	D2D
+Western Samar Catbalogan City Poblacion 1	D2D
+Western Samar Catbalogan City Poblacion 2	D2D
+Western Samar Catbalogan City Poblacion 3	D2D
+Western Samar Catbalogan City Poblacion 4	D2D
+Western Samar Catbalogan City Poblacion 5	D2D
+Western Samar Catbalogan City Poblacion 6	D2D
+Western Samar Catbalogan City Poblacion 7	D2D
+Western Samar Catbalogan City Poblacion 8	D2D
+Western Samar Catbalogan City Poblacion 9	D2D
+Western Samar Catbalogan City Poblacion 10	D2D
+Western Samar Catbalogan City Poblacion 11	D2D
+Western Samar Catbalogan City Poblacion 12	D2D
+Western Samar Catbalogan City Poblacion 13	D2D
+Western Samar Catbalogan City Muñoz	D2D
+Western Samar Catbalogan City Pupua	D2D
+Western Samar Catbalogan City Guindaponan	D2D
+Western Samar Catbalogan City Rama	NoD2D
+Western Samar Catbalogan City San Andres	D2D
+Western Samar Catbalogan City San Pablo	D2D
+Western Samar Catbalogan City San Roque	D2D
+Western Samar Catbalogan City San Vicente	D2D
+Western Samar Catbalogan City Silanga	D2D
+Western Samar Catbalogan City Totoringon	D2D
+Western Samar Catbalogan City Ibol	D2D
+Western Samar Catbalogan City Socorro	D2D
+Western Samar Daram Arawane	NoD2D
+Western Samar Daram Astorga	NoD2D
+Western Samar Daram Bachao	NoD2D
+Western Samar Daram Baclayan	NoD2D
+Western Samar Daram Bagacay	NoD2D
+Western Samar Daram Bayog	NoD2D
+Western Samar Daram Birawan	NoD2D
+Western Samar Daram Betaug	NoD2D
+Western Samar Daram Bono-anon	NoD2D
+Western Samar Daram Buenavista	NoD2D
+Western Samar Daram Burgos	NoD2D
+Western Samar Daram Cabac	NoD2D
+Western Samar Daram Cabil-isan	NoD2D
+Western Samar Daram Cabiton-an	NoD2D
+Western Samar Daram Cabugao	NoD2D
+Western Samar Daram Calawan-an	NoD2D
+Western Samar Daram Cambuhay	NoD2D
+Western Samar Daram Candugue	NoD2D
+Western Samar Daram Canloloy	NoD2D
+Western Samar Daram Campelipa	NoD2D
+Western Samar Daram Cansaganay	NoD2D
+Western Samar Daram Poblacion 3	NoD2D
+Western Samar Daram Casab-ahan	NoD2D
+Western Samar Daram Guindapunan	NoD2D
+Western Samar Daram Guintampilan	NoD2D
+Western Samar Daram Iquiran	NoD2D
+Western Samar Daram Jacopon	NoD2D
+Western Samar Daram Losa	NoD2D
+Western Samar Daram Mabini	NoD2D
+Western Samar Daram Macalpe	NoD2D
+Western Samar Daram Mandoyucan	NoD2D
+Western Samar Daram Mongolbongol	NoD2D
+Western Samar Daram Marupangdan	NoD2D
+Western Samar Daram Mayabay	NoD2D
+Western Samar Daram Nipa	NoD2D
+Western Samar Daram Parasan	NoD2D
+Western Samar Daram Poblacion 1	NoD2D
+Western Samar Daram Poblacion 2	NoD2D
+Western Samar Daram Pondang	NoD2D
+Western Samar Daram Poso	NoD2D
+Western Samar Daram Real	NoD2D
+Western Samar Daram Rizal	NoD2D
+Western Samar Daram San Antonio	NoD2D
+Western Samar Daram San Jose	NoD2D
+Western Samar Daram San Miguel	NoD2D
+Western Samar Daram San Roque	NoD2D
+Western Samar Daram Saugan	NoD2D
+Western Samar Daram So-ong	NoD2D
+Western Samar Daram Sua	NoD2D
+Western Samar Daram Talisay	NoD2D
+Western Samar Daram Tugas	NoD2D
+Western Samar Daram Ubo	NoD2D
+Western Samar Daram Valles-Bello	NoD2D
+Western Samar Daram Cagboboto	NoD2D
+Western Samar Daram Lucob-lucob	NoD2D
+Western Samar Daram San Vicente	NoD2D
+Western Samar Daram Sugod	NoD2D
+Western Samar Daram Yangta	NoD2D
+Western Samar Gandara Balocawe	D2D
+Western Samar Gandara Beslig	D2D
+Western Samar Gandara Burabod I (Pob.)	D2D
+Western Samar Gandara Burabod II (Pob.)	D2D
+Western Samar Gandara Buao	D2D
+Western Samar Gandara Bunyagan	D2D
+Western Samar Gandara Calirocan	D2D
+Western Samar Gandara Canhumawid	D2D
+Western Samar Gandara Caparangasan	D2D
+Western Samar Gandara Caranas	D2D
+Western Samar Gandara Carmona	D2D
+Western Samar Gandara Casab-ahan	D2D
+Western Samar Gandara Casandig	D2D
+Western Samar Gandara Caugbusan	D2D
+Western Samar Gandara Concepcion	D2D
+Western Samar Gandara Dumalo-ong (Pob.)	D2D
+Western Samar Gandara Elcano	D2D
+Western Samar Gandara Gerali	D2D
+Western Samar Gandara Giaboc	D2D
+Western Samar Gandara Hampton	D2D
+Western Samar Gandara Hinayagan	D2D
+Western Samar Gandara Hinugacan	D2D
+Western Samar Gandara Jasminez	D2D
+Western Samar Gandara Lungib	D2D
+Western Samar Gandara Mabuhay	D2D
+Western Samar Gandara Macugo	D2D
+Western Samar Gandara Minda (Pob.)	D2D
+Western Samar Gandara Nacube	D2D
+Western Samar Gandara Nalihugan	D2D
+Western Samar Gandara Napalisan	NoD2D
+Western Samar Gandara Natimonan	D2D
+Western Samar Gandara Ngoso	D2D
+Western Samar Gandara Palambrag	D2D
+Western Samar Gandara Palanas	D2D
+Western Samar Gandara Piñaplata	D2D
+Western Samar Gandara Pizarro	D2D
+Western Samar Gandara Pologon	D2D
+Western Samar Gandara Purog	D2D
+Western Samar Gandara Rawis	D2D
+Western Samar Gandara Rizal	D2D
+Western Samar Gandara Samoyao	D2D
+Western Samar Gandara San Agustin	D2D
+Western Samar Gandara San Antonio	D2D
+Western Samar Gandara San Enrique	D2D
+Western Samar Gandara San Francisco	D2D
+Western Samar Gandara San Isidro	D2D
+Western Samar Gandara San Jose	D2D
+Western Samar Gandara San Miguel	D2D
+Western Samar Gandara San Pelayo	D2D
+Western Samar Gandara San Ramon	D2D
+Western Samar Gandara Santa Elena	D2D
+Western Samar Gandara Santo Niño	D2D
+Western Samar Gandara Senibaran	D2D
+Western Samar Gandara Tagnao	D2D
+Western Samar Gandara Tambongan	D2D
+Western Samar Gandara Tawiran	D2D
+Western Samar Gandara Tigbawon	D2D
+Western Samar Gandara Marcos	D2D
+Western Samar Gandara Bangahon	D2D
+Western Samar Gandara Adela Heights (Pob.)	D2D
+Western Samar Gandara Arong	D2D
+Western Samar Gandara Catorse De Agosto	D2D
+Western Samar Gandara Diaz	D2D
+Western Samar Gandara Gereganan	D2D
+Western Samar Gandara Hetebac	D2D
+Western Samar Gandara Himamaloto	D2D
+Western Samar Gandara Hiparayan	D2D
+Western Samar Gandara Malayog	D2D
+Western Samar Gandara Sidmon	D2D
+Western Samar Hinabangan Bagacay	D2D
+Western Samar Hinabangan Binobucalan	D2D
+Western Samar Hinabangan Bucalan	D2D
+Western Samar Hinabangan Cabalagnan	D2D
+Western Samar Hinabangan Canano	D2D
+Western Samar Hinabangan Consolabao	D2D
+Western Samar Hinabangan Concord	D2D
+Western Samar Hinabangan Dalosdoson	D2D
+Western Samar Hinabangan Lim-ao	D2D
+Western Samar Hinabangan Osmeña	D2D
+Western Samar Hinabangan Poblacion 1	D2D
+Western Samar Hinabangan Poblacion 2	D2D
+Western Samar Hinabangan Rawis	D2D
+Western Samar Hinabangan San Rafael	D2D
+Western Samar Hinabangan Tabay	D2D
+Western Samar Hinabangan Yabon	D2D
+Western Samar Hinabangan Cabang	D2D
+Western Samar Hinabangan Malihao	D2D
+Western Samar Hinabangan San Jose	D2D
+Western Samar Hinabangan Fatima	D2D
+Western Samar Hinabangan Mugdo	D2D
+Western Samar Jiabong Bawang	D2D
+Western Samar Jiabong Bugho	D2D
+Western Samar Jiabong Camarobo-an	D2D
+Western Samar Jiabong Candayao	D2D
+Western Samar Jiabong Cantongtong	D2D
+Western Samar Jiabong Casapa	D2D
+Western Samar Jiabong Catalina	D2D
+Western Samar Jiabong Cristina	D2D
+Western Samar Jiabong Dogongan	D2D
+Western Samar Jiabong Garcia	D2D
+Western Samar Jiabong Hinaga	D2D
+Western Samar Jiabong Jia-an	D2D
+Western Samar Jiabong Jidanao	D2D
+Western Samar Jiabong Lulugayan	D2D
+Western Samar Jiabong Macabetas	D2D
+Western Samar Jiabong Malino	D2D
+Western Samar Jiabong Malobago	D2D
+Western Samar Jiabong Mercedes	D2D
+Western Samar Jiabong Nagbac	D2D
+Western Samar Jiabong Parina	D2D
+Western Samar Jiabong Barangay No. 1 (Pob.)	D2D
+Western Samar Jiabong Barangay No. 2 (Pob.)	D2D
+Western Samar Jiabong Barangay No. 3 (Pob.)	D2D
+Western Samar Jiabong Barangay No. 4 (Pob.)	D2D
+Western Samar Jiabong Barangay No. 5 (Pob.)	D2D
+Western Samar Jiabong Barangay No. 6 (Pob.)	D2D
+Western Samar Jiabong Barangay No. 7 (Pob.)	D2D
+Western Samar Jiabong Barangay No. 8 (Pob.)	D2D
+Western Samar Jiabong Salvacion	D2D
+Western Samar Jiabong San Andres	D2D
+Western Samar Jiabong San Fernando	D2D
+Western Samar Jiabong San Miguel	D2D
+Western Samar Jiabong Tagbayaon	D2D
+Western Samar Jiabong Victory	D2D
+Western Samar Marabut Amambucale	D2D
+Western Samar Marabut Caluwayan	D2D
+Western Samar Marabut Canyoyo	D2D
+Western Samar Marabut Ferreras	D2D
+Western Samar Marabut Legaspi	D2D
+Western Samar Marabut Logero	D2D
+Western Samar Marabut Osmeña	D2D
+Western Samar Marabut Pinalanga	D2D
+Western Samar Marabut Pinamitinan (Pob.)	D2D
+Western Samar Marabut Catato Pob.	D2D
+Western Samar Marabut San Roque	D2D
+Western Samar Marabut Santo Niño Pob.	D2D
+Western Samar Marabut Tagalag	D2D
+Western Samar Marabut Tinabanan	D2D
+Western Samar Marabut Amantillo	D2D
+Western Samar Marabut Binukyahan	D2D
+Western Samar Marabut Lipata	D2D
+Western Samar Marabut Mabuhay	D2D
+Western Samar Marabut Malobago	D2D
+Western Samar Marabut Odoc	D2D
+Western Samar Marabut Panan-awan	D2D
+Western Samar Marabut Roño	D2D
+Western Samar Marabut Santa Rita	D2D
+Western Samar Marabut Veloso	D2D
+Western Samar Matuguinao Angyap	D2D
+Western Samar Matuguinao Barruz	D2D
+Western Samar Matuguinao Camonoan	D2D
+Western Samar Matuguinao Carolina	D2D
+Western Samar Matuguinao Deit	D2D
+Western Samar Matuguinao Del Rosario	D2D
+Western Samar Matuguinao Libertad	D2D
+Western Samar Matuguinao Ligaya	D2D
+Western Samar Matuguinao Mabuligon Pob.	D2D
+Western Samar Matuguinao Maduroto Pob.	D2D
+Western Samar Matuguinao Mahanud	D2D
+Western Samar Matuguinao Mahayag	D2D
+Western Samar Matuguinao Nagpapacao	D2D
+Western Samar Matuguinao Rizal	D2D
+Western Samar Matuguinao Salvacion	D2D
+Western Samar Matuguinao San Isidro	D2D
+Western Samar Matuguinao Santa Cruz	D2D
+Western Samar Matuguinao Bag-otan	D2D
+Western Samar Matuguinao Inubod	D2D
+Western Samar Matuguinao San Roque	D2D
+Western Samar Motiong Poblacion I	D2D
+Western Samar Motiong Poblacion I-A	D2D
+Western Samar Motiong Angyap	D2D
+Western Samar Motiong Barayong	D2D
+Western Samar Motiong Bayog	D2D
+Western Samar Motiong Beri	D2D
+Western Samar Motiong Bonga	D2D
+Western Samar Motiong Calantawan	D2D
+Western Samar Motiong Calapi	D2D
+Western Samar Motiong Caluyahan	D2D
+Western Samar Motiong Canvais	D2D
+Western Samar Motiong Canatuan	D2D
+Western Samar Motiong Candomacol	D2D
+Western Samar Motiong Capaysagan	D2D
+Western Samar Motiong Caranas	D2D
+Western Samar Motiong Caulayanan	D2D
+Western Samar Motiong Hinica-an	D2D
+Western Samar Motiong Inalad	D2D
+Western Samar Motiong Linonoban	D2D
+Western Samar Motiong Malobago	D2D
+Western Samar Motiong Malonoy	D2D
+Western Samar Motiong Mararangsi	D2D
+Western Samar Motiong Maypange	D2D
+Western Samar Motiong New Minarog	D2D
+Western Samar Motiong Oyandic	D2D
+Western Samar Motiong Pamamasan	D2D
+Western Samar Motiong San Andres	D2D
+Western Samar Motiong Santo Niño	D2D
+Western Samar Motiong Sarao	D2D
+Western Samar Motiong Pusongan	D2D
+Western Samar Pinabacdao Bangon	D2D
+Western Samar Pinabacdao Barangay I (Pob.)	D2D
+Western Samar Pinabacdao Barangay II (Pob.)	D2D
+Western Samar Pinabacdao Botoc	D2D
+Western Samar Pinabacdao Bugho	D2D
+Western Samar Pinabacdao Calampong	D2D
+Western Samar Pinabacdao Canlobo	D2D
+Western Samar Pinabacdao Catigawan	D2D
+Western Samar Pinabacdao Dolores	D2D
+Western Samar Pinabacdao Lale	D2D
+Western Samar Pinabacdao Lawaan	D2D
+Western Samar Pinabacdao Laygayon	D2D
+Western Samar Pinabacdao Layo	D2D
+Western Samar Pinabacdao Loctob	D2D
+Western Samar Pinabacdao Madalunot	D2D
+Western Samar Pinabacdao Magdawat	D2D
+Western Samar Pinabacdao Mambog	D2D
+Western Samar Pinabacdao Manaing	D2D
+Western Samar Pinabacdao Obayan	D2D
+Western Samar Pinabacdao Pahug	D2D
+Western Samar Pinabacdao Parasanon	D2D
+Western Samar Pinabacdao Pelaon	D2D
+Western Samar Pinabacdao San Isidro	D2D
+Western Samar Pinabacdao Nabong	D2D
+Western Samar San Jose De Buan Aguingayan	D2D
+Western Samar San Jose De Buan Babaclayon	D2D
+Western Samar San Jose De Buan Can-aponte	D2D
+Western Samar San Jose De Buan Cataydongan	D2D
+Western Samar San Jose De Buan Gusa	D2D
+Western Samar San Jose De Buan Hagbay	D2D
+Western Samar San Jose De Buan Hiduroma	D2D
+Western Samar San Jose De Buan Hilumot	D2D
+Western Samar San Jose De Buan Barangay 1 (Pob.)	D2D
+Western Samar San Jose De Buan Barangay 2 (Pob.)	D2D
+Western Samar San Jose De Buan Barangay 3 (Pob.)	D2D
+Western Samar San Jose De Buan Barangay 4 (Pob.)	D2D
+Western Samar San Jose De Buan San Nicolas	D2D
+Western Samar San Jose De Buan Hibaca-an	D2D
+Western Samar San Sebastian Poblacion Barangay 1	D2D
+Western Samar San Sebastian Poblacion Barangay 2	D2D
+Western Samar San Sebastian Poblacion Barangay 3	D2D
+Western Samar San Sebastian Poblacion Barangay 4	D2D
+Western Samar San Sebastian Balogo	D2D
+Western Samar San Sebastian Bontod	D2D
+Western Samar San Sebastian Camanhagay	D2D
+Western Samar San Sebastian Campiyak	D2D
+Western Samar San Sebastian Dolores	D2D
+Western Samar San Sebastian Hita-asan I	D2D
+Western Samar San Sebastian Inobongan	D2D
+Western Samar San Sebastian Cabaywa	D2D
+Western Samar San Sebastian Canduyucan	D2D
+Western Samar San Sebastian Hita-asan II	D2D
+Western Samar Santa Margarita Agrupacion	D2D
+Western Samar Santa Margarita Arapison	D2D
+Western Samar Santa Margarita Avelino	D2D
+Western Samar Santa Margarita Bahay	D2D
+Western Samar Santa Margarita Balud	D2D
+Western Samar Santa Margarita Bana-ao	D2D
+Western Samar Santa Margarita Burabod	D2D
+Western Samar Santa Margarita Cautod (Pob.)	D2D
+Western Samar Santa Margarita Camperito	D2D
+Western Samar Santa Margarita Campeig	D2D
+Western Samar Santa Margarita Can-ipulan	D2D
+Western Samar Santa Margarita Canmoros	D2D
+Western Samar Santa Margarita Cinco	D2D
+Western Samar Santa Margarita Curry	D2D
+Western Samar Santa Margarita Gajo	D2D
+Western Samar Santa Margarita Hindang	D2D
+Western Samar Santa Margarita Ilo	D2D
+Western Samar Santa Margarita Imelda	D2D
+Western Samar Santa Margarita Inoraguiao	D2D
+Western Samar Santa Margarita Jolacao	D2D
+Western Samar Santa Margarita Lambao	D2D
+Western Samar Santa Margarita Mabuhay	D2D
+Western Samar Santa Margarita Mahayag	D2D
+Western Samar Santa Margarita Monbon (Pob.)	D2D
+Western Samar Santa Margarita Nabulo	D2D
+Western Samar Santa Margarita Napuro	D2D
+Western Samar Santa Margarita Palale	D2D
+Western Samar Santa Margarita Panabatan	D2D
+Western Samar Santa Margarita Panaruan	D2D
+Western Samar Santa Margarita Roxas	D2D
+Western Samar Santa Margarita Salvacion	D2D
+Western Samar Santa Margarita Solsogon	D2D
+Western Samar Santa Margarita Sundara	D2D
+Western Samar Santa Margarita Cagsumji	D2D
+Western Samar Santa Margarita Matayonas	D2D
+Western Samar Santa Margarita Napuro II	D2D
+Western Samar Santa Rita Alegria	D2D
+Western Samar Santa Rita Anibongan	D2D
+Western Samar Santa Rita Aslum	D2D
+Western Samar Santa Rita Bagolibas	D2D
+Western Samar Santa Rita Binanalan	D2D
+Western Samar Santa Rita Cabacungan	D2D
+Western Samar Santa Rita Cabunga-an	D2D
+Western Samar Santa Rita Camayse	D2D
+Western Samar Santa Rita Cansadong	D2D
+Western Samar Santa Rita Caticugan	D2D
+Western Samar Santa Rita Dampigan	D2D
+Western Samar Santa Rita Guinbalot-an	D2D
+Western Samar Santa Rita Hinangudtan	D2D
+Western Samar Santa Rita Igang-igang	D2D
+Western Samar Santa Rita La Paz	D2D
+Western Samar Santa Rita Lupig	D2D
+Western Samar Santa Rita Magsaysay	D2D
+Western Samar Santa Rita Maligaya	D2D
+Western Samar Santa Rita New Manunca	D2D
+Western Samar Santa Rita Old Manunca	D2D
+Western Samar Santa Rita Pagsulhogon	D2D
+Western Samar Santa Rita Salvacion	D2D
+Western Samar Santa Rita San Eduardo	D2D
+Western Samar Santa Rita San Isidro	D2D
+Western Samar Santa Rita San Juan	D2D
+Western Samar Santa Rita San Pascual	D2D
+Western Samar Santa Rita San Pedro	D2D
+Western Samar Santa Rita San Roque	D2D
+Western Samar Santa Rita Santa Elena	D2D
+Western Samar Santa Rita Tagacay	D2D
+Western Samar Santa Rita Tominamos	D2D
+Western Samar Santa Rita Tulay	D2D
+Western Samar Santa Rita Union	D2D
+Western Samar Santa Rita Bokinggan Pob.	D2D
+Western Samar Santa Rita Bougainvilla Pob.	D2D
+Western Samar Santa Rita Gumamela Pob.	D2D
+Western Samar Santa Rita Rosal Pob.	D2D
+Western Samar Santa Rita Santan Pob.	D2D
+Western Samar Santo Niño Balatguti	D2D
+Western Samar Santo Niño Baras	D2D
+Western Samar Santo Niño Basud (Pob.)	D2D
+Western Samar Santo Niño Buenavista	D2D
+Western Samar Santo Niño Cabunga-an	D2D
+Western Samar Santo Niño Corocawayan	D2D
+Western Samar Santo Niño Ilijan	D2D
+Western Samar Santo Niño Ilo (Pob.)	D2D
+Western Samar Santo Niño Lobelobe	D2D
+Western Samar Santo Niño Pinanangnan	D2D
+Western Samar Santo Niño Sevilla	D2D
+Western Samar Santo Niño Takut	D2D
+Western Samar Santo Niño Villahermosa	D2D
+Western Samar Talalora Bo. Independencia	D2D
+Western Samar Talalora Malaguining	D2D
+Western Samar Talalora Mallorga	D2D
+Western Samar Talalora Navatas Daku	D2D
+Western Samar Talalora Navatas Guti	D2D
+Western Samar Talalora Placer	D2D
+Western Samar Talalora Poblacion Barangay 1	D2D
+Western Samar Talalora Poblacion Barangay 2	D2D
+Western Samar Talalora San Juan	D2D
+Western Samar Talalora Tatabunan	D2D
+Western Samar Talalora Victory	D2D
+Western Samar Tarangnan Alcazar	D2D
+Western Samar Tarangnan Awang	D2D
+Western Samar Tarangnan Bahay	D2D
+Western Samar Tarangnan Balonga-as	D2D
+Western Samar Tarangnan Balugo	D2D
+Western Samar Tarangnan Bangon Gote	D2D
+Western Samar Tarangnan Baras	D2D
+Western Samar Tarangnan Binalayan	D2D
+Western Samar Tarangnan Bisitahan	D2D
+Western Samar Tarangnan Bonga	D2D
+Western Samar Tarangnan Cabunga-an	D2D
+Western Samar Tarangnan Cagtutulo	D2D
+Western Samar Tarangnan Cambatutay Nuevo	D2D
+Western Samar Tarangnan Cambatutay Viejo	D2D
+Western Samar Tarangnan Canunghan	D2D
+Western Samar Tarangnan Catan-agan	D2D
+Western Samar Tarangnan Dapdap	D2D
+Western Samar Tarangnan Gallego	D2D
+Western Samar Tarangnan Imelda Pob.	D2D
+Western Samar Tarangnan Lucerdoni	D2D
+Western Samar Tarangnan Lahong	D2D
+Western Samar Tarangnan Libucan Dacu	D2D
+Western Samar Tarangnan Libucan Gote	D2D
+Western Samar Tarangnan Majacob	D2D
+Western Samar Tarangnan Mancares	D2D
+Western Samar Tarangnan Marabut	D2D
+Western Samar Tarangnan Oeste - A	D2D
+Western Samar Tarangnan Oeste - B	D2D
+Western Samar Tarangnan Pajo	D2D
+Western Samar Tarangnan Palencia	D2D
+Western Samar Tarangnan Poblacion A	D2D
+Western Samar Tarangnan Poblacion B	D2D
+Western Samar Tarangnan Poblacion C	D2D
+Western Samar Tarangnan Poblacion D	D2D
+Western Samar Tarangnan Poblacion E	D2D
+Western Samar Tarangnan San Vicente	D2D
+Western Samar Tarangnan Santa Cruz	D2D
+Western Samar Tarangnan Sugod	D2D
+Western Samar Tarangnan Talinga	D2D
+Western Samar Tarangnan Tigdaranao	D2D
+Western Samar Tarangnan Tizon	D2D
+Western Samar Villareal Banquil	D2D
+Western Samar Villareal Bino-ongan	D2D
+Western Samar Villareal Burabod	NoD2D
+Western Samar Villareal Cambaguio	D2D
+Western Samar Villareal Canmucat	D2D
+Western Samar Villareal Villarosa Pob.	D2D
+Western Samar Villareal Conant	D2D
+Western Samar Villareal Guintarcan	NoD2D
+Western Samar Villareal Himyangan	NoD2D
+Western Samar Villareal Igot	D2D
+Western Samar Villareal Inarumbacan	D2D
+Western Samar Villareal Inasudlan	D2D
+Western Samar Villareal Lam-awan	D2D
+Western Samar Villareal Lamingao	NoD2D
+Western Samar Villareal Lawa-an	D2D
+Western Samar Villareal Macopa	D2D
+Western Samar Villareal Mahayag	D2D
+Western Samar Villareal Malonoy	D2D
+Western Samar Villareal Mercado (Pob.)	D2D
+Western Samar Villareal Miramar (Pob.)	D2D
+Western Samar Villareal Nagcaduha	D2D
+Western Samar Villareal Pacao	D2D
+Western Samar Villareal Pacoyoy	D2D
+Western Samar Villareal Pangpang	D2D
+Western Samar Villareal Plaridel	D2D
+Western Samar Villareal Central (Pob.)	D2D
+Western Samar Villareal Polangi	D2D
+Western Samar Villareal San Andres	D2D
+Western Samar Villareal San Fernando	D2D
+Western Samar Villareal San Rafael	D2D
+Western Samar Villareal San Roque	D2D
+Western Samar Villareal Santa Rosa	D2D
+Western Samar Villareal Santo Niño	D2D
+Western Samar Villareal Soledad (Pob.)	D2D
+Western Samar Villareal Tayud (Pob.)	D2D
+Western Samar Villareal Tomabe	D2D
+Western Samar Villareal Ulayan	D2D
+Western Samar Villareal Patag	D2D
+Western Samar Paranas Anagasi	D2D
+Western Samar Paranas Apolonia	D2D
+Western Samar Paranas Bagsa	D2D
+Western Samar Paranas Balbagan	D2D
+Western Samar Paranas Bato	D2D
+Western Samar Paranas Buray	D2D
+Western Samar Paranas Cantaguic	D2D
+Western Samar Paranas Cantao-an	D2D
+Western Samar Paranas Cantato	D2D
+Western Samar Paranas Casandig I	D2D
+Western Samar Paranas Concepcion	D2D
+Western Samar Paranas Jose Roño	D2D
+Western Samar Paranas Cawayan	D2D
+Western Samar Paranas Lawaan I	D2D
+Western Samar Paranas Lipata	D2D
+Western Samar Paranas Lokilokon	D2D
+Western Samar Paranas Mangcal	D2D
+Western Samar Paranas Maylobe	D2D
+Western Samar Paranas Minarog	D2D
+Western Samar Paranas Nawi	D2D
+Western Samar Paranas Pabanog	D2D
+Western Samar Paranas Paco	D2D
+Western Samar Paranas Pagsa-ogan	D2D
+Western Samar Paranas Pagsanjan	D2D
+Western Samar Paranas Patag	D2D
+Western Samar Paranas Pequit	D2D
+Western Samar Paranas Poblacion 1	D2D
+Western Samar Paranas Poblacion 2	D2D
+Western Samar Paranas Poblacion 3	D2D
+Western Samar Paranas Poblacion 4	D2D
+Western Samar Paranas Poblacion 5	D2D
+Western Samar Paranas Poblacion 6	D2D
+Western Samar Paranas Salay	D2D
+Western Samar Paranas San Isidro	D2D
+Western Samar Paranas Santo Niño	D2D
+Western Samar Paranas Sulopan	D2D
+Western Samar Paranas Tabucan	D2D
+Western Samar Paranas Tapul	D2D
+Western Samar Paranas Tenani	D2D
+Western Samar Paranas Tigbawon	D2D
+Western Samar Paranas Tula	D2D
+Western Samar Paranas Tutubigan	D2D
+Western Samar Paranas Casandig II	D2D
+Western Samar Paranas Lawaan II	D2D
+Western Samar Zumarraga Alegria	NoD2D
+Western Samar Zumarraga Arteche	NoD2D
+Western Samar Zumarraga Bioso	NoD2D
+Western Samar Zumarraga Boblaran	NoD2D
+Western Samar Zumarraga Botaera	NoD2D
+Western Samar Zumarraga Buntay	NoD2D
+Western Samar Zumarraga Camayse	NoD2D
+Western Samar Zumarraga Canwarak	NoD2D
+Western Samar Zumarraga Ibarra	NoD2D
+Western Samar Zumarraga Lumalantang	NoD2D
+Western Samar Zumarraga Macalunod	NoD2D
+Western Samar Zumarraga Maga-an	NoD2D
+Western Samar Zumarraga Maputi	NoD2D
+Western Samar Zumarraga Monbon	NoD2D
+Western Samar Zumarraga Mualbual	NoD2D
+Western Samar Zumarraga Pangdan	NoD2D
+Western Samar Zumarraga Poro	NoD2D
+Western Samar Zumarraga San Isidro	NoD2D
+Western Samar Zumarraga Sugod	NoD2D
+Western Samar Zumarraga Tinaugan	NoD2D
+Western Samar Zumarraga Tubigan	NoD2D
+Western Samar Zumarraga Poblacion 1	NoD2D
+Western Samar Zumarraga Poblacion 2	NoD2D
+Western Samar Zumarraga Marapilit	NoD2D
+Western Samar Zumarraga Talib	NoD2D
+Western Samar Tagapul-An Baguiw	NoD2D
+Western Samar Tagapul-An Balocawe	NoD2D
+Western Samar Tagapul-An Guinbarucan	NoD2D
+Western Samar Tagapul-An Labangbaybay	NoD2D
+Western Samar Tagapul-An Luna	NoD2D
+Western Samar Tagapul-An Mataluto	NoD2D
+Western Samar Tagapul-An Nipa	NoD2D
+Western Samar Tagapul-An Pantalan	NoD2D
+Western Samar Tagapul-An Pulangbato	NoD2D
+Western Samar Tagapul-An San Vicente	NoD2D
+Western Samar Tagapul-An Sugod (Pob.)	NoD2D
+Western Samar Tagapul-An Suarez	NoD2D
+Western Samar Tagapul-An San Jose (Pob.)	NoD2D
+Western Samar Tagapul-An Trinidad	NoD2D
+Western Samar San Jorge Aurora	D2D
+Western Samar San Jorge Blanca Aurora	D2D
+Western Samar San Jorge Buenavista I	D2D
+Western Samar San Jorge Bulao	D2D
+Western Samar San Jorge Bungliw	D2D
+Western Samar San Jorge Cogtoto-og	D2D
+Western Samar San Jorge Calundan	D2D
+Western Samar San Jorge Cantaguic	D2D
+Western Samar San Jorge Canyaki	D2D
+Western Samar San Jorge Erenas	D2D
+Western Samar San Jorge Guadalupe	D2D
+Western Samar San Jorge Hernandez	D2D
+Western Samar San Jorge Himay	D2D
+Western Samar San Jorge Janipon	D2D
+Western Samar San Jorge La Paz	D2D
+Western Samar San Jorge Libertad	D2D
+Western Samar San Jorge Lincoro	D2D
+Western Samar San Jorge Matalud	D2D
+Western Samar San Jorge Mobo-ob	D2D
+Western Samar San Jorge Quezon	D2D
+Western Samar San Jorge Ranera	D2D
+Western Samar San Jorge Rosalim	D2D
+Western Samar San Jorge San Isidro	D2D
+Western Samar San Jorge San Jorge I (Pob.)	D2D
+Western Samar San Jorge Sapinit	D2D
+Western Samar San Jorge Sinit-an	D2D
+Western Samar San Jorge Tomogbong	D2D
+Western Samar San Jorge Gayondato	D2D
+Western Samar San Jorge Puhagan	D2D
+Western Samar San Jorge Anquiana	D2D
+Western Samar San Jorge Bay-ang	D2D
+Western Samar San Jorge Buenavista II	D2D
+Western Samar San Jorge Cabugao	D2D
+Western Samar San Jorge Cag-olo-olo	D2D
+Western Samar San Jorge Guindapunan	D2D
+Western Samar San Jorge Mabuhay	D2D
+Western Samar San Jorge Mancol (Pob.)	D2D
+Western Samar San Jorge Mombon	D2D
+Western Samar San Jorge Rawis	D2D
+Western Samar San Jorge San Jorge II (Pob.)	D2D
+Western Samar San Jorge San Juan	D2D
+Western Samar Pagsanghan Bangon	D2D
+Western Samar Pagsanghan Buenos Aires	D2D
+Western Samar Pagsanghan Calanyugan	D2D
+Western Samar Pagsanghan Caloloma	D2D
+Western Samar Pagsanghan Cambaye	D2D
+Western Samar Pagsanghan Pañge	D2D
+Western Samar Pagsanghan San Luis	D2D
+Western Samar Pagsanghan Villahermosa Occidental	D2D
+Western Samar Pagsanghan Canlapwas (Pob.)	D2D
+Western Samar Pagsanghan Libertad	D2D
+Western Samar Pagsanghan Santo Niño	D2D
+Western Samar Pagsanghan Viejo	D2D
+Western Samar Pagsanghan Villahermosa Oriental	D2D
 Southern Leyte Anahawan Amagusan	D2D
 Southern Leyte Anahawan Calintaan	D2D
 Southern Leyte Anahawan Canlabian	D2D
