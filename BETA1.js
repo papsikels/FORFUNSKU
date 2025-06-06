@@ -1,1 +1,1315 @@
-const _0x51681e=_0x58b5;(function(_0x4191f9,_0x41ba02){const _0x59230a=_0x58b5,_0x429ad9=_0x4191f9();while(!![]){try{const _0x2b626f=parseInt(_0x59230a(0x91))/0x1+parseInt(_0x59230a(0x123))/0x2*(parseInt(_0x59230a(0x15e))/0x3)+-parseInt(_0x59230a(0x13e))/0x4+-parseInt(_0x59230a(0xa2))/0x5+-parseInt(_0x59230a(0x11f))/0x6+parseInt(_0x59230a(0x170))/0x7*(-parseInt(_0x59230a(0x8d))/0x8)+-parseInt(_0x59230a(0x14e))/0x9*(-parseInt(_0x59230a(0x17f))/0xa);if(_0x2b626f===_0x41ba02)break;else _0x429ad9['push'](_0x429ad9['shift']());}catch(_0x1ec488){_0x429ad9['push'](_0x429ad9['shift']());}}}(_0x53b7,0x67daa));const firebaseConfig={'apiKey':_0x51681e(0x12c),'authDomain':'forfun-5584e.firebaseapp.com','databaseURL':_0x51681e(0xc5),'projectId':_0x51681e(0x110),'storageBucket':_0x51681e(0x157),'messagingSenderId':_0x51681e(0x11d),'appId':_0x51681e(0xb8),'measurementId':_0x51681e(0xaf)};let detectionInterval,clockInterval;function loadFirebaseScripts(_0x17cbe7){const _0x218f6c=_0x51681e,_0x15071b=['https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js','https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js'];let _0x2ec57d=0x0;_0x15071b[_0x218f6c(0x16a)](_0x346e5c=>{const _0xe6655a=_0x218f6c,_0xb3407e=document[_0xe6655a(0x154)](_0xe6655a(0xff));_0xb3407e[_0xe6655a(0xdc)]=_0x346e5c,_0xb3407e[_0xe6655a(0xa5)]=()=>{const _0x501cd1=_0xe6655a;_0x2ec57d++;if(_0x2ec57d===_0x15071b[_0x501cd1(0x15f)])_0x17cbe7();},document['head']['appendChild'](_0xb3407e);});}function waitForFirebase(_0x2ddb41){const _0x49e7b6=setInterval(()=>{const _0x37081b=_0x58b5;window[_0x37081b(0xa9)]&&firebase[_0x37081b(0xb2)]&&(clearInterval(_0x49e7b6),_0x2ddb41());},0x64);}function makeDraggable(_0x37919b){const _0x96342f=_0x51681e;let _0x542cd6=![],_0x434672,_0x4735d4,_0x31fd5e,_0x5785d4;_0x37919b[_0x96342f(0x14d)][_0x96342f(0xe5)]=_0x96342f(0xdf),_0x37919b[_0x96342f(0x14d)][_0x96342f(0x198)]=_0x96342f(0xf8);let _0x1fba4b=0x0,_0x51a181=0x0;_0x37919b[_0x96342f(0xf4)](_0x96342f(0x13f),_0x34b80a=>{const _0x363293=_0x96342f;_0x34b80a[_0x363293(0x9f)]-_0x37919b[_0x363293(0x152)]()[_0x363293(0xd8)]<=0x1e&&(_0x542cd6=!![],_0x31fd5e=_0x34b80a[_0x363293(0xfc)],_0x5785d4=_0x34b80a['clientY'],_0x37919b[_0x363293(0x14d)][_0x363293(0x145)]='grabbing');}),document['addEventListener'](_0x96342f(0x18f),_0x55edec=>{const _0x4b14d8=_0x96342f;if(_0x542cd6){let _0x2bf19f=_0x55edec[_0x4b14d8(0xfc)]-_0x31fd5e,_0x5a3dc1=_0x55edec[_0x4b14d8(0x9f)]-_0x5785d4;_0x37919b[_0x4b14d8(0x14d)]['transform']=_0x4b14d8(0xe0)+(_0x1fba4b+_0x2bf19f)+_0x4b14d8(0x94)+(_0x51a181+_0x5a3dc1)+'px)';}}),document['addEventListener'](_0x96342f(0x76),_0x4b70f8=>{const _0x27c6f5=_0x96342f;_0x542cd6&&(_0x1fba4b+=_0x4b70f8[_0x27c6f5(0xfc)]-_0x31fd5e,_0x51a181+=_0x4b70f8[_0x27c6f5(0x9f)]-_0x5785d4,_0x542cd6=![],_0x37919b[_0x27c6f5(0x14d)]['cursor']=_0x27c6f5(0x117));});}function hideElement(_0xa39e4f){const _0x5f20a5=_0x51681e;if(_0xa39e4f)_0xa39e4f[_0x5f20a5(0x14d)][_0x5f20a5(0x195)]=_0x5f20a5(0x73);}function showElement(_0x4fbec0){const _0x4504f8=_0x51681e;if(_0x4fbec0)_0x4fbec0[_0x4504f8(0x14d)][_0x4504f8(0x195)]='block';}const cx=document[_0x51681e(0x154)](_0x51681e(0x132));cx['id']='cx',cx[_0x51681e(0x14d)]=_0x51681e(0xe4);const cxLabel=document[_0x51681e(0x154)](_0x51681e(0xf1));function _0x53b7(){const _0x4b803e=['Siquijor','removeEventListener','includes','\x22\x20already\x20assigned.\x20Removing\x20from\x20previous\x20spiel.','Custom\x20Spiel\x20Panel','se-resize','Alt','Guimaras','#666','strong','ctrlKey','\x22\x20is\x20reserved\x20and\x20cannot\x20be\x20used.','addEventListener','setItem','apply','val','translate(0px,\x200px)','Copied!','detectedName','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20value=\x22','clientX','Are\x20you\x20sure\x20you\x20want\x20to\x20exit\x20the\x20application?','closeSecondPanelBtn','script','INPUT','background','Cebu','title','userSelect','Misamis\x20Oriental','toggleEyeBtn','keydown','Ifugao','secondPanel','animation','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x205px;\x20text-align:\x20center;\x20border-bottom:\x201px\x20solid\x20#777;\x22>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x20300px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20overflow-y:\x20auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#222;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20','Occidental\x20Mindoro','Cagayan','addItemBtn','forfun-5584e','Backquote','+\x20Add\x20Spiel','Enter\x20spiel\x20text','\x22\x20already\x20exists\x20in\x20database.\x20Skipping\x20save.','onmouseenter','Detection\x20error:','move','block','Bulacan','👁️‍🗨️','.updateSingleBtn','startPanel','103887112043','Abra','3668694oCzRSh','itemName','input','Eastern\x20Samar','6WGBafI','getMinutes','catch','Ilocos\x20Sur','trim','height','Surigao\x20Del\x20Sur','.avatar\x20>\x20div:last-child','removeChild','AIzaSyB5k4ktm_k0FL2Esq2szyEz6uQe5d6smPI','documentElement','observe','✅\x20Saved!','getAttribute','\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x20150px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x20100px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20250px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20min-width:\x20200px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x20400px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20min-height:\x20180px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#333;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Arial;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20move;\x0a\x20\x20\x20\x20\x20\x20\x20\x20resize:\x20both;\x0a\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-sizing:\x20border-box;\x0a\x20\x20\x20\x20','div','toLowerCase','querySelectorAll','Southern\x20Leyte','error','exitBtn','tagName','textContent','name','No\x20name\x20detected','blinkRedYellow\x201s\x20infinite','join','1810988nzPXKJ','mousedown','✅\x20Saved:\x20','Cavite','NOD2D','Rizal','parse','cursor','appendChild','values','TEXTAREA','.resize-handle','defaultView','body','No\x20detected\x20name\x20found.','style','6014187ZWwzCu','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20transparent;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#ff5c5c;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2024px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2024px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x2024px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20user-select:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-shrink:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20color\x200.2s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20','Lanao\x20Del\x20Sur','button','getBoundingClientRect','getElementById','createElement','Northern\x20Samar','updateBtn','forfun-5584e.appspot.com','Shift','attributeName','\x0a\x20\x20\x20\x20<div\x20style=\x22position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22exitBtn\x22\x20style=\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20right:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20None;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x205px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x22>×</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<strong\x20style=\x22font-size:\x2016px;\x20line-height:\x201.5;\x22>Dashboard</strong><br><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22addItemBtn\x22\x20style=\x22width:100%;\x20margin-bottom:\x2010px;\x20background:#444;\x20color:white;\x22>Add\x20Item</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22updateBtn\x22\x20style=\x22width:100%;\x20margin-bottom:\x2010px;\x20background:#444;\x20color:white;\x22>Update</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22startBtn\x22\x20style=\x22width:100%;\x20margin-bottom:\x2010px;\x20background:#444;\x20color:white;\x22>Start</button>\x0a\x20\x20\x20\x20</div>\x0a','Antique','backBtn','code','209361vdYhqx','length','Aurora','Shortcut\x20\x22','https://raw.githubusercontent.com/papsikels/FORFUNSKU/refs/heads/main/LOCATION.txt','dashboard','Camarines\x20Sur','Dinagat\x20Islands','toUpperCase','\x0a\x20\x20\x20\x20@keyframes\x20blinkRedYellow\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x200%\x20{\x20background-color:\x20red;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x2050%\x20{\x20background-color:\x20yellow;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x20background-color:\x20red;\x20}\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20#startPanel::-webkit-resizer,\x20#secondPanel::-webkit-resizer\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20transparent;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20.resize-handle:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200.8;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20#startPanel,\x20#secondPanel\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20width\x200.1s\x20ease,\x20height\x200.1s\x20ease;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20#toggleEyeBtn:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.2);\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20#deliverySearch:focus\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20outline:\x201px\x20solid\x20#4CAF50;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20#deliveryTableBody\x20tr:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#555;\x0a\x20\x20\x20\x20}\x0a','min','head','forEach','No\x20detected\x20SKU','Davao\x20De\x20Oro','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20gap:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-sizing:\x20border-box;\x0a\x20\x20\x20\x20\x20\x20\x20\x20','backFromUpdateFormBtn','toLocaleTimeString','4130GkWvkw','Press\x20key','No\x20value\x20found','querySelector','Lanao\x20Del\x20Norte','items/','10-21\x20days','Quirino','Zambales','itemValue','preventDefault','totalCount','D2D','Zamboanga\x20Del\x20Norte','#333','20lVcwla','text','items','Auto-detect/save\x20error:','orderByChild','Nueva\x20Vizcaya','Iloilo','clipboard','Aklan','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-grow:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-width:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x206px\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2013px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#444;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#000;\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x205px;\x20border-bottom:\x201px\x20solid\x20#777;\x20','background:\x20#006400;\x20color:\x20white;','1-4\x20days','value','\x20=\x20','color','mousemove','background:\x20#8B0000;\x20color:\x20white;','Cotabato','clockDisplay','splice','Surigao\x20Del\x20Norte','display','replyBoxComposer','map','transform','database','\x22\x20data-key=\x22','deliveryTableBody','Oriental\x20Mindoro','Quezon','none','searchInput','Western\x20Samar','mouseup','click','hotkey','#ff5c5c','data-key','Pampanga','Maguindanao','max','addItemForm','split','push','onclick','Ilocos\x20Norte','innerHTML','getItem','onmouseleave','Masbate','off','Delete\x20spiel','Sarangani','target','createDocumentFragment','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22panel-header\x22\x20style=\x22position:\x20relative;\x20display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20margin-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22updateNotice\x22\x20style=\x22font-size:\x2014px;\x20font-weight:\x20bold;\x20color:\x20yellow;\x20display:\x20none;\x20margin-bottom:\x205px;\x22>⚠\x20UPDATE\x20⚠</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20width:\x20100%;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22backFromStartBtn\x22\x20style=\x22background:\x20none;\x20border:\x20none;\x20color:\x20white;\x20font-size:\x2020px;\x22>←</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22toggleEyeBtn\x22\x20style=\x22background:\x20none;\x20border:\x20none;\x20color:\x20white;\x20font-size:\x2016px;\x20cursor:\x20pointer;\x22>👁</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22clockDisplay\x22\x20style=\x22font-size:\x2014px;\x22></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22resize-handle\x22\x20style=\x22position:\x20absolute;\x20right:\x200;\x20bottom:\x20-10px;\x20width:\x2020px;\x20height:\x2020px;\x20cursor:\x20se-resize;\x20z-index:\x2010000;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20width=\x2220\x22\x20height=\x2220\x22\x20viewBox=\x220\x200\x2020\x2020\x22\x20fill=\x22white\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M20\x2020H0V0h20z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M8\x2016H4v-4l4\x204zm4-4h-4v4l4-4zm4-4h-4v4l4-4z\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#aaa;\x22>Detected\x20Name:</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22detectedName\x22\x20style=\x22font-weight:\x20bold;\x20word-break:\x20break-word;\x22>No\x20name\x20detected</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2012px;\x20color:\x20#aaa;\x22>SKU\x20Value:</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22skuValue\x22\x20style=\x22font-weight:\x20bold;\x20word-break:\x20break-word;\x22>No\x20detected\x20SKU</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22copyBtn\x22\x20style=\x22width:100%;\x20background:#444;\x20color:white;\x20margin-top:\x20auto;\x22>Copy\x20SKU</button>\x0a\x20\x20\x20\x20','760ffgmBm','#444','.text-ellipsis.text-other-info\x20span\x20span','width','380606DsODEg','once','Metro\x20Manila','px,\x20','equalTo','.message-list.media-list-conversation','La\x20Union','\x0a\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20top:\x20150px;\x0a\x20\x20\x20\x20left:\x20100px;\x0a\x20\x20\x20\x20width:\x20320px;\x0a\x20\x20\x20\x20max-height:\x20480px;\x0a\x20\x20\x20\x20background:\x20black;\x0a\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20border:\x201px\x20solid\x20white;\x0a\x20\x20\x20\x20padding:\x2015px\x2015px\x2010px\x2015px;\x0a\x20\x20\x20\x20border-radius:\x2012px;\x0a\x20\x20\x20\x20font-family:\x20Arial,\x20sans-serif;\x0a\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20cursor:\x20move;\x0a\x20\x20\x20\x20box-sizing:\x20border-box;\x0a\x20\x20\x20\x20user-select:\x20none;\x0a','then','customSpiels','Capiz','skuValue','\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x2050px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x2050px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20250px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#333;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Arial;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20\x20\x20','Pangasinan','clientY','Nueva\x20Ecija','\x22\x20style=\x22width:\x2040%;\x20color:black;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20value=\x22','1904105TGAMns','readOnly','blur','onload','placeholder','shiftKey','Zamboanga\x20Sibugay','firebase','Agusan\x20Del\x20Norte','updateNotice','key','initializeApp','Batanes','G-MRHBC0VM1E','\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x20150px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x20350px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20350px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20max-height:\x20500px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20overflow-y:\x20auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#222;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Arial;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20move;\x0a\x20\x20\x20\x20','Sultan\x20Kudarat','apps','writeText','Leyte','startBtn','\x0a\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20margin-top:\x2012px;\x0a\x20\x20\x20\x20background:\x20#444;\x0a\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20padding:\x2010px\x200;\x0a\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20border-radius:\x208px;\x0a\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20user-select:\x20none;\x0a\x20\x20\x20\x20transition:\x20background-color\x200.3s\x20ease;\x0a','children','1:103887112043:web:72337f8a4fbe9944996e2e','full_address','activeElement','Bataan','Davao\x20Oriental','\x22\x20style=\x22width:\x2030%;\x20color:black;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20data-key=\x22','.client-message\x20>\x20div','Delete\x20this\x20item?','deliverySearch','Basilan','Copy\x20SKU','</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<td\x20style=\x22padding:\x205px;\x20text-align:\x20center;\x20border-bottom:\x201px\x20solid\x20#777;\x20','Sorsogon','https://forfun-5584e-default-rtdb.firebaseio.com','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22backFromUpdateFormBtn\x22\x20style=\x22background:\x20none;\x20border:\x20none;\x20color:\x20white;\x20font-size:\x2020px;\x22>←</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Update\x20Items</strong>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span></span>\x20<!--\x20spacer\x20to\x20keep\x20layout\x20balanced\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22searchInput\x22\x20placeholder=\x22Search\x20item...\x22\x20style=\x22width:\x20100%;\x20margin:\x2010px\x200;\x20color:black;\x22><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22itemList\x22></div>\x0a\x20\x20\x20\x20','stringify','Apayao','Kalinga','\x0a\x20\x20\x20\x20max-height:\x20350px;\x0a\x20\x20\x20\x20overflow-y:\x20auto;\x0a\x20\x20\x20\x20padding-right:\x206px;\x20/*\x20space\x20so\x20scrollbar\x20doesn\x27t\x20cover\x20content\x20*/\x0a','Bohol','nod2dCount','\x22\x20class=\x22deleteSingleBtn\x22>❌</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','Isabela','category','ref','altKey','replace','Tawi\x20Tawi','getComputedStyle','\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x20150px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x20370px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20350px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20min-width:\x20300px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x20500px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20min-height:\x20250px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#444;\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Arial;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x209998;\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20move;\x0a\x20\x20\x20\x20\x20\x20\x20\x20resize:\x20both;\x0a\x20\x20\x20\x20\x20\x20\x20\x20overflow:\x20auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-sizing:\x20border-box;\x0a\x20\x20\x20\x20','lastChild','updateForm','top','Negros\x20Occidental','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<strong>Add\x20Item</strong><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22itemName\x22\x20placeholder=\x22Item\x20name\x22\x20style=\x22width:100%;\x20margin-top:5px;\x20background:white;\x20color:black;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22itemValue\x22\x20placeholder=\x22Value\x22\x20style=\x22width:100%;\x20margin-top:5px;\x20background:white;\x20color:black;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22saveBtn\x22\x20style=\x22margin-top:10px;\x20width:100%;\x20background:#444;\x20color:white;\x22>Save</button><br><br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22backBtn\x22\x20style=\x22width:100%;\x20background:#444;\x20color:white;\x22>Back</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20top:\x20150px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20left:\x20100px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20250px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20black;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Arial;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20move;\x0a\x20\x20\x20\x20\x20\x20\x20\x20','src','Sulu','spielPanel','absolute','translate(','Palawan','copyBtn','exists','\x0a\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20top:\x20150px;\x0a\x20\x20\x20\x20left:\x20100px;\x0a\x20\x20\x20\x20width:\x20300px;\x0a\x20\x20\x20\x20background:\x20black;\x0a\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20border:\x201px\x20solid\x20white;\x0a\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20font-family:\x20Arial,\x20sans-serif;\x0a\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20\x20\x20display:\x20none;\x0a\x20\x20\x20\x20cursor:\x20move;\x0a','position','d2dCount','Davao\x20Del\x20Sur'];_0x53b7=function(){return _0x4b803e;};return _0x53b7();}cxLabel['textContent']='CX',cx[_0x51681e(0x146)](cxLabel),document[_0x51681e(0x14b)][_0x51681e(0x146)](cx);function getAllClientMessages(){const _0x4530ef=_0x51681e,_0x7cf5d9=document[_0x4530ef(0x173)](_0x4530ef(0x96));if(!_0x7cf5d9)return[];const _0x13e9d9=_0x7cf5d9[_0x4530ef(0x134)](_0x4530ef(0xbe)),_0x55c781=[];return _0x13e9d9['forEach'](_0x9c3c3d=>{const _0x24b9a7=_0x4530ef,_0x9c57a8=_0x9c3c3d[_0x24b9a7(0x83)][_0x24b9a7(0x127)]();_0x55c781[_0x24b9a7(0x80)](_0x9c57a8);}),_0x55c781;}function renderMessages(_0x40a26d){const _0x2f0df1=_0x51681e;while(cx[_0x2f0df1(0xb7)][_0x2f0df1(0x15f)]>0x1)cx[_0x2f0df1(0x12b)](cx[_0x2f0df1(0xd6)]);const _0x3a0c1b=document[_0x2f0df1(0x154)]('div');_0x3a0c1b['style']=_0x2f0df1(0x10c),_0x40a26d[_0x2f0df1(0x16a)](_0x1fa425=>{const _0xe08594=_0x2f0df1,_0x31bfb6=document[_0xe08594(0x154)]('div');_0x31bfb6[_0xe08594(0x14d)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#444;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x206px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20white-space:\x20pre-wrap;\x0a\x20\x20\x20\x20\x20\x20\x20\x20',_0x31bfb6[_0xe08594(0x83)]=_0x1fa425,_0x3a0c1b[_0xe08594(0x146)](_0x31bfb6);}),cx[_0x2f0df1(0x146)](_0x3a0c1b);}document[_0x51681e(0xf4)]('keydown',_0xcbf34d=>{const _0x5455a9=_0x51681e,_0x4dbb80=_0xcbf34d[_0x5455a9(0xf2)]&&!_0xcbf34d[_0x5455a9(0xd1)]&&!_0xcbf34d[_0x5455a9(0xa7)]&&_0xcbf34d[_0x5455a9(0x15d)]===_0x5455a9(0x111);if(_0x4dbb80){if(cx[_0x5455a9(0x14d)][_0x5455a9(0x195)]===_0x5455a9(0x73)||!cx[_0x5455a9(0x14d)][_0x5455a9(0x195)]){const _0x53d3d3=getAllClientMessages();renderMessages(_0x53d3d3),cx[_0x5455a9(0x14d)][_0x5455a9(0x195)]='block';}else cx[_0x5455a9(0x14d)][_0x5455a9(0x195)]=_0x5455a9(0x73);}}),makeDraggable(cx);const STORAGE_KEY=_0x51681e(0x9a),savedSpiels=JSON[_0x51681e(0x144)](localStorage[_0x51681e(0x84)](STORAGE_KEY))||[],form=document['createElement'](_0x51681e(0x132));form['id']=_0x51681e(0xde),form[_0x51681e(0x14d)]=_0x51681e(0x98);const title=document[_0x51681e(0x154)](_0x51681e(0xf1));title[_0x51681e(0x139)]=_0x51681e(0xec),title[_0x51681e(0x14d)]='\x0a\x20\x20\x20\x20font-size:\x2018px;\x0a\x20\x20\x20\x20display:\x20block;\x0a\x20\x20\x20\x20margin-bottom:\x2010px;\x0a\x20\x20\x20\x20user-select:\x20text;\x0a',form['appendChild'](title);const container=document[_0x51681e(0x154)](_0x51681e(0x132));container[_0x51681e(0x14d)]=_0x51681e(0xca),form['appendChild'](container);const addBtn=document[_0x51681e(0x154)]('button');addBtn['textContent']=_0x51681e(0x112),addBtn[_0x51681e(0x14d)]=_0x51681e(0xb6),addBtn['onmouseenter']=()=>addBtn[_0x51681e(0x14d)][_0x51681e(0x101)]=_0x51681e(0xf0),addBtn[_0x51681e(0x85)]=()=>addBtn[_0x51681e(0x14d)][_0x51681e(0x101)]=_0x51681e(0x8e),form[_0x51681e(0x146)](addBtn),document[_0x51681e(0x14b)]['appendChild'](form),document['addEventListener'](_0x51681e(0x107),_0x331fb5=>{const _0x1ac184=_0x51681e;_0x331fb5[_0x1ac184(0xd1)]&&_0x331fb5[_0x1ac184(0x15d)]===_0x1ac184(0x111)&&(form[_0x1ac184(0x14d)][_0x1ac184(0x195)]=form[_0x1ac184(0x14d)][_0x1ac184(0x195)]==='none'?_0x1ac184(0x118):_0x1ac184(0x73));});function getKeyCombo(_0x2907ac){const _0x4e4cde=_0x51681e,_0x2e4693=[];if(_0x2907ac[_0x4e4cde(0xf2)])_0x2e4693[_0x4e4cde(0x80)]('Ctrl');if(_0x2907ac[_0x4e4cde(0xd1)])_0x2e4693[_0x4e4cde(0x80)]('Alt');if(_0x2907ac['shiftKey'])_0x2e4693['push']('Shift');let _0x169427=_0x2907ac[_0x4e4cde(0xac)];if(_0x169427==='Control'||_0x169427===_0x4e4cde(0x158)||_0x169427===_0x4e4cde(0xee))return null;return _0x169427[_0x4e4cde(0x15f)]===0x1&&(_0x169427=_0x169427['toUpperCase']()),[..._0x2e4693,_0x169427][_0x4e4cde(0x13d)]('+');}function renderSpiels(){const _0x236054=_0x51681e;container[_0x236054(0x83)]='',savedSpiels[_0x236054(0x16a)]((_0x1a150a,_0x30b5e5)=>{const _0x2b4119=_0x236054,_0x50de70=document[_0x2b4119(0x154)]('div');_0x50de70[_0x2b4119(0x14d)]=_0x2b4119(0x16d);const _0x29f5b1=document['createElement'](_0x2b4119(0x121));_0x29f5b1['type']=_0x2b4119(0x180),_0x29f5b1[_0x2b4119(0x18c)]=_0x1a150a[_0x2b4119(0x180)],_0x29f5b1[_0x2b4119(0xa6)]=_0x2b4119(0x113),_0x29f5b1['style']=_0x2b4119(0x188),_0x29f5b1['addEventListener']('input',()=>{const _0x454e0f=_0x2b4119;_0x1a150a[_0x454e0f(0x180)]=_0x29f5b1[_0x454e0f(0x18c)],saveSpiels();});const _0x42968b=document[_0x2b4119(0x154)](_0x2b4119(0x121));_0x42968b['type']=_0x2b4119(0x180),_0x42968b[_0x2b4119(0x18c)]=_0x1a150a[_0x2b4119(0x78)]||'',_0x42968b[_0x2b4119(0xa6)]=_0x2b4119(0x171),_0x42968b[_0x2b4119(0xa3)]=!![],_0x42968b['style']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2090px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x206px\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#444;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#000;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20user-select:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-shrink:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20',_0x42968b['addEventListener']('focus',()=>{const _0x2eb60c=_0x2b4119,_0x2c1048=_0x1f5377=>{const _0x5de063=_0x58b5;_0x1f5377['preventDefault']();const _0x5c35dc=getKeyCombo(_0x1f5377);if(!_0x5c35dc)return;if(_0x5c35dc==='Alt+Z'||_0x5c35dc==='Alt+X'){alert(_0x5de063(0x161)+_0x5c35dc+_0x5de063(0xf3)),_0x42968b[_0x5de063(0x18c)]=_0x1a150a[_0x5de063(0x78)]||'',document['removeEventListener']('keydown',_0x2c1048),_0x42968b[_0x5de063(0xa4)]();return;}const _0x3a299a=savedSpiels['findIndex']((_0x575609,_0x5ac0ec)=>_0x575609[_0x5de063(0x78)]===_0x5c35dc&&_0x5ac0ec!==_0x30b5e5);_0x3a299a!==-0x1&&(alert('Shortcut\x20\x22'+_0x5c35dc+_0x5de063(0xeb)),savedSpiels[_0x3a299a][_0x5de063(0x78)]=''),_0x42968b[_0x5de063(0x18c)]=_0x5c35dc,_0x1a150a[_0x5de063(0x78)]=_0x5c35dc,saveSpiels(),renderSpiels(),document[_0x5de063(0xe9)](_0x5de063(0x107),_0x2c1048),_0x42968b[_0x5de063(0xa4)]();};document[_0x2eb60c(0xf4)](_0x2eb60c(0x107),_0x2c1048);});const _0x2b8aae=document[_0x2b4119(0x154)](_0x2b4119(0x151));_0x2b8aae['textContent']='✕',_0x2b8aae[_0x2b4119(0x103)]=_0x2b4119(0x88),_0x2b8aae[_0x2b4119(0x14d)]=_0x2b4119(0x14f),_0x2b8aae[_0x2b4119(0x115)]=()=>_0x2b8aae[_0x2b4119(0x14d)][_0x2b4119(0x18e)]='#ff1c1c',_0x2b8aae[_0x2b4119(0x85)]=()=>_0x2b8aae[_0x2b4119(0x14d)][_0x2b4119(0x18e)]=_0x2b4119(0x79),_0x2b8aae[_0x2b4119(0x81)]=()=>{const _0x2dac6b=_0x2b4119;savedSpiels[_0x2dac6b(0x193)](_0x30b5e5,0x1),saveSpiels(),renderSpiels();},_0x50de70[_0x2b4119(0x146)](_0x29f5b1),_0x50de70[_0x2b4119(0x146)](_0x42968b),_0x50de70[_0x2b4119(0x146)](_0x2b8aae),container['appendChild'](_0x50de70);});}function saveSpiels(){const _0x38ad9c=_0x51681e;localStorage[_0x38ad9c(0xf5)](STORAGE_KEY,JSON[_0x38ad9c(0xc7)](savedSpiels));}addBtn[_0x51681e(0xf4)](_0x51681e(0x77),()=>{const _0x10c5dc=_0x51681e;savedSpiels[_0x10c5dc(0x80)]({'text':'','hotkey':''}),saveSpiels(),renderSpiels();}),document['addEventListener'](_0x51681e(0x107),_0x5d9acd=>{const _0x3d9d11=_0x51681e;if(document[_0x3d9d11(0xba)]&&(document['activeElement']['tagName']===_0x3d9d11(0x100)||document[_0x3d9d11(0xba)][_0x3d9d11(0x138)]===_0x3d9d11(0x148)))return;const _0x379fcc=getKeyCombo(_0x5d9acd);if(!_0x379fcc)return;for(const _0x461c63 of savedSpiels){if(_0x461c63[_0x3d9d11(0x78)]&&_0x461c63[_0x3d9d11(0x78)]===_0x379fcc){navigator[_0x3d9d11(0x186)][_0x3d9d11(0xb3)](_0x461c63[_0x3d9d11(0x180)]);break;}}}),renderSpiels(),makeDraggable(form);function createDashboard(){const _0x366622=_0x51681e,_0x36cd09=document[_0x366622(0x154)]('div');_0x36cd09['id']=_0x366622(0x163),_0x36cd09[_0x366622(0x14d)]=_0x366622(0x9d),_0x36cd09[_0x366622(0x83)]=_0x366622(0x15a),document[_0x366622(0x14b)][_0x366622(0x146)](_0x36cd09),makeDraggable(_0x36cd09),document[_0x366622(0x153)](_0x366622(0x10f))[_0x366622(0xf4)]('click',()=>{const _0x50ef49=_0x366622;hideElement(_0x36cd09),showElement(document[_0x50ef49(0x153)](_0x50ef49(0x7e)));}),document[_0x366622(0x153)](_0x366622(0x156))[_0x366622(0xf4)](_0x366622(0x77),()=>{const _0x478217=_0x366622;hideElement(_0x36cd09),refreshItemList(),showElement(document[_0x478217(0x153)]('updateForm'));}),document[_0x366622(0x153)](_0x366622(0xb5))['addEventListener'](_0x366622(0x77),()=>{const _0x4ea094=_0x366622;hideElement(_0x36cd09),showElement(document[_0x4ea094(0x153)](_0x4ea094(0x11c))),updateClock(),clockInterval=setInterval(updateClock,0x3e8),detectAndDisplaySKU();if(detectionInterval)clearInterval(detectionInterval);detectionInterval=setInterval(detectAndDisplaySKU,0x7d0);}),document['getElementById'](_0x366622(0x137))[_0x366622(0xf4)]('click',()=>{const _0x95e078=_0x366622,_0x15c6bb=confirm(_0x95e078(0xfd));_0x15c6bb&&hideElement(_0x36cd09);});}function createAddItemForm(){const _0x31cd9a=_0x51681e,_0x3b5377=document[_0x31cd9a(0x154)]('div');_0x3b5377['id']=_0x31cd9a(0x7e),_0x3b5377[_0x31cd9a(0x14d)]=_0x31cd9a(0xdb),_0x3b5377[_0x31cd9a(0x83)]=_0x31cd9a(0xda),document[_0x31cd9a(0x14b)][_0x31cd9a(0x146)](_0x3b5377),makeDraggable(_0x3b5377),document[_0x31cd9a(0x153)]('saveBtn')[_0x31cd9a(0xf4)](_0x31cd9a(0x77),saveItem),document[_0x31cd9a(0x153)](_0x31cd9a(0x15c))['addEventListener'](_0x31cd9a(0x77),()=>{const _0x31f283=_0x31cd9a;hideElement(_0x3b5377),showElement(document[_0x31f283(0x153)](_0x31f283(0x163)));});}function saveItem(){const _0x484ba8=_0x51681e,_0x35b01f=document[_0x484ba8(0x153)](_0x484ba8(0x120))['value'][_0x484ba8(0x127)](),_0x487c36=document['getElementById'](_0x484ba8(0x179))[_0x484ba8(0x18c)][_0x484ba8(0x127)]();if(!_0x35b01f||!_0x487c36)return alert('Both\x20fields\x20are\x20required!');const _0x2abebe=firebase[_0x484ba8(0x199)](),_0x33181d=_0x2abebe[_0x484ba8(0xd0)]('items');_0x33181d[_0x484ba8(0x183)]('name')[_0x484ba8(0x95)](_0x35b01f)[_0x484ba8(0x92)](_0x484ba8(0x18c),_0x5ca0b5=>{const _0x1d773a=_0x484ba8;_0x5ca0b5[_0x1d773a(0xe3)]()?alert('❌\x20Name\x20already\x20exists!'):_0x33181d[_0x1d773a(0x80)]({'name':_0x35b01f,'value':_0x487c36})['then'](()=>{const _0x474486=_0x1d773a;alert(_0x474486(0x12f)),document[_0x474486(0x153)](_0x474486(0x120))[_0x474486(0x18c)]='',document[_0x474486(0x153)]('itemValue')[_0x474486(0x18c)]='';});});}function _0x58b5(_0x173622,_0x1fa86d){const _0x53b73f=_0x53b7();return _0x58b5=function(_0x58b553,_0xd107a3){_0x58b553=_0x58b553-0x72;let _0x5c5a73=_0x53b73f[_0x58b553];return _0x5c5a73;},_0x58b5(_0x173622,_0x1fa86d);}function createUpdateForm(){const _0x35b300=_0x51681e,_0x81a455=document[_0x35b300(0x154)]('div');_0x81a455['id']=_0x35b300(0xd7),_0x81a455[_0x35b300(0x14d)]=_0x35b300(0xb0),_0x81a455[_0x35b300(0x83)]=_0x35b300(0xc6),document[_0x35b300(0x14b)][_0x35b300(0x146)](_0x81a455),makeDraggable(_0x81a455),document[_0x35b300(0x153)]('searchInput')['addEventListener'](_0x35b300(0x121),refreshItemList),document[_0x35b300(0x153)](_0x35b300(0x16e))[_0x35b300(0xf4)]('click',()=>{const _0x26a331=_0x35b300;hideElement(_0x81a455),showElement(document[_0x26a331(0x153)]('dashboard'));});}function refreshItemList(){const _0x463cc7=_0x51681e,_0x36bc41=firebase[_0x463cc7(0x199)](),_0x39ef51=_0x36bc41[_0x463cc7(0xd0)](_0x463cc7(0x181)),_0x3b0f3a=document[_0x463cc7(0x153)]('itemList'),_0x440f35=document[_0x463cc7(0x153)](_0x463cc7(0x74))['value'][_0x463cc7(0x133)]();_0x39ef51[_0x463cc7(0x92)](_0x463cc7(0x18c),_0x4cd149=>{const _0x641f75=_0x463cc7;_0x3b0f3a[_0x641f75(0x83)]='',_0x4cd149[_0x641f75(0x16a)](_0x551a1b=>{const _0x3453ef=_0x641f75,_0x36efe3=_0x551a1b['val'](),_0x5972f2=_0x551a1b['key'];if(_0x36efe3['name']['toLowerCase']()['includes'](_0x440f35)){const _0x5a0b6d=document[_0x3453ef(0x154)]('div');_0x5a0b6d[_0x3453ef(0x14d)]['marginBottom']='5px',_0x5a0b6d[_0x3453ef(0x83)]=_0x3453ef(0xfb)+_0x36efe3[_0x3453ef(0x13a)]+_0x3453ef(0x19a)+_0x5972f2+_0x3453ef(0xa1)+_0x36efe3[_0x3453ef(0x18c)]+'\x22\x20data-key=\x22'+_0x5972f2+_0x3453ef(0xbd)+_0x5972f2+'\x22\x20class=\x22updateSingleBtn\x22>💾</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20data-key=\x22'+_0x5972f2+_0x3453ef(0xcd),_0x3b0f3a[_0x3453ef(0x146)](_0x5a0b6d);}}),_0x3b0f3a[_0x641f75(0x134)](_0x641f75(0x11b))['forEach'](_0x39e9f3=>{const _0x475293=_0x641f75;_0x39e9f3[_0x475293(0xf4)](_0x475293(0x77),()=>{const _0x14bad7=_0x475293,_0x2c0757=_0x39e9f3['getAttribute'](_0x14bad7(0x7a)),_0x2c2d5f=_0x39e9f3['parentElement'][_0x14bad7(0x134)](_0x14bad7(0x121)),_0x21717a=_0x2c2d5f[0x0][_0x14bad7(0x18c)],_0x477323=_0x2c2d5f[0x1][_0x14bad7(0x18c)];_0x36bc41[_0x14bad7(0xd0)](_0x14bad7(0x175)+_0x2c0757)['update']({'name':_0x21717a,'value':_0x477323});});}),_0x3b0f3a[_0x641f75(0x134)]('.deleteSingleBtn')[_0x641f75(0x16a)](_0x4794aa=>{const _0x48d4b5=_0x641f75;_0x4794aa[_0x48d4b5(0xf4)]('click',()=>{const _0x33bd88=_0x48d4b5,_0x3cef08=_0x4794aa[_0x33bd88(0x130)](_0x33bd88(0x7a));confirm(_0x33bd88(0xbf))&&(_0x36bc41[_0x33bd88(0xd0)]('items/'+_0x3cef08)['remove'](),refreshItemList());});});});}function createStartPanel(){const _0x8eb9e3=_0x51681e,_0x194836=document['createElement'](_0x8eb9e3(0x132));_0x194836['id']=_0x8eb9e3(0x11c),_0x194836[_0x8eb9e3(0x14d)]=_0x8eb9e3(0x131),_0x194836['innerHTML']=_0x8eb9e3(0x8c),document[_0x8eb9e3(0x14b)][_0x8eb9e3(0x146)](_0x194836),makeDraggable(_0x194836);const _0x3de2bd=_0x194836['querySelector']('.resize-handle');let _0x316fc0=![],_0x5f3763,_0x2f7d0c,_0x5c9eb2,_0x33e789;_0x3de2bd['addEventListener']('mousedown',function(_0x2c9fb3){const _0x4ae63d=_0x8eb9e3;_0x2c9fb3[_0x4ae63d(0x17a)](),_0x316fc0=!![],_0x5f3763=_0x2c9fb3['clientX'],_0x2f7d0c=_0x2c9fb3['clientY'],_0x5c9eb2=parseInt(document[_0x4ae63d(0x14a)][_0x4ae63d(0xd4)](_0x194836)[_0x4ae63d(0x90)],0xa),_0x33e789=parseInt(document[_0x4ae63d(0x14a)][_0x4ae63d(0xd4)](_0x194836)['height'],0xa),document[_0x4ae63d(0x12d)][_0x4ae63d(0x14d)]['cursor']=_0x4ae63d(0xed),_0x194836[_0x4ae63d(0x14d)][_0x4ae63d(0x104)]=_0x4ae63d(0x73);}),document[_0x8eb9e3(0xf4)](_0x8eb9e3(0x18f),function(_0x1eae25){const _0x37135c=_0x8eb9e3;if(!_0x316fc0)return;const _0x2bb938=_0x5c9eb2+_0x1eae25['clientX']-_0x5f3763,_0x1d8d18=_0x33e789+_0x1eae25[_0x37135c(0x9f)]-_0x2f7d0c;_0x194836['style']['width']=Math[_0x37135c(0x7d)](0xc8,Math['min'](0x190,_0x2bb938))+'px',_0x194836[_0x37135c(0x14d)][_0x37135c(0x128)]=Math[_0x37135c(0x7d)](0xb4,_0x1d8d18)+'px';}),document[_0x8eb9e3(0xf4)]('mouseup',function(){const _0x1264da=_0x8eb9e3;if(!_0x316fc0)return;_0x316fc0=![],document['documentElement'][_0x1264da(0x14d)][_0x1264da(0x145)]='',_0x194836['style']['userSelect']='';});let _0x412f9a=null;document['getElementById']('backFromStartBtn')[_0x8eb9e3(0xf4)](_0x8eb9e3(0x77),()=>{const _0x14f6f0=_0x8eb9e3;if(detectionInterval)clearInterval(detectionInterval);if(_0x53c11c)clearInterval(_0x53c11c);_0x412f9a&&(_0x412f9a[_0x14f6f0(0x87)](),_0x412f9a=null),hideElement(_0x194836),showElement(document[_0x14f6f0(0x153)](_0x14f6f0(0x163)));});let _0x74cb01=null;function _0x568f44(_0x47c5b4){const _0x1198db=_0x8eb9e3;return _0x47c5b4['normalize']('NFD')[_0x1198db(0xd2)](/[\u0300-\u036f]/g,'')['replace'](/ñ/g,'n')[_0x1198db(0xd2)](/-/g,'\x20')[_0x1198db(0xd2)](/[().]/g,'\x20')[_0x1198db(0xd2)](/\s+/g,'\x20')['trim']()['toLowerCase']();}function _0x5976d6(){const _0x14c8cc=_0x8eb9e3,_0x4c6fb5=document['getElementById'](_0x14c8cc(0x9c))['textContent'];_0x4c6fb5&&_0x4c6fb5!==_0x14c8cc(0x16b)&&navigator[_0x14c8cc(0x186)][_0x14c8cc(0xb3)](_0x4c6fb5)['then'](()=>{const _0x1d3339=_0x14c8cc,_0x2e7f6c=document[_0x1d3339(0x153)]('copyBtn');_0x2e7f6c[_0x1d3339(0x139)]=_0x1d3339(0xf9);if(_0x74cb01)clearTimeout(_0x74cb01);_0x74cb01=setTimeout(()=>{const _0x1f4d52=_0x1d3339;_0x2e7f6c['textContent']=_0x1f4d52(0xc2),_0x74cb01=null;},0x7d0);})[_0x14c8cc(0x125)](_0x4acfe2=>console[_0x14c8cc(0x136)]('Failed\x20to\x20copy:\x20',_0x4acfe2));}document['getElementById'](_0x8eb9e3(0xe2))['addEventListener'](_0x8eb9e3(0x77),_0x5976d6),document[_0x8eb9e3(0xf4)](_0x8eb9e3(0x107),_0x5a4ecb=>{const _0x1764bd=_0x8eb9e3;_0x5a4ecb[_0x1764bd(0xd1)]&&!_0x5a4ecb[_0x1764bd(0xa7)]&&!_0x5a4ecb[_0x1764bd(0xf2)]&&_0x5a4ecb[_0x1764bd(0xac)][_0x1764bd(0x133)]()==='x'&&(_0x5a4ecb[_0x1764bd(0x17a)](),_0x5976d6());});function _0x42e5f2(){const _0x2cef53=_0x8eb9e3,_0x2ea083=new Date(),_0x3abb63=document[_0x2cef53(0x153)](_0x2cef53(0x192));_0x3abb63[_0x2cef53(0x139)]=_0x2ea083['toLocaleTimeString']();}const _0x53c11c=setInterval(_0x42e5f2,0x3e8);_0x42e5f2();function _0x19dfae(){const _0x5d6538=_0x8eb9e3,_0x4eb52f=new Date(),_0x343f4d=_0x4eb52f[_0x5d6538(0x124)](),_0x5bda56=document[_0x5d6538(0x153)](_0x5d6538(0xab)),_0x2962b1=_0x343f4d>=0x1c&&_0x343f4d<0x1f||(_0x343f4d>=0x3a||_0x343f4d<0x1);_0x2962b1?(_0x194836[_0x5d6538(0x14d)]['animation']=_0x5d6538(0x13c),_0x5bda56[_0x5d6538(0x14d)][_0x5d6538(0x195)]=_0x5d6538(0x118)):(_0x194836[_0x5d6538(0x14d)][_0x5d6538(0x10a)]=_0x5d6538(0x73),_0x194836[_0x5d6538(0x14d)][_0x5d6538(0x101)]=_0x5d6538(0x17e),_0x5bda56[_0x5d6538(0x14d)]['display']=_0x5d6538(0x73));}setInterval(_0x19dfae,0x3e8);function _0x5926bb(){const _0x48ecde=_0x8eb9e3,_0x4a7fe0=document[_0x48ecde(0x154)](_0x48ecde(0x132));_0x4a7fe0['id']=_0x48ecde(0x109),_0x4a7fe0['style']=_0x48ecde(0xd5),_0x4a7fe0[_0x48ecde(0x83)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22panel-header\x22\x20style=\x22position:\x20relative;\x20display:\x20flex;\x20flex-direction:\x20column;\x20align-items:\x20center;\x20margin-bottom:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20width:\x20100%;\x20align-items:\x20center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20bold;\x22>Delivery\x20Information</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22closeSecondPanelBtn\x22\x20style=\x22background:\x20none;\x20border:\x20none;\x20color:\x20white;\x20font-size:\x2016px;\x20cursor:\x20pointer;\x22>✕</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22resize-handle\x22\x20style=\x22position:\x20absolute;\x20right:\x200;\x20bottom:\x20-10px;\x20width:\x2020px;\x20height:\x2020px;\x20cursor:\x20se-resize;\x20z-index:\x2010000;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20width=\x2220\x22\x20height=\x2220\x22\x20viewBox=\x220\x200\x2020\x2020\x22\x20fill=\x22white\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M20\x2020H0V0h20z\x22\x20fill=\x22none\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M8\x2016H4v-4l4\x204zm4-4h-4v4l4-4zm4-4h-4v4l4-4z\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22deliverySearch\x22\x20placeholder=\x22Search\x20address...\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22width:\x20100%;\x20padding:\x205px;\x20border-radius:\x204px;\x20border:\x20none;\x20background:\x20#555;\x20color:\x20white;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:\x20flex;\x20justify-content:\x20space-between;\x20margin-bottom:\x2010px;\x20font-size:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>Total:\x20<span\x20id=\x22totalCount\x22>0</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>D2D:\x20<span\x20id=\x22d2dCount\x22>0</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>NOD2D:\x20<span\x20id=\x22nod2dCount\x22>0</span></div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22overflow-y:\x20auto;\x20max-height:\x20300px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<table\x20style=\x22width:\x20100%;\x20border-collapse:\x20collapse;\x20font-size:\x2012px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tr\x20style=\x22background:\x20#555;\x20position:\x20sticky;\x20top:\x200;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x205px;\x20text-align:\x20left;\x20border-bottom:\x201px\x20solid\x20#777;\x22>Address</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x205px;\x20text-align:\x20center;\x20border-bottom:\x201px\x20solid\x20#777;\x20width:\x2080px;\x22>Type</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<th\x20style=\x22padding:\x205px;\x20text-align:\x20center;\x20border-bottom:\x201px\x20solid\x20#777;\x20width:\x2080px;\x22>Days</th>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</thead>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<tbody\x20id=\x22deliveryTableBody\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Search\x20results\x20here\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</tbody>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</table>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20',document[_0x48ecde(0x14b)]['appendChild'](_0x4a7fe0),makeDraggable(_0x4a7fe0);const _0x27d8ec=_0x4a7fe0['querySelector'](_0x48ecde(0x149));let _0x126c91=![],_0x59b019,_0x240713,_0x374d39,_0x149a0e;_0x27d8ec['addEventListener']('mousedown',_0x1f47c9=>{const _0x2418b9=_0x48ecde;_0x1f47c9['preventDefault'](),_0x126c91=!![],_0x59b019=_0x1f47c9['clientX'],_0x240713=_0x1f47c9[_0x2418b9(0x9f)],_0x374d39=parseInt(getComputedStyle(_0x4a7fe0)[_0x2418b9(0x90)],0xa),_0x149a0e=parseInt(getComputedStyle(_0x4a7fe0)[_0x2418b9(0x128)],0xa),document[_0x2418b9(0x12d)][_0x2418b9(0x14d)][_0x2418b9(0x145)]=_0x2418b9(0xed),_0x4a7fe0[_0x2418b9(0x14d)][_0x2418b9(0x104)]=_0x2418b9(0x73);}),document[_0x48ecde(0xf4)](_0x48ecde(0x18f),_0x5e2828=>{const _0x1c52cb=_0x48ecde;if(!_0x126c91)return;_0x4a7fe0[_0x1c52cb(0x14d)][_0x1c52cb(0x90)]=Math[_0x1c52cb(0x7d)](0x12c,Math[_0x1c52cb(0x168)](0x1f4,_0x374d39+_0x5e2828[_0x1c52cb(0xfc)]-_0x59b019))+'px',_0x4a7fe0[_0x1c52cb(0x14d)][_0x1c52cb(0x128)]=Math[_0x1c52cb(0x7d)](0xfa,_0x149a0e+_0x5e2828[_0x1c52cb(0x9f)]-_0x240713)+'px';}),document[_0x48ecde(0xf4)](_0x48ecde(0x76),()=>{const _0x2a34bf=_0x48ecde;if(!_0x126c91)return;_0x126c91=![],document[_0x2a34bf(0x12d)][_0x2a34bf(0x14d)]['cursor']='',_0x4a7fe0['style']['userSelect']='';}),document['addEventListener'](_0x48ecde(0x107),_0x5e2fa0=>{const _0x71aaad=_0x48ecde;if(_0x5e2fa0[_0x71aaad(0xd1)]&&!_0x5e2fa0[_0x71aaad(0xa7)]&&!_0x5e2fa0[_0x71aaad(0xf2)]&&_0x5e2fa0['key'][_0x71aaad(0x133)]()==='z'){const _0x5be554=document[_0x71aaad(0x153)]('secondPanel'),_0x3d3df0=document['getElementById'](_0x71aaad(0x106));if(_0x5be554){if(_0x5be554[_0x71aaad(0x14d)]['display']==='none'||_0x5be554[_0x71aaad(0x14d)][_0x71aaad(0x195)]===''){_0x5be554[_0x71aaad(0x14d)]['display']=_0x71aaad(0x118);if(_0x3d3df0)_0x3d3df0[_0x71aaad(0x139)]=_0x71aaad(0x11a);}else{_0x5be554[_0x71aaad(0x14d)][_0x71aaad(0x195)]=_0x71aaad(0x73);if(_0x3d3df0)_0x3d3df0[_0x71aaad(0x139)]='👁';}}}}),document[_0x48ecde(0x153)](_0x48ecde(0xfe))['addEventListener'](_0x48ecde(0x77),()=>{const _0x2673b8=_0x48ecde;_0x4a7fe0[_0x2673b8(0x14d)][_0x2673b8(0x195)]=_0x2673b8(0x73),document[_0x2673b8(0x153)](_0x2673b8(0x106))['textContent']='👁';});let _0x380763=[];function _0x5eaf7b(){const _0x1b3798=_0x48ecde;fetch(_0x1b3798(0x162))['then'](_0x3cb854=>_0x3cb854['text']())[_0x1b3798(0x99)](_0xe6ede6=>{const _0x78fc73=_0x1b3798,_0x67a234=_0xe6ede6['trim']()[_0x78fc73(0x7f)]('\x0a');_0x380763=_0x67a234[_0x78fc73(0x197)](_0xb5a71f=>{const _0x79ee57=_0x78fc73;let _0x339957=_0xb5a71f[_0x79ee57(0x127)]()['split'](/\s+/),_0x229980=_0x339957['pop'](),_0x45ea7e=_0x339957[_0x79ee57(0x13d)]('\x20');return{'full_address':_0x45ea7e,'category':_0x229980};});})[_0x1b3798(0x125)](_0x56441a=>{const _0x1b5bf0=_0x1b3798;console[_0x1b5bf0(0x136)]('Failed\x20to\x20load\x20location\x20data:',_0x56441a);});}function _0x3e67bc(_0x405367,_0x557925){let _0xe767ae;return function(..._0x32804d){const _0x335690=_0x58b5;clearTimeout(_0xe767ae),_0xe767ae=setTimeout(()=>_0x405367[_0x335690(0xf6)](this,_0x32804d),_0x557925);};}function _0x587dba(_0x473c1d=''){const _0x13e781=_0x48ecde,_0x10d1cd=document[_0x13e781(0x153)](_0x13e781(0x19b));_0x10d1cd[_0x13e781(0x83)]='';if(_0x473c1d['trim']()===''){document[_0x13e781(0x153)](_0x13e781(0x17b))['textContent']=0x0,document[_0x13e781(0x153)](_0x13e781(0xe6))[_0x13e781(0x139)]=0x0,document[_0x13e781(0x153)](_0x13e781(0xcc))['textContent']=0x0;return;}const _0x14913c=document[_0x13e781(0x8b)]();let _0x20a74d=0x0,_0x3fbbdb=0x0,_0x39642b=0x0;const _0x1a0e2f=_0x568f44(_0x473c1d);let _0x24a9dd=0x0;const _0xa0cf6=0x64;for(let _0x5e466a=0x0;_0x5e466a<_0x380763[_0x13e781(0x15f)];_0x5e466a++){const _0xc884bb=_0x380763[_0x5e466a],_0x58e6ce=_0xc884bb[_0x13e781(0xb9)]||'';let _0xd78cbf=_0xc884bb[_0x13e781(0xcf)]||'',_0x2a1773=_0x146711(_0x58e6ce);const _0x100bdc=_0x568f44(_0x58e6ce),_0x465822=_0xd78cbf['trim']()['toUpperCase']();_0x465822===_0x13e781(0x142)&&(_0x2a1773=_0x13e781(0x176));if(_0x100bdc[_0x13e781(0xea)](_0x1a0e2f)){_0x20a74d++;if(_0x465822===_0x13e781(0x17c))_0x3fbbdb++;if(_0x465822==='NOD2D')_0x39642b++;if(_0x24a9dd<_0xa0cf6){const _0xbc9cd=document[_0x13e781(0x154)]('tr'),_0x7d9b3d=_0x465822==='D2D'?_0x13e781(0x18a):_0x465822===_0x13e781(0x142)?_0x13e781(0x190):'';_0xbc9cd[_0x13e781(0x83)]=_0x13e781(0x189)+_0x7d9b3d+'\x22>'+_0x58e6ce+_0x13e781(0xc3)+_0x7d9b3d+'\x22>'+_0xd78cbf[_0x13e781(0x166)]()+_0x13e781(0x10b)+_0x2a1773+'</td>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x14913c[_0x13e781(0x146)](_0xbc9cd),_0x24a9dd++;}}}_0x10d1cd[_0x13e781(0x146)](_0x14913c),document[_0x13e781(0x153)]('totalCount')['textContent']=_0x20a74d,document['getElementById']('d2dCount')['textContent']=_0x3fbbdb,document[_0x13e781(0x153)](_0x13e781(0xcc))[_0x13e781(0x139)]=_0x39642b;}const _0x271ea0=_0x3e67bc(_0x587dba,0x12c);document[_0x48ecde(0x153)](_0x48ecde(0xc0))[_0x48ecde(0xf4)]('input',_0x3b4017=>{const _0x5becd4=_0x48ecde,_0x102f64=_0x3b4017[_0x5becd4(0x8a)][_0x5becd4(0x18c)]['trim']();_0x102f64[_0x5becd4(0x15f)]>0x0?_0x271ea0(_0x102f64):(document[_0x5becd4(0x153)](_0x5becd4(0x19b))['innerHTML']='',document['getElementById'](_0x5becd4(0x17b))[_0x5becd4(0x139)]='0',document[_0x5becd4(0x153)](_0x5becd4(0xe6))[_0x5becd4(0x139)]='0',document[_0x5becd4(0x153)](_0x5becd4(0xcc))[_0x5becd4(0x139)]='0');});const _0x4b9abf=new MutationObserver(_0x5bf39e=>{_0x5bf39e['forEach'](_0x533e6d=>{const _0x1d492a=_0x58b5;_0x533e6d[_0x1d492a(0x159)]===_0x1d492a(0x14d)&&_0x4a7fe0[_0x1d492a(0x14d)][_0x1d492a(0x195)]===_0x1d492a(0x118)&&_0x5eaf7b();});});_0x4b9abf[_0x48ecde(0x12e)](_0x4a7fe0,{'attributes':!![],'attributeFilter':[_0x48ecde(0x14d)]});}_0x5926bb();function _0x146711(_0x3cb740){const _0x538184=_0x8eb9e3,_0x3986b2=_0x3cb740[_0x538184(0x133)](),_0x180675=[..._0x3e2b88[_0x538184(0x197)](_0x3cf8f1=>({'name':_0x3cf8f1,'region':_0x538184(0x18b)})),..._0xdfc327[_0x538184(0x197)](_0x2c4dfe=>({'name':_0x2c4dfe,'region':'3-8\x20days'})),..._0x4eb33e['map'](_0xddb0fe=>({'name':_0xddb0fe,'region':_0x538184(0x176)}))];let _0x4106ff=null,_0xfbda9f=Infinity;for(let {name:_0x160a04,region:_0x44a87a}of _0x180675){const _0x5c3875=_0x3986b2['indexOf'](_0x160a04[_0x538184(0x133)]());_0x5c3875!==-0x1&&_0x5c3875<_0xfbda9f&&(_0x4106ff=_0x44a87a,_0xfbda9f=_0x5c3875);}return _0x4106ff||'N/A';}const _0x3e2b88=[_0x8eb9e3(0x11e),'Albay',_0x8eb9e3(0xc8),_0x8eb9e3(0x160),_0x8eb9e3(0xbb),'Batangas','Benguet',_0x8eb9e3(0x119),_0x8eb9e3(0x10e),'Camarines\x20Norte',_0x8eb9e3(0x164),'Catanduanes',_0x8eb9e3(0x141),_0x8eb9e3(0x108),_0x8eb9e3(0x82),_0x8eb9e3(0x126),_0x8eb9e3(0xce),_0x8eb9e3(0xc9),_0x8eb9e3(0x97),'Laguna',_0x8eb9e3(0x93),'Marinduque',_0x8eb9e3(0x86),_0x8eb9e3(0xa0),_0x8eb9e3(0x184),_0x8eb9e3(0x10d),_0x8eb9e3(0x19c),_0x8eb9e3(0x7b),_0x8eb9e3(0x9e),_0x8eb9e3(0x72),_0x8eb9e3(0x177),_0x8eb9e3(0x143),_0x8eb9e3(0xc4),'Tarlac',_0x8eb9e3(0x178)],_0xdfc327=[_0x8eb9e3(0xaa),'Agusan\x20Del\x20Sur',_0x8eb9e3(0x187),_0x8eb9e3(0x15b),'Biliran','Bukidnon',_0x8eb9e3(0x9b),_0x8eb9e3(0x102),_0x8eb9e3(0x191),_0x8eb9e3(0x16c),'Davao\x20Del\x20Norte',_0x8eb9e3(0xe7),'Davao\x20Occidental',_0x8eb9e3(0xbc),_0x8eb9e3(0x122),_0x8eb9e3(0xef),_0x8eb9e3(0x185),_0x8eb9e3(0x174),_0x8eb9e3(0x150),_0x8eb9e3(0xb4),_0x8eb9e3(0x7c),'Misamis\x20Occidental',_0x8eb9e3(0x105),_0x8eb9e3(0xd9),'Negros\x20Oriental',_0x8eb9e3(0x155),'Romblon',_0x8eb9e3(0x135),_0x8eb9e3(0xb1),_0x8eb9e3(0x194),_0x8eb9e3(0x129),_0x8eb9e3(0x75),_0x8eb9e3(0x17d),'Zamboanga\x20Del\x20Sur',_0x8eb9e3(0xa8)],_0x4eb33e=[_0x8eb9e3(0xc1),_0x8eb9e3(0xae),_0x8eb9e3(0xcb),'Camiguin',_0x8eb9e3(0x165),'Mountain\x20Province',_0x8eb9e3(0xe1),_0x8eb9e3(0x89),_0x8eb9e3(0xe8),'South\x20Cotabato',_0x8eb9e3(0xdd),_0x8eb9e3(0xd3)];document[_0x8eb9e3(0xf4)]('keydown',async _0x508eb3=>{const _0x16d33b=_0x8eb9e3;if(_0x508eb3[_0x16d33b(0xd1)]&&_0x508eb3['key']['toLowerCase']()==='a')try{const _0x52a343=document[_0x16d33b(0x173)]('.tag-combo');if(!_0x52a343)return;const _0xc1c1dd=_0x52a343[_0x16d33b(0x139)][_0x16d33b(0x127)]()[_0x16d33b(0x7f)](':')[0x0];if(!_0xc1c1dd)return;const _0x3ce340=document[_0x16d33b(0x153)](_0x16d33b(0xfa));if(!_0x3ce340)return;const _0x57cc0b=_0x3ce340[_0x16d33b(0x139)]['trim']();if(!_0x57cc0b){alert(_0x16d33b(0x14c));return;}const _0x32959d=document[_0x16d33b(0x153)](_0x16d33b(0x9c)),_0x2fa80e=firebase[_0x16d33b(0x199)](),_0x27dc9a=_0x2fa80e[_0x16d33b(0xd0)](_0x16d33b(0x181)),_0x5e070b=await _0x27dc9a[_0x16d33b(0x183)](_0x16d33b(0x13a))['equalTo'](_0x57cc0b)['once'](_0x16d33b(0x18c));if(_0x5e070b['exists']()){if(_0x32959d){const _0x52fa4c=Object[_0x16d33b(0x147)](_0x5e070b[_0x16d33b(0xf7)]())[0x0]['value'];_0x32959d[_0x16d33b(0x139)]=_0x52fa4c;}console['log']('\x22'+_0x57cc0b+_0x16d33b(0x114));return;}await _0x27dc9a[_0x16d33b(0x80)]({'name':_0x57cc0b,'value':_0xc1c1dd}),_0x32959d&&(_0x32959d[_0x16d33b(0x139)]=_0xc1c1dd),alert(_0x16d33b(0x140)+_0x57cc0b+_0x16d33b(0x18d)+_0xc1c1dd);}catch(_0xac5b87){console[_0x16d33b(0x136)](_0x16d33b(0x182),_0xac5b87);}}),document[_0x8eb9e3(0x153)]('toggleEyeBtn')[_0x8eb9e3(0xf4)](_0x8eb9e3(0x77),()=>{const _0x533f04=_0x8eb9e3,_0x5d4743=document[_0x533f04(0x153)]('secondPanel');_0x5d4743[_0x533f04(0x14d)][_0x533f04(0x195)]===_0x533f04(0x73)||!_0x5d4743[_0x533f04(0x14d)][_0x533f04(0x195)]?(_0x5d4743[_0x533f04(0x14d)][_0x533f04(0x195)]=_0x533f04(0x118),document['getElementById'](_0x533f04(0x106))[_0x533f04(0x139)]='👁️‍🗨'):(_0x5d4743[_0x533f04(0x14d)]['display']='none',document[_0x533f04(0x153)]('toggleEyeBtn')[_0x533f04(0x139)]='👁');});const _0x17b33e=document[_0x8eb9e3(0x154)]('style');_0x17b33e[_0x8eb9e3(0x83)]=_0x8eb9e3(0x167),document[_0x8eb9e3(0x169)][_0x8eb9e3(0x146)](_0x17b33e);}function updateClock(){const _0x43fa87=_0x51681e,_0x52d119=document[_0x43fa87(0x153)](_0x43fa87(0x192)),_0x2b9159=new Date();_0x52d119['textContent']=_0x2b9159[_0x43fa87(0x16f)]();}function detectAndDisplaySKU(){const _0x2cf6d4=_0x51681e;try{const _0x57b262=document['getElementById'](_0x2cf6d4(0x11c));if(!_0x57b262||_0x57b262[_0x2cf6d4(0x14d)][_0x2cf6d4(0x195)]!==_0x2cf6d4(0x118))return;let _0x5be45e=document['querySelectorAll'](_0x2cf6d4(0x8f)),_0x1f679c=_0x2cf6d4(0x13b),_0x5d2c0e=![];_0x5be45e['forEach'](_0x3d408b=>{const _0x434dff=_0x2cf6d4;_0x3d408b[_0x434dff(0x139)]&&_0x3d408b[_0x434dff(0x139)][_0x434dff(0x127)]()&&(_0x1f679c=_0x3d408b[_0x434dff(0x139)][_0x434dff(0x127)](),_0x5d2c0e=!![]);});if(!_0x5d2c0e){const _0x1f06b2=document[_0x2cf6d4(0x153)](_0x2cf6d4(0x196));if(_0x1f06b2&&_0x1f06b2['placeholder']&&_0x1f06b2['placeholder'][_0x2cf6d4(0x127)]()!==''){const _0x4fdb95=_0x1f06b2['placeholder'][_0x2cf6d4(0x127)]()[_0x2cf6d4(0x7f)]('\x20');_0x1f679c=_0x4fdb95[_0x4fdb95[_0x2cf6d4(0x15f)]-0x1],_0x5d2c0e=!![];}}if(!_0x5d2c0e){const _0x29bdc9=document['querySelectorAll'](_0x2cf6d4(0x12a));_0x29bdc9[_0x2cf6d4(0x16a)](_0xe5310d=>{const _0x352a06=_0x2cf6d4;_0xe5310d[_0x352a06(0x139)]&&_0xe5310d[_0x352a06(0x139)]['trim']()&&(_0x1f679c=_0xe5310d[_0x352a06(0x139)][_0x352a06(0x127)](),_0x5d2c0e=!![]);});}const _0x1d7334=document[_0x2cf6d4(0x153)](_0x2cf6d4(0xfa));_0x1d7334&&_0x1d7334['textContent']!==_0x1f679c&&(_0x1d7334[_0x2cf6d4(0x139)]=_0x1f679c);if(_0x5d2c0e){const _0x48a6cf=firebase['database'](),_0x5084b4=_0x48a6cf[_0x2cf6d4(0xd0)](_0x2cf6d4(0x181));_0x5084b4[_0x2cf6d4(0x183)](_0x2cf6d4(0x13a))[_0x2cf6d4(0x95)](_0x1f679c)['on'](_0x2cf6d4(0x18c),_0xe72567=>{const _0x1b14fe=_0x2cf6d4;if(_0x57b262[_0x1b14fe(0x14d)]['display']===_0x1b14fe(0x118)){const _0x54b97c=document['getElementById'](_0x1b14fe(0x9c));if(_0xe72567[_0x1b14fe(0xe3)]()){let _0x88ce07=_0x1b14fe(0x172);_0xe72567[_0x1b14fe(0x16a)](_0x44b7e7=>{const _0x2c588d=_0x1b14fe;_0x88ce07=_0x44b7e7[_0x2c588d(0xf7)]()[_0x2c588d(0x18c)];}),_0x54b97c&&_0x54b97c[_0x1b14fe(0x139)]!==_0x88ce07&&(_0x54b97c[_0x1b14fe(0x139)]=_0x88ce07);}else _0x54b97c&&_0x54b97c[_0x1b14fe(0x139)]!==_0x1b14fe(0x16b)&&(_0x54b97c[_0x1b14fe(0x139)]=_0x1b14fe(0x16b));}});}else{const _0x5b2488=document[_0x2cf6d4(0x153)]('skuValue');_0x5b2488&&_0x5b2488[_0x2cf6d4(0x139)]!==_0x2cf6d4(0x16b)&&(_0x5b2488[_0x2cf6d4(0x139)]=_0x2cf6d4(0x16b));}}catch(_0x24eef6){console[_0x2cf6d4(0x136)](_0x2cf6d4(0x116),_0x24eef6);}}loadFirebaseScripts(()=>{waitForFirebase(()=>{const _0x872738=_0x58b5;firebase[_0x872738(0xad)](firebaseConfig),createDashboard(),createAddItemForm(),createUpdateForm(),createStartPanel();});});
+  const firebaseConfig = {
+        apiKey: "AIzaSyB5k4ktm_k0FL2Esq2szyEz6uQe5d6smPI",
+        authDomain: "forfun-5584e.firebaseapp.com",
+        databaseURL: "https://forfun-5584e-default-rtdb.firebaseio.com",
+        projectId: "forfun-5584e",
+        storageBucket: "forfun-5584e.appspot.com",
+        messagingSenderId: "103887112043",
+        appId: "1:103887112043:web:72337f8a4fbe9944996e2e",
+        measurementId: "G-MRHBC0VM1E"
+    };
+
+    let detectionInterval;
+    let clockInterval;
+
+    function loadFirebaseScripts(callback) {
+        const scripts = [
+            "https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js",
+            "https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"
+        ];
+        let loaded = 0;
+        scripts.forEach(src => {
+            const script = document.createElement("script");
+            script.src = src;
+            script.onload = () => {
+                loaded++;
+                if (loaded === scripts.length) callback();
+            };
+            document.head.appendChild(script);
+        });
+    }
+
+    function waitForFirebase(callback) {
+        const interval = setInterval(() => {
+            if (window.firebase && firebase.apps) {
+                clearInterval(interval);
+                callback();
+            }
+        }, 100);
+    }
+function makeDraggable(element) {
+    let isDragging = false;
+    let offsetX, offsetY;
+    let startX, startY;
+
+    element.style.position = 'absolute';
+    element.style.transform = 'translate(0px, 0px)';
+    let currentX = 0;
+    let currentY = 0;
+
+    element.addEventListener('mousedown', (e) => {
+        if (e.clientY - element.getBoundingClientRect().top <= 30) {
+            isDragging = true;
+            startX = e.clientX;
+            startY = e.clientY;
+            element.style.cursor = 'grabbing';
+        }
+    });
+
+    document.addEventListener('mousemove', (e) => {
+        if (isDragging) {
+            let dx = e.clientX - startX;
+            let dy = e.clientY - startY;
+            element.style.transform = `translate(${currentX + dx}px, ${currentY + dy}px)`;
+        }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+        if (isDragging) {
+            currentX += e.clientX - startX;
+            currentY += e.clientY - startY;
+            isDragging = false;
+            element.style.cursor = 'move';
+        }
+    });
+}
+
+function hideElement(element) {
+    if (element) element.style.display = 'none';
+}
+
+function showElement(element) {
+    if (element) element.style.display = 'block';
+}
+
+const cx = document.createElement('div');
+cx.id = 'cx';
+cx.style =`
+    position: fixed;
+    top: 150px;
+    left: 100px;
+    width: 300px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    z-index: 9999;
+    display: none;
+    cursor: move;
+`;
+
+// Title label
+const cxLabel = document.createElement('strong');
+cxLabel.textContent = 'CX';
+cx.appendChild(cxLabel);
+
+document.body.appendChild(cx);
+
+// Function to get all client messages as array of HTML strings
+function getAllClientMessages() {
+    const container = document.querySelector('.message-list.media-list-conversation');
+    if (!container) return [];
+
+    const clientMessages = container.querySelectorAll('.client-message > div');
+    const messages = [];
+
+    clientMessages.forEach(msgDiv => {
+        const content = msgDiv.innerHTML.trim();
+        messages.push(content);
+    });
+
+    return messages;
+}
+
+// Function to render messages inside the panel below the title
+function renderMessages(messages) {
+    // Remove everything except the first child (title)
+    while (cx.children.length > 1) cx.removeChild(cx.lastChild);
+
+    const chatContainer = document.createElement('div');
+    chatContainer.style =`
+        margin-top: 10px;
+        max-height: 300px;
+        overflow-y: auto;
+        background: #222;
+        padding: 8px;
+        border-radius: 6px;
+    `;
+
+    messages.forEach(msgHtml => {
+        const bubble = document.createElement('div');
+        bubble.style =`
+            background: #444;
+            color: white;
+            padding: 6px 10px;
+            border-radius: 10px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            white-space: pre-wrap;
+        `;
+        bubble.innerHTML = msgHtml;
+        chatContainer.appendChild(bubble);
+    });
+
+    cx.appendChild(chatContainer);
+}
+
+// Toggle panel on Ctrl +  only (no Alt or Shift)
+document.addEventListener('keydown', (e) => {
+    const isStrictCtrlBackquote = e.ctrlKey && !e.altKey && !e.shiftKey && e.code === 'Backquote';
+    if (isStrictCtrlBackquote) {
+        if (cx.style.display === 'none' || !cx.style.display) {
+            const messages = getAllClientMessages();
+            renderMessages(messages);
+            cx.style.display = 'block';
+        } else {
+            cx.style.display = 'none';
+        }
+    }
+});
+
+makeDraggable(cx);
+
+
+const STORAGE_KEY = 'customSpiels';
+
+const savedSpiels = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+
+const form = document.createElement('div');
+form.id = 'spielPanel';
+form.style = `
+    position: fixed;
+    top: 150px;
+    left: 100px;
+    width: 320px;
+    max-height: 480px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 15px 10px 15px;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    z-index: 9999;
+    display: none;
+    cursor: move;
+    box-sizing: border-box;
+    user-select: none;
+`;
+
+const title = document.createElement('strong');
+title.textContent = 'Custom Spiel Panel';
+title.style = `
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+    user-select: text;
+`;
+form.appendChild(title);
+
+const container = document.createElement('div');
+container.style = `
+    max-height: 350px;
+    overflow-y: auto;
+    padding-right: 6px; /* space so scrollbar doesn't cover content */
+`;
+form.appendChild(container);
+
+const addBtn = document.createElement('button');
+addBtn.textContent = '+ Add Spiel';
+addBtn.style = `
+    width: 100%;
+    margin-top: 12px;
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s ease;
+`;
+addBtn.onmouseenter = () => addBtn.style.background = '#666';
+addBtn.onmouseleave = () => addBtn.style.background = '#444';
+
+form.appendChild(addBtn);
+document.body.appendChild(form);
+
+// Toggle panel display with Alt + Backquote
+document.addEventListener('keydown', (e) => {
+    if (e.altKey && e.code === 'Backquote') {
+        form.style.display = form.style.display === 'none' ? 'block' : 'none';
+    }
+});
+
+function getKeyCombo(e) {
+    const modifiers = [];
+    if (e.ctrlKey) modifiers.push('Ctrl');
+    if (e.altKey) modifiers.push('Alt');
+    if (e.shiftKey) modifiers.push('Shift');
+
+    let key = e.key;
+
+    if (key === 'Control' || key === 'Shift' || key === 'Alt') return null;
+
+    if (key.length === 1) {
+        key = key.toUpperCase();
+    }
+
+    return [...modifiers, key].join('+');
+}
+
+function renderSpiels() {
+    container.innerHTML = '';
+    savedSpiels.forEach((spiel, index) => {
+        const wrapper = document.createElement('div');
+        wrapper.style = `
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            gap: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        `;
+
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.value = spiel.text;
+        input.placeholder = 'Enter spiel text';
+        input.style = `
+            flex-grow: 1;
+            min-width: 0;
+            padding: 6px 8px;
+            font-size: 13px;
+            border-radius: 6px;
+            border: 1px solid #444;
+            background: #fff;
+            color: #000;
+        `;
+        input.addEventListener('input', () => {
+            spiel.text = input.value;
+            saveSpiels();
+        });
+
+        const hotkeyInput = document.createElement('input');
+        hotkeyInput.type = 'text';
+        hotkeyInput.value = spiel.hotkey || '';
+        hotkeyInput.placeholder = 'Press key';
+        hotkeyInput.readOnly = true;
+        hotkeyInput.style = `
+            width: 90px;
+            padding: 6px 6px;
+            font-size: 12px;
+            border-radius: 6px;
+            border: 1px solid #444;
+            background: #fff;
+            color: #000;
+            text-align: center;
+            user-select: none;
+            flex-shrink: 0;
+        `;
+
+        hotkeyInput.addEventListener('focus', () => {
+            const setHotkey = (e) => {
+                e.preventDefault();
+                const combo = getKeyCombo(e);
+                if (!combo) return; // ignore modifier-only
+
+                // Restrict certain shortcuts
+                if (combo === 'Alt+Z' || combo === 'Alt+X') {
+                    alert(`Shortcut "${combo}" is reserved and cannot be used.`);
+                    hotkeyInput.value = spiel.hotkey || '';
+                    document.removeEventListener('keydown', setHotkey);
+                    hotkeyInput.blur();
+                    return;
+                }
+
+                // Check for duplicates
+                const duplicateIndex = savedSpiels.findIndex((s, i) => s.hotkey === combo && i !== index);
+                if (duplicateIndex !== -1) {
+                    alert(`Shortcut "${combo}" already assigned. Removing from previous spiel.`);
+                    savedSpiels[duplicateIndex].hotkey = '';
+                }
+
+                hotkeyInput.value = combo;
+                spiel.hotkey = combo;
+                saveSpiels();
+                renderSpiels();
+
+                document.removeEventListener('keydown', setHotkey);
+                hotkeyInput.blur();
+            };
+            document.addEventListener('keydown', setHotkey);
+        });
+
+        const delBtn = document.createElement('button');
+        delBtn.textContent = '✕';
+        delBtn.title = 'Delete spiel';
+        delBtn.style = `
+            background: transparent;
+            border: none;
+            color: #ff5c5c;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 0;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            user-select: none;
+            flex-shrink: 0;
+            transition: color 0.2s;
+        `;
+        delBtn.onmouseenter = () => delBtn.style.color = '#ff1c1c';
+        delBtn.onmouseleave = () => delBtn.style.color = '#ff5c5c';
+
+        delBtn.onclick = () => {
+            savedSpiels.splice(index, 1);
+            saveSpiels();
+            renderSpiels();
+        };
+
+        wrapper.appendChild(input);
+        wrapper.appendChild(hotkeyInput);
+        wrapper.appendChild(delBtn);
+        container.appendChild(wrapper);
+    });
+}
+
+function saveSpiels() {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(savedSpiels));
+}
+
+addBtn.addEventListener('click', () => {
+    savedSpiels.push({ text: '', hotkey: '' });
+    saveSpiels();
+    renderSpiels();
+});
+
+document.addEventListener('keydown', (e) => {
+    if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) {
+        return; // avoid triggering while typing
+    }
+
+    const combo = getKeyCombo(e);
+    if (!combo) return;
+
+    for (const spiel of savedSpiels) {
+        if (spiel.hotkey && spiel.hotkey === combo) {
+            navigator.clipboard.writeText(spiel.text);
+            break;
+        }
+    }
+});
+
+renderSpiels();
+
+    makeDraggable(form);
+
+
+   function createDashboard() {
+    const dashboard = document.createElement('div');
+    dashboard.id = 'dashboard';
+    dashboard.style = `
+        position: fixed;
+        top: 50px;
+        left: 50px;
+        width: 250px;
+        background: #333;
+        color: white;
+        border: 1px solid white;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: Arial;
+        z-index: 9999;
+    `;
+dashboard.innerHTML = `
+    <div style="position: relative;">
+        <span id="exitBtn" style="
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+            color: white;
+            background: None;
+            padding: 5px 10px;
+            font-size: 18px;
+            line-height: 1;
+            font-weight: bold;
+        ">×</span>
+        <strong style="font-size: 16px; line-height: 1.5;">Dashboard</strong><br><br>
+        <button id="addItemBtn" style="width:100%; margin-bottom: 10px; background:#444; color:white;">Add Item</button>
+        <button id="updateBtn" style="width:100%; margin-bottom: 10px; background:#444; color:white;">Update</button>
+        <button id="startBtn" style="width:100%; margin-bottom: 10px; background:#444; color:white;">Start</button>
+    </div>
+`;
+
+    document.body.appendChild(dashboard);
+    makeDraggable(dashboard);
+
+    document.getElementById('addItemBtn').addEventListener('click', () => {
+        hideElement(dashboard);
+        showElement(document.getElementById('addItemForm'));
+    });
+
+    document.getElementById('updateBtn').addEventListener('click', () => {
+        hideElement(dashboard);
+        refreshItemList();
+        showElement(document.getElementById('updateForm'));
+    });
+
+    document.getElementById('startBtn').addEventListener('click', () => {
+        hideElement(dashboard);
+        showElement(document.getElementById('startPanel'));
+        updateClock();
+        clockInterval = setInterval(updateClock, 1000);
+        detectAndDisplaySKU(); // Initial detection
+        if (detectionInterval) clearInterval(detectionInterval);
+        detectionInterval = setInterval(detectAndDisplaySKU, 2000); // Periodic checks
+    });
+
+    document.getElementById('exitBtn').addEventListener('click', () => {
+        const confirmExit = confirm("Are you sure you want to exit the application?");
+        if (confirmExit) {
+            hideElement(dashboard);
+        }
+    });
+}
+
+
+    function createAddItemForm() {
+        const form = document.createElement('div');
+        form.id = 'addItemForm';
+        form.style = `
+            position: fixed;
+            top: 150px;
+            left: 100px;
+            width: 250px;
+            background: black;
+            color: white;
+            border: 1px solid white;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: Arial;
+            z-index: 9999;
+            display: none;
+            cursor: move;
+        `;
+        form.innerHTML = `
+            <strong>Add Item</strong><br>
+            <input type="text" id="itemName" placeholder="Item name" style="width:100%; margin-top:5px; background:white; color:black;">
+            <input type="text" id="itemValue" placeholder="Value" style="width:100%; margin-top:5px; background:white; color:black;">
+            <button id="saveBtn" style="margin-top:10px; width:100%; background:#444; color:white;">Save</button><br><br>
+            <button id="backBtn" style="width:100%; background:#444; color:white;">Back</button>
+        `;
+        document.body.appendChild(form);
+        makeDraggable(form);
+
+        document.getElementById('saveBtn').addEventListener('click', saveItem);
+        document.getElementById('backBtn').addEventListener('click', () => {
+            hideElement(form);
+            showElement(document.getElementById('dashboard'));
+        });
+    }
+
+    function saveItem() {
+        const name = document.getElementById('itemName').value.trim();
+        const value = document.getElementById('itemValue').value.trim();
+        if (!name || !value) return alert("Both fields are required!");
+
+        const db = firebase.database();
+        const itemsRef = db.ref('items');
+
+        itemsRef.orderByChild('name').equalTo(name).once('value', snapshot => {
+            if (snapshot.exists()) {
+                alert("❌ Name already exists!");
+            } else {
+                itemsRef.push({ name, value })
+                    .then(() => {
+                        alert("✅ Saved!");
+                        document.getElementById('itemName').value = '';
+                        document.getElementById('itemValue').value = '';
+                    });
+            }
+        });
+    }
+
+function createUpdateForm() {
+    const updateForm = document.createElement('div');
+    updateForm.id = 'updateForm';
+    updateForm.style = `
+        position: fixed;
+        top: 150px;
+        left: 350px;
+        width: 350px;
+        max-height: 500px;
+        overflow-y: auto;
+        background: #222;
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: Arial;
+        z-index: 9999;
+        display: none;
+        cursor: move;
+    `;
+
+    updateForm.innerHTML = `
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <button id="backFromUpdateFormBtn" style="background: none; border: none; color: white; font-size: 20px;">←</button>
+            <strong>Update Items</strong>
+            <span></span> <!-- spacer to keep layout balanced -->
+        </div>
+        <input type="text" id="searchInput" placeholder="Search item..." style="width: 100%; margin: 10px 0; color:black;"><br>
+        <div id="itemList"></div>
+    `;
+
+    document.body.appendChild(updateForm);
+    makeDraggable(updateForm);
+
+    // Event listeners
+    document.getElementById('searchInput').addEventListener('input', refreshItemList);
+
+    document.getElementById('backFromUpdateFormBtn').addEventListener('click', () => {
+        hideElement(updateForm);
+        showElement(document.getElementById('dashboard'));
+    });
+}
+
+
+    function refreshItemList() {
+        const db = firebase.database();
+        const itemsRef = db.ref('items');
+        const list = document.getElementById('itemList');
+        const filter = document.getElementById('searchInput').value.toLowerCase();
+
+        itemsRef.once('value', snapshot => {
+            list.innerHTML = '';
+            snapshot.forEach(child => {
+                const item = child.val();
+                const key = child.key;
+
+                if (item.name.toLowerCase().includes(filter)) {
+                    const div = document.createElement('div');
+                    div.style.marginBottom = '5px';
+                    div.innerHTML = `
+                        <input value="${item.name}" data-key="${key}" style="width: 40%; color:black;">
+                        <input value="${item.value}" data-key="${key}" style="width: 30%; color:black;">
+                        <button data-key="${key}" class="updateSingleBtn">💾</button>
+                        <button data-key="${key}" class="deleteSingleBtn">❌</button>
+                    `;
+                    list.appendChild(div);
+                }
+            });
+
+            list.querySelectorAll('.updateSingleBtn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const key = btn.getAttribute('data-key');
+                    const inputs = btn.parentElement.querySelectorAll('input');
+                    const updatedName = inputs[0].value;
+                    const updatedValue = inputs[1].value;
+                    db.ref('items/' + key).update({ name: updatedName, value: updatedValue });
+                });
+            });
+
+            list.querySelectorAll('.deleteSingleBtn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const key = btn.getAttribute('data-key');
+                    if (confirm("Delete this item?")) {
+                        db.ref('items/' + key).remove();
+                        refreshItemList();
+                    }
+                });
+            });
+        });
+    }
+
+function createStartPanel() {
+    const startPanel = document.createElement('div');
+    startPanel.id = 'startPanel';
+    startPanel.style = `
+        position: fixed;
+        top: 150px;
+        left: 100px;
+        width: 250px;
+        min-width: 200px;
+        max-width: 400px;
+        min-height: 180px;
+        background: #333;
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: Arial;
+        z-index: 9999;
+        display: none;
+        cursor: move;
+        resize: both;
+        overflow: auto;
+        box-sizing: border-box;
+    `;
+    startPanel.innerHTML = `
+        <div class="panel-header" style="position: relative; display: flex; flex-direction: column; align-items: center; margin-bottom: 10px;">
+            <div id="updateNotice" style="font-size: 14px; font-weight: bold; color: yellow; display: none; margin-bottom: 5px;">⚠ UPDATE ⚠</div>
+            <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <button id="backFromStartBtn" style="background: none; border: none; color: white; font-size: 20px;">←</button>
+                    <button id="toggleEyeBtn" style="background: none; border: none; color: white; font-size: 16px; cursor: pointer;">👁</button>
+                </div>
+                <div id="clockDisplay" style="font-size: 14px;"></div>
+            </div>
+            <div class="resize-handle" style="position: absolute; right: 0; bottom: -10px; width: 20px; height: 20px; cursor: se-resize; z-index: 10000;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="white">
+                    <path d="M20 20H0V0h20z" fill="none"/>
+                    <path d="M8 16H4v-4l4 4zm4-4h-4v4l4-4zm4-4h-4v4l4-4z"/>
+                </svg>
+            </div>
+        </div>
+        <div style="margin-bottom: 10px;">
+            <div style="font-size: 12px; color: #aaa;">Detected Name:</div>
+            <div id="detectedName" style="font-weight: bold; word-break: break-word;">No name detected</div>
+        </div>
+        <div style="margin-bottom: 10px;">
+            <div style="font-size: 12px; color: #aaa;">SKU Value:</div>
+            <div id="skuValue" style="font-weight: bold; word-break: break-word;">No detected SKU</div>
+        </div>
+        <button id="copyBtn" style="width:100%; background:#444; color:white; margin-top: auto;">Copy SKU</button>
+    `;
+    document.body.appendChild(startPanel);
+    makeDraggable(startPanel);
+
+    // Add custom resize handle functionality
+    const resizeHandle = startPanel.querySelector('.resize-handle');
+    let isResizing = false;
+    let startX, startY, startWidth, startHeight;
+
+    resizeHandle.addEventListener('mousedown', function(e) {
+        e.preventDefault();
+        isResizing = true;
+        startX = e.clientX;
+        startY = e.clientY;
+        startWidth = parseInt(document.defaultView.getComputedStyle(startPanel).width, 10);
+        startHeight = parseInt(document.defaultView.getComputedStyle(startPanel).height, 10);
+        document.documentElement.style.cursor = 'se-resize';
+        startPanel.style.userSelect = 'none';
+    });
+
+    document.addEventListener('mousemove', function(e) {
+        if (!isResizing) return;
+
+        const width = startWidth + e.clientX - startX;
+        const height = startHeight + e.clientY - startY;
+
+        startPanel.style.width = Math.max(200, Math.min(400, width)) + 'px';
+        startPanel.style.height = Math.max(180, height) + 'px';
+    });
+
+    document.addEventListener('mouseup', function() {
+        if (!isResizing) return;
+        isResizing = false;
+        document.documentElement.style.cursor = '';
+        startPanel.style.userSelect = '';
+    });
+
+    // Panel functionality remains the same
+    let currentSKUListener = null;
+
+    document.getElementById('backFromStartBtn').addEventListener('click', () => {
+        if (detectionInterval) clearInterval(detectionInterval);
+        if (clockInterval) clearInterval(clockInterval);
+        if (currentSKUListener) {
+            currentSKUListener.off();
+            currentSKUListener = null;
+        }
+        hideElement(startPanel);
+        showElement(document.getElementById('dashboard'));
+    });
+
+let copyTimeout = null;
+
+   function normalizeText(text) {
+    return text
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/ñ/g, 'n')
+        .replace(/-/g, ' ')
+        .replace(/[().]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toLowerCase();
+   }
+
+
+    function copySKU() {
+        const skuValue = document.getElementById('skuValue').textContent;
+        if (skuValue && skuValue !== "No detected SKU") {
+            navigator.clipboard.writeText(skuValue)
+                .then(() => {
+                    const copyBtn = document.getElementById('copyBtn');
+                    copyBtn.textContent = "Copied!";
+                    if (copyTimeout) clearTimeout(copyTimeout);  // clear previous timer
+                    copyTimeout = setTimeout(() => {
+                        copyBtn.textContent = "Copy SKU";
+                        copyTimeout = null;
+                    }, 2000);
+                })
+                .catch(err => console.error('Failed to copy: ', err));
+        }
+    }
+
+
+
+    // Event listeners
+   document.getElementById('copyBtn').addEventListener('click', copySKU);
+
+document.addEventListener('keydown', (e) => {
+    if (
+        e.altKey &&        // Alt pressed
+        !e.shiftKey &&     // Shift NOT pressed
+        !e.ctrlKey &&      // Ctrl NOT pressed
+        e.key.toLowerCase() === 'x'
+    ) {
+        e.preventDefault();
+        copySKU();
+    }
+});
+
+
+    function updateClock() {
+        const now = new Date();
+        const clock = document.getElementById('clockDisplay');
+        clock.textContent = now.toLocaleTimeString();
+    }
+
+    const clockInterval = setInterval(updateClock, 1000);
+    updateClock();
+
+    function checkTimeAndUpdatePanel() {
+        const now = new Date();
+        const minutes = now.getMinutes();
+        const updateNotice = document.getElementById('updateNotice');
+
+        const isBlinkTime = (minutes >= 28 && minutes < 31) || (minutes >= 58 || minutes < 1);
+
+        if (isBlinkTime) {
+            startPanel.style.animation = 'blinkRedYellow 1s infinite';
+            updateNotice.style.display = 'block';
+        } else {
+            startPanel.style.animation = 'none';
+            startPanel.style.background = '#333';
+            updateNotice.style.display = 'none';
+        }
+    }
+
+    setInterval(checkTimeAndUpdatePanel, 1000);
+
+    // Create second panel function
+function createSecondPanel() {
+    const secondPanel = document.createElement('div');
+    secondPanel.id = 'secondPanel';
+    secondPanel.style = `
+        position: fixed;
+        top: 150px;
+        left: 370px;
+        width: 350px;
+        min-width: 300px;
+        max-width: 500px;
+        min-height: 250px;
+        background: #444;
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: Arial;
+        z-index: 9998;
+        display: none;
+        cursor: move;
+        resize: both;
+        overflow: auto;
+        box-sizing: border-box;
+    `;
+    secondPanel.innerHTML = `
+        <div class="panel-header" style="position: relative; display: flex; flex-direction: column; align-items: center; margin-bottom: 10px;">
+            <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                <div style="font-weight: bold;">Delivery Information</div>
+                <button id="closeSecondPanelBtn" style="background: none; border: none; color: white; font-size: 16px; cursor: pointer;">✕</button>
+            </div>
+            <div class="resize-handle" style="position: absolute; right: 0; bottom: -10px; width: 20px; height: 20px; cursor: se-resize; z-index: 10000;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="white">
+                    <path d="M20 20H0V0h20z" fill="none"/>
+                    <path d="M8 16H4v-4l4 4zm4-4h-4v4l4-4zm4-4h-4v4l4-4z"/>
+                </svg>
+            </div>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <input type="text" id="deliverySearch" placeholder="Search address..."
+                   style="width: 100%; padding: 5px; border-radius: 4px; border: none; background: #555; color: white;">
+        </div>
+
+        <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 12px;">
+            <div>Total: <span id="totalCount">0</span></div>
+            <div>D2D: <span id="d2dCount">0</span></div>
+            <div>NOD2D: <span id="nod2dCount">0</span></div>
+        </div>
+
+        <div style="overflow-y: auto; max-height: 300px;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                <thead>
+                    <tr style="background: #555; position: sticky; top: 0;">
+                        <th style="padding: 5px; text-align: left; border-bottom: 1px solid #777;">Address</th>
+                        <th style="padding: 5px; text-align: center; border-bottom: 1px solid #777; width: 80px;">Type</th>
+                        <th style="padding: 5px; text-align: center; border-bottom: 1px solid #777; width: 80px;">Days</th>
+                    </tr>
+                </thead>
+                <tbody id="deliveryTableBody">
+                    <!-- Search results here -->
+                </tbody>
+            </table>
+        </div>
+    `;
+    document.body.appendChild(secondPanel);
+    makeDraggable(secondPanel);
+
+    // Resizing code (unchanged)
+    const resizeHandle = secondPanel.querySelector('.resize-handle');
+    let isResizing = false;
+    let startX, startY, startWidth, startHeight;
+
+    resizeHandle.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        isResizing = true;
+        startX = e.clientX;
+        startY = e.clientY;
+        startWidth = parseInt(getComputedStyle(secondPanel).width, 10);
+        startHeight = parseInt(getComputedStyle(secondPanel).height, 10);
+        document.documentElement.style.cursor = 'se-resize';
+        secondPanel.style.userSelect = 'none';
+    });
+
+    document.addEventListener('mousemove', (e) => {
+        if (!isResizing) return;
+        secondPanel.style.width = Math.max(300, Math.min(500, startWidth + e.clientX - startX)) + 'px';
+        secondPanel.style.height = Math.max(250, startHeight + e.clientY - startY) + 'px';
+    });
+
+    document.addEventListener('mouseup', () => {
+        if (!isResizing) return;
+        isResizing = false;
+        document.documentElement.style.cursor = '';
+        secondPanel.style.userSelect = '';
+    });
+
+document.addEventListener('keydown', (e) => {
+    if (
+        e.altKey &&           // Alt must be pressed
+        !e.shiftKey &&        // Shift must NOT be pressed
+        !e.ctrlKey &&         // Ctrl must NOT be pressed
+        e.key.toLowerCase() === 'z'
+    ) {
+        const panel = document.getElementById('secondPanel');
+        const toggleBtn = document.getElementById('toggleEyeBtn');
+
+        if (panel) {
+            if (panel.style.display === 'none' || panel.style.display === '') {
+                panel.style.display = 'block';
+                if (toggleBtn) toggleBtn.textContent = '👁️‍🗨️'; // Optional icon change
+            } else {
+                panel.style.display = 'none';
+                if (toggleBtn) toggleBtn.textContent = '👁';
+            }
+        }
+    }
+});
+
+
+
+    document.getElementById('closeSecondPanelBtn').addEventListener('click', () => {
+        secondPanel.style.display = 'none';
+        document.getElementById('toggleEyeBtn').textContent = '👁';
+    });
+
+    let allData = [];
+
+  function loadDeliveryDataOnce() {
+    // Fetch location data from GitHub raw .txt
+    fetch('https://raw.githubusercontent.com/papsikels/FORFUNSKU/refs/heads/main/LOCATION.txt')
+        .then(response => response.text())
+        .then(text => {
+            // Split lines, trim empty lines
+            const lines = text.trim().split('\n');
+
+            // Map each line into an object with full_address and category (D2D or NOD2D)
+            allData = lines.map(line => {
+                // Example line: "Ilocos Norte Adams Adams (Pob.)	D2D"
+                // Split by tab or multiple spaces
+                let parts = line.trim().split(/\s+/);
+                let category = parts.pop(); // last part is D2D or NOD2D
+                let full_address = parts.join(' ');
+                return { full_address, category };
+            });
+
+        })
+        .catch(err => {
+            console.error('Failed to load location data:', err);
+        });
+}
+
+    // debounce helper function
+    function debounce(func, delay) {
+        let timeoutId;
+        return function(...args) {
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(() => func.apply(this, args), delay);
+        };
+    }
+
+
+
+function renderFilteredData(term = '') {
+    const tableBody = document.getElementById('deliveryTableBody');
+    tableBody.innerHTML = '';
+
+    // Kapag walang laman ang search term, wag mag-display ng kahit ano, clear lang count
+    if (term.trim() === '') {
+        document.getElementById('totalCount').textContent = 0;
+        document.getElementById('d2dCount').textContent = 0;
+        document.getElementById('nod2dCount').textContent = 0;
+        return;
+    }
+
+    const fragment = document.createDocumentFragment();
+
+    let totalCount = 0;
+    let d2dCount = 0;
+    let nod2dCount = 0;
+
+    const normalizedTerm = normalizeText(term);
+
+    let displayedCount = 0;
+    const maxDisplay = 100;
+
+   for (let i = 0; i < allData.length; i++) {
+    const item = allData[i];
+    const address = item.full_address || '';
+    let type = item.category || '';
+    let days = getDeliveryDays(address);
+
+    const normalizedAddress = normalizeText(address);
+    const normalizedType = type.trim().toUpperCase();
+
+    if (normalizedType === 'NOD2D') {
+        days = '10-21 days';
+    }
+
+    if (normalizedAddress.includes(normalizedTerm)) {
+        totalCount++;
+        if (normalizedType === 'D2D') d2dCount++;
+        if (normalizedType === 'NOD2D') nod2dCount++;
+
+        if (displayedCount < maxDisplay) {
+            const row = document.createElement('tr');
+            const colorStyle = normalizedType === 'D2D' ? 'background: #006400; color: white;' :
+                              normalizedType === 'NOD2D' ? 'background: #8B0000; color: white;' : '';
+
+            row.innerHTML = `
+                <td style="padding: 5px; border-bottom: 1px solid #777; ${colorStyle}">${address}</td>
+                <td style="padding: 5px; text-align: center; border-bottom: 1px solid #777; ${colorStyle}">${type.toUpperCase()}</td>
+                <td style="padding: 5px; text-align: center; border-bottom: 1px solid #777;">${days}</td>
+            `;
+            fragment.appendChild(row);
+            displayedCount++;
+        }
+    }
+}
+
+
+    tableBody.appendChild(fragment);
+
+    document.getElementById('totalCount').textContent = totalCount;
+    document.getElementById('d2dCount').textContent = d2dCount;
+    document.getElementById('nod2dCount').textContent = nod2dCount;
+}
+
+
+
+
+
+    // Debounced version of renderFilteredData
+    const debouncedRender = debounce(renderFilteredData, 300);
+
+    // Search listener with debounce
+   document.getElementById('deliverySearch').addEventListener('input', (e) => {
+    const value = e.target.value.trim();
+    if (value.length > 0) {
+        debouncedRender(value);
+    } else {
+        // Optional: clear table if walang search input
+        document.getElementById('deliveryTableBody').innerHTML = '';
+        document.getElementById('totalCount').textContent = '0';
+        document.getElementById('d2dCount').textContent = '0';
+        document.getElementById('nod2dCount').textContent = '0';
+    }
+});
+
+    // Load once when panel becomes visible
+    const observer = new MutationObserver(mutations => {
+        mutations.forEach(mutation => {
+            if (mutation.attributeName === 'style' && secondPanel.style.display === 'block') {
+                loadDeliveryDataOnce();
+            }
+        });
+    });
+
+    observer.observe(secondPanel, {
+        attributes: true,
+        attributeFilter: ['style']
+    });
+}
+
+
+createSecondPanel();
+
+
+
+function getDeliveryDays(address) {
+    const lowerAddress = address.toLowerCase();
+
+    // Combine all provinces with tag: Luzon/VisMin/Islands
+    const provinceTags = [
+        ...luzon.map(p => ({ name: p, region: '1-4 days' })),
+        ...vismin.map(p => ({ name: p, region: '3-8 days' })),
+        ...islands.map(p => ({ name: p, region: '10-21 days' })),
+    ];
+
+    let matched = null;
+    let earliestIndex = Infinity;
+
+    for (let { name, region } of provinceTags) {
+        const index = lowerAddress.indexOf(name.toLowerCase());
+        if (index !== -1 && index < earliestIndex) {
+            matched = region;
+            earliestIndex = index;
+        }
+    }
+
+    return matched || 'N/A';
+}
+
+
+
+
+
+const luzon = [
+  "Abra", "Albay", "Apayao", "Aurora", "Bataan", "Batangas", "Benguet", "Bulacan",
+  "Cagayan", "Camarines Norte", "Camarines Sur", "Catanduanes", "Cavite", "Ifugao",
+  "Ilocos Norte", "Ilocos Sur", "Isabela", "Kalinga", "La Union", "Laguna", "Metro Manila", "Marinduque",
+  "Masbate", "Nueva Ecija", "Nueva Vizcaya", "Occidental Mindoro", "Oriental Mindoro",
+  "Pampanga", "Pangasinan", "Quezon", "Quirino", "Rizal", "Sorsogon", "Tarlac", "Zambales"
+];
+
+const vismin = [
+  "Agusan Del Norte", "Agusan Del Sur", "Aklan", "Antique", "Biliran", "Bukidnon", "Capiz",
+  "Cebu", "Cotabato", "Davao De Oro", "Davao Del Norte", "Davao Del Sur", "Davao Occidental",
+  "Davao Oriental", "Eastern Samar", "Guimaras", "Iloilo", "Lanao Del Norte", "Lanao Del Sur",
+  "Leyte", "Maguindanao", "Misamis Occidental", "Misamis Oriental", "Negros Occidental",
+  "Negros Oriental", "Northern Samar", "Romblon", "Southern Leyte", "Sultan Kudarat",
+  "Surigao Del Norte", "Surigao Del Sur", "Western Samar", "Zamboanga Del Norte",
+  "Zamboanga Del Sur", "Zamboanga Sibugay"
+];
+
+const islands = [
+  "Basilan", "Batanes", "Bohol", "Camiguin", "Dinagat Islands", "Mountain Province",
+  "Palawan", "Sarangani", "Siquijor", "South Cotabato", "Sulu", "Tawi Tawi"
+];
+
+
+document.addEventListener('keydown', async (e) => {
+    if (e.altKey && e.key.toLowerCase() === 'a') {
+        try {
+            const tag = document.querySelector('.tag-combo');
+            if (!tag) return;
+
+            // Kunin ang buong voucher text (value)
+            const value = tag.textContent.trim().split(':')[0]; // example: "3FlawlessCream=199"
+            if (!value) return;
+
+            // Kunin ang detected name sa page (halimbawa nasa #detectedName element)
+            const detectedNameElement = document.getElementById('detectedName');
+            if (!detectedNameElement) return;
+            const name = detectedNameElement.textContent.trim();
+
+            if (!name) {
+                alert("No detected name found.");
+                return;
+            }
+
+            const skuValueElement = document.getElementById('skuValue');
+
+            const db = firebase.database();
+            const itemsRef = db.ref('items');
+
+            // Check kung may existing name na sa database
+            const snapshot = await itemsRef.orderByChild('name').equalTo(name).once('value');
+
+            if (snapshot.exists()) {
+                // Name exists, huwag i-save ulit
+                if (skuValueElement) {
+                    const existingValue = Object.values(snapshot.val())[0].value;
+                    skuValueElement.textContent = existingValue;
+                }
+                console.log(`"${name}" already exists in database. Skipping save.`);
+                return;
+            }
+
+            // Save kung wala pang ganitong name
+            await itemsRef.push({ name, value });
+            if (skuValueElement) {
+                skuValueElement.textContent = value;
+            }
+            alert(`✅ Saved: ${name} = ${value}`);
+
+        } catch (error) {
+            console.error("Auto-detect/save error:", error);
+        }
+    }
+});
+
+
+// Eye button toggle functionality
+document.getElementById('toggleEyeBtn').addEventListener('click', () => {
+    const secondPanel = document.getElementById('secondPanel');
+    if (secondPanel.style.display === 'none' || !secondPanel.style.display) {
+        secondPanel.style.display = 'block';
+        document.getElementById('toggleEyeBtn').textContent = '👁️‍🗨';
+    } else {
+        secondPanel.style.display = 'none';
+        document.getElementById('toggleEyeBtn').textContent = '👁';
+    }
+});
+
+const style = document.createElement('style');
+style.innerHTML = `
+    @keyframes blinkRedYellow {
+        0% { background-color: red; }
+        50% { background-color: yellow; }
+        100% { background-color: red; }
+    }
+    #startPanel::-webkit-resizer, #secondPanel::-webkit-resizer {
+        background: transparent;
+    }
+    .resize-handle:hover {
+        opacity: 0.8;
+    }
+    #startPanel, #secondPanel {
+        transition: width 0.1s ease, height 0.1s ease;
+    }
+    #toggleEyeBtn:hover {
+        transform: scale(1.2);
+    }
+    #deliverySearch:focus {
+        outline: 1px solid #4CAF50;
+    }
+    #deliveryTableBody tr:hover {
+        background: #555;
+    }
+`;
+document.head.appendChild(style);
+}
+
+    function updateClock() {
+        const clock = document.getElementById('clockDisplay');
+        const now = new Date();
+        clock.textContent = now.toLocaleTimeString();
+    }
+
+
+
+function detectAndDisplaySKU() {
+    try {
+        const startPanel = document.getElementById('startPanel');
+        if (!startPanel || startPanel.style.display !== 'block') return;
+
+        // First try method 1: From known span span
+        let nameElements = document.querySelectorAll('.text-ellipsis.text-other-info span span');
+        let detectedName = "No name detected";
+        let found = false;
+
+        nameElements.forEach(element => {
+            if (element.textContent && element.textContent.trim()) {
+                detectedName = element.textContent.trim();
+                found = true;
+            }
+        });
+        if (!found) {
+            const replyBox = document.getElementById('replyBoxComposer');
+            if (replyBox && replyBox.placeholder && replyBox.placeholder.trim() !== '') {
+                const words = replyBox.placeholder.trim().split(' ');
+                detectedName = words[words.length - 1]; // Get last word only
+                found = true;
+            }
+        }
+
+        // If not found, try method 2: inside .avatar > div
+        if (!found) {
+            const avatarNameElements = document.querySelectorAll('.avatar > div:last-child');
+            avatarNameElements.forEach(element => {
+                if (element.textContent && element.textContent.trim()) {
+                    detectedName = element.textContent.trim();
+                    found = true;
+                }
+            });
+        }
+
+        // Update detected name in UI
+        const detectedNameElement = document.getElementById('detectedName');
+        if (detectedNameElement && detectedNameElement.textContent !== detectedName) {
+            detectedNameElement.textContent = detectedName;
+        }
+
+        // Firebase check
+        if (found) {
+            const db = firebase.database();
+            const itemsRef = db.ref('items');
+
+            itemsRef.orderByChild('name').equalTo(detectedName).on('value', snapshot => {
+                if (startPanel.style.display === 'block') {
+                    const skuValueElement = document.getElementById('skuValue');
+                    if (snapshot.exists()) {
+                        let value = "No value found";
+                        snapshot.forEach(child => {
+                            value = child.val().value;
+                        });
+                        if (skuValueElement && skuValueElement.textContent !== value) {
+                            skuValueElement.textContent = value;
+                        }
+                    } else {
+                        if (skuValueElement && skuValueElement.textContent !== "No detected SKU") {
+                            skuValueElement.textContent = "No detected SKU";
+                        }
+                    }
+                }
+            });
+        } else {
+            const skuValueElement = document.getElementById('skuValue');
+            if (skuValueElement && skuValueElement.textContent !== "No detected SKU") {
+                skuValueElement.textContent = "No detected SKU";
+            }
+        }
+    } catch (error) {
+        console.error("Detection error:", error);
+    }
+}
+
+    loadFirebaseScripts(() => {
+        waitForFirebase(() => {
+            firebase.initializeApp(firebaseConfig);
+            createDashboard();
+            createAddItemForm();
+            createUpdateForm();
+            createStartPanel();
+        });
+    });
