@@ -823,250 +823,361 @@ document.addEventListener('mouseup', () => {
 makeDraggable(cx);
 
 
-const STORAGE_KEY = 'customSpiels';
-
-const savedSpiels = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
-
-const form = document.createElement('div');
-form.id = 'spielPanel';
-form.style = `
-    position: fixed;
-    top: 150px;
-    left: 100px;
-    width: 320px;
-    max-height: 480px;
-    background: black;
-    color: white;
-    border: 1px solid white;
-    padding: 15px 15px 10px 15px;
-    border-radius: 12px;
-    font-family: Arial, sans-serif;
-    z-index: 9999;
-    display: none;
-    cursor: move;
-    box-sizing: border-box;
-    user-select: none;
-`;
-
-// Removed: form.appendChild(title);
-const container = document.createElement('div');
-container.style = `
-    max-height: 350px;
-    overflow-y: auto;
-    padding-right: 6px; /* space so scrollbar doesn't cover content */
-`;
-
-// Create title/header element for the shortcut panel
-const shortcutTitle = document.createElement('div');
-shortcutTitle.textContent = '🔑 Shortcut Custom Spiel Key';  // or any of the names above
-shortcutTitle.style = `
-    font-weight: bold;
-    font-size: 18px;
-    padding: 8px 0;
-    color: white;
-    user-select: none;
-`;
-
-// Append title at the top before container content
-form.insertBefore(shortcutTitle, form.firstChild);
-
-form.appendChild(container);
-
-
-const addBtn = document.createElement('button');
-addBtn.textContent = '➕ Add Spiel';
-addBtn.style = `
-    width: 100%;
-    margin-top: 12px;
-    background: #444;
-    color: white;
-    border: none;
-    padding: 10px 0;
-    font-size: 14px;
-    border-radius: 8px;
-    cursor: pointer;
-    user-select: none;
-    transition: background-color 0.3s ease;
-`;
-addBtn.onmouseenter = () => addBtn.style.background = '#666';
-addBtn.onmouseleave = () => addBtn.style.background = '#444';
-
-form.appendChild(addBtn);
-document.body.appendChild(form);
-
-// Toggle panel display with Alt + Backquote
-document.addEventListener('keydown', (e) => {
-    if (e.ctrlKey && e.altKey && e.code === 'KeyP') {
-        e.preventDefault();
-        form.style.display = form.style.display === 'none' ? 'block' : 'none';
-    }
-});
-
-
-function getKeyCombo(e) {
-    const modifiers = [];
-    if (e.ctrlKey) modifiers.push('Ctrl');
-    if (e.altKey) modifiers.push('Alt');
-    if (e.shiftKey) modifiers.push('Shift');
-
-    let key = e.key;
-
-    if (key === 'Control' || key === 'Shift' || key === 'Alt') return null;
-
-    if (key.length === 1) {
-        key = key.toUpperCase();
+    function setCookie(name, value, days = 30) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = `${name}=${encodeURIComponent(JSON.stringify(value))}; expires=${date.toUTCString()}; path=/`;
     }
 
-    return [...modifiers, key].join('+');
-}
 
-function renderSpiels() {
-    container.innerHTML = '';
-    savedSpiels.forEach((spiel, index) => {
-        const wrapper = document.createElement('div');
-        wrapper.style = `
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-            gap: 8px;
-            width: 100%;
-            box-sizing: border-box;
+    // Tag click simulation functions
+    const delay = ms => new Promise(res => setTimeout(res, ms));
+
+    function simulateHover(el) {
+        if (!el) return;
+        el.dispatchEvent(new MouseEvent("mouseover", { bubbles: true }));
+        el.dispatchEvent(new MouseEvent("mouseenter", { bubbles: true }));
+    }
+
+    async function clickTag(tagName, groupNames, customDelay = 50) {
+        const addTagBtn = document.querySelector('.btn-add-tag');
+        if (!addTagBtn) return false;
+
+        addTagBtn.click();
+        await delay(customDelay);
+
+        const input = document.querySelector('.ant-dropdown input[placeholder="Order tags"]');
+        if (!input) return false;
+        input.focus();
+        input.select();
+
+        const groupHeaders = [...document.querySelectorAll('.ant-dropdown-menu-submenu-title')];
+        const hoverGroup = groupHeaders.find(el =>
+            groupNames.includes(el.innerText.trim().toUpperCase())
+        );
+        if (hoverGroup) {
+            simulateHover(hoverGroup);
+            await delay(customDelay);
+        }
+
+        const tagItems = [...document.querySelectorAll('li.ant-dropdown-menu-item')];
+        const target = tagItems.find(li =>
+            li.offsetParent !== null &&
+            li.innerText.trim().toUpperCase() === tagName.toUpperCase()
+        );
+
+        if (target) {
+            target.click();
+            return true;
+        }
+        return false;
+    }
+
+    // Panel UI
+    function Tags() {
+        const existingPanel = document.getElementById('tagShortcutPanel');
+        if (existingPanel) existingPanel.remove();
+
+        const panel = document.createElement('div');
+        panel.id = 'tagShortcutPanel';
+        panel.style = `
+            position: fixed;
+            top: 150px;
+            left: 100px;
+            width: 380px;
+            max-height: 500px;
+            background: #1e1e2f;
+            color: white;
+            border: 1px solid #555;
+            padding: 15px;
+            border-radius: 12px;
+            font-family: Arial, sans-serif;
+            z-index: 9999;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            cursor: move;
+            user-select: none;
         `;
 
-        const input = document.createElement('input');
-        input.type = 'text';
-        input.value = spiel.text;
-        input.placeholder = 'Enter spiel text';
-        input.style = `
-            flex-grow: 1;
-            min-width: 0;
-            padding: 6px 8px;
-            font-size: 13px;
-            border-radius: 6px;
-            border: 1px solid #444;
-            background: #fff;
-            color: #000;
+        panel.innerHTML = `
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; border-bottom: 1px solid #555; padding-bottom: 5px;">
+                <div style="font-weight: bold; font-size: 16px;">🏷 Tag Shortcut Manager</div>
+                <button id="closePanelBtn" style="background: none; border: none; color: white; font-size: 16px; cursor: pointer;">✕</button>
+            </div>
+            <div id="tagShortcutsContainer" style="max-height: 350px; overflow-y: auto; margin-bottom: 15px;"></div>
+            <button id="addTagShortcutBtn" style="width: 100%; padding: 8px; background: #4CAF50; color: white; border: none; border-radius: 6px; cursor: pointer; margin-bottom: 10px;">
+                ➕ Add New Tag Shortcut
+            </button>
+            <div style="font-size: 12px; color: #aaa; text-align: center;">
+                Toggle Panel: Alt+V | Click and drag to move
+            </div>
         `;
-        input.addEventListener('input', () => {
-            spiel.text = input.value;
-            saveSpiels();
+
+        document.body.appendChild(panel);
+        makeDraggable(panel);
+        renderShortcuts();
+
+        document.getElementById('addTagShortcutBtn').addEventListener('click', () => showAddShortcutModal());
+        document.getElementById('closePanelBtn').addEventListener('click', () => panel.remove());
+    }
+
+
+    function showAddShortcutModal(editIndex = null) {
+        const isEdit = editIndex !== null;
+        const shortcuts = getCookie('tagShortcuts') || [];
+        const shortcut = isEdit ? shortcuts[editIndex] : null;
+
+        const existingModal = document.getElementById('tagShortcutModal');
+        if (existingModal) existingModal.remove();
+
+        const modal = document.createElement('div');
+        modal.id = 'tagShortcutModal';
+        modal.style = `
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 420px;
+            background: #2d2d2d;
+            color: white;
+            border: 1px solid #666;
+            padding: 15px;
+            border-radius: 8px;
+            z-index: 10000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.7);
+        `;
+
+        modal.innerHTML = `
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                <div style="font-weight: bold; font-size: 16px;">${isEdit ? 'Edit' : 'Add'} Tag Shortcut</div>
+                <button id="closeModalBtn" style="background: none; border: none; color: white; font-size: 16px; cursor: pointer;">✕</button>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label style="display: block; margin-bottom: 5px; font-size: 14px;">Tag Name:</label>
+                <input type="text" id="tagNameInput" style="width: 100%; padding: 8px; background: #3d3d3d; color: white; border: 1px solid #555; border-radius: 4px;"
+                    value="${shortcut ? shortcut.tagName : ''}" placeholder="FERNANDO EPIL">
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label style="display: block; margin-bottom: 5px; font-size: 14px;">Group Names (comma separated):</label>
+                <input type="text" id="groupNamesInput" style="width: 100%; padding: 8px; background: #3d3d3d; color: white; border: 1px solid #555; border-radius: 4px;"
+                    value="${shortcut ? shortcut.groupNames.join(', ') : 'NAME, TEAM OJ'}" placeholder="NAME, TEAM OJ">
+            </div>
+            <div style="margin-bottom: 10px;">
+                <label style="display: block; margin-bottom: 5px; font-size: 14px;">Delay (ms):</label>
+                <input type="number" id="delayInput" style="width: 100%; padding: 8px; background: #3d3d3d; color: white; border: 1px solid #555; border-radius: 4px;"
+                    value="${shortcut ? shortcut.delay : '50'}" min="10" max="1000">
+            </div>
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; margin-bottom: 5px; font-size: 14px;">Shortcut Key Combination:</label>
+                <input type="text" id="shortcutKeyInput" style="width: 100%; padding: 8px; background: #3d3d3d; color: white; border: 1px solid #555; border-radius: 4px;"
+                    placeholder="Press your key combination (e.g. Ctrl+Alt+C)" readonly value="${shortcut ? shortcut.keyCombo : ''}">
+                <div style="font-size: 12px; color: #aaa; margin-top: 5px;">
+                    Press any combination of Ctrl, Alt, Shift + a key (e.g. Ctrl+Alt+C)
+                </div>
+            </div>
+            <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                <button id="cancelShortcutBtn" style="padding: 8px 15px; background: #555; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                    Cancel
+                </button>
+                <button id="saveShortcutBtn" style="padding: 8px 15px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                    ${isEdit ? 'Update Shortcut' : 'Save Shortcut'}
+                </button>
+            </div>
+        `;
+
+        document.body.appendChild(modal);
+
+        const shortcutInput = document.getElementById('shortcutKeyInput');
+        let keyCombo = shortcut ? shortcut.keyCombo : '';
+        let captureActive = !isEdit;
+
+        function captureKeyCombo(e) {
+            if (!captureActive) return;
+
+            e.preventDefault();
+            e.stopPropagation();
+
+            const parts = [];
+            if (e.ctrlKey) parts.push('Ctrl');
+            if (e.altKey) parts.push('Alt');
+            if (e.shiftKey) parts.push('Shift');
+
+            if (!['Control', 'Alt', 'Shift', 'Meta'].includes(e.key)) {
+                parts.push(e.key.toUpperCase());
+                keyCombo = parts.join(' + ');
+                shortcutInput.value = keyCombo;
+                captureActive = false;
+            }
+        }
+
+        document.addEventListener('keydown', captureKeyCombo);
+
+        shortcutInput.addEventListener('click', () => {
+            keyCombo = '';
+            shortcutInput.value = '';
+            captureActive = true;
         });
 
-        const hotkeyInput = document.createElement('input');
-        hotkeyInput.type = 'text';
-        hotkeyInput.value = spiel.hotkey || '';
-        hotkeyInput.placeholder = 'Press key';
-        hotkeyInput.readOnly = true;
-        hotkeyInput.style = `
-            width: 90px;
-            padding: 6px 6px;
-            font-size: 12px;
-            border-radius: 6px;
-            border: 1px solid #444;
-            background: #fff;
-            color: #000;
-            text-align: center;
-            user-select: none;
-            flex-shrink: 0;
-        `;
+        document.getElementById('closeModalBtn').addEventListener('click', () => {
+            modal.remove();
+        });
 
-        hotkeyInput.addEventListener('focus', () => {
-            const setHotkey = (e) => {
-                e.preventDefault();
-                const combo = getKeyCombo(e);
-                if (!combo) return; // ignore modifier-only
+        document.getElementById('cancelShortcutBtn').addEventListener('click', () => {
+            modal.remove();
+        });
 
-                // Restrict certain shortcuts
-                if (combo === 'Alt+Z' || combo === 'Alt+X') {
-                    alert(`Shortcut "${combo}" is reserved and cannot be used.`);
-                    hotkeyInput.value = spiel.hotkey || '';
-                    document.removeEventListener('keydown', setHotkey);
-                    hotkeyInput.blur();
+        document.getElementById('saveShortcutBtn').addEventListener('click', () => {
+            const tagName = document.getElementById('tagNameInput').value.trim();
+            const groupNames = document.getElementById('groupNamesInput').value.split(',').map(s => s.trim()).filter(s => s);
+            const delay = parseInt(document.getElementById('delayInput').value) || 50;
+
+            if (!tagName || !keyCombo || groupNames.length === 0) {
+                alert('Please fill all fields and set a key combination');
+                return;
+            }
+
+            const shortcuts = getCookie('tagShortcuts') || [];
+
+            if (isEdit) {
+                // Check if key combo is changed and conflicts with others
+                if (shortcuts[editIndex].keyCombo !== keyCombo) {
+                    const conflictIndex = shortcuts.findIndex((s, i) => i !== editIndex && s.keyCombo === keyCombo);
+                    if (conflictIndex !== -1) {
+                        alert('This key combination is already used by another shortcut');
+                        return;
+                    }
+                }
+                shortcuts[editIndex] = { tagName, groupNames, delay, keyCombo };
+            } else {
+                if (shortcuts.some(s => s.keyCombo === keyCombo)) {
+                    alert('This key combination is already in use');
                     return;
                 }
+                shortcuts.push({ tagName, groupNames, delay, keyCombo });
+            }
 
-                // Check for duplicates
-                const duplicateIndex = savedSpiels.findIndex((s, i) => s.hotkey === combo && i !== index);
-                if (duplicateIndex !== -1) {
-                    alert(`Shortcut "${combo}" already assigned. Removing from previous spiel.`);
-                    savedSpiels[duplicateIndex].hotkey = '';
-                }
+            setCookie('tagShortcuts', shortcuts);
+            modal.remove();
+            renderShortcuts();
+            initializeHotkeys();
+        });
+    }
 
-                hotkeyInput.value = combo;
-                spiel.hotkey = combo;
-                saveSpiels();
-                renderSpiels();
+    function renderShortcuts() {
+        const container = document.getElementById('tagShortcutsContainer');
+        if (!container) return;
 
-                document.removeEventListener('keydown', setHotkey);
-                hotkeyInput.blur();
-            };
-            document.addEventListener('keydown', setHotkey);
+        const shortcuts = getCookie('tagShortcuts') || [];
+        container.innerHTML = '';
+
+        if (shortcuts.length === 0) {
+            container.innerHTML = `
+                <div style="text-align: center; color: #888; padding: 20px; background: #2d2d2d; border-radius: 6px;">
+                    No tag shortcuts yet<br>
+                    <span style="font-size: 12px;">Click "Add New Tag Shortcut" to create one</span>
+                </div>
+            `;
+            return;
+        }
+
+        shortcuts.forEach((shortcut, index) => {
+            const shortcutDiv = document.createElement('div');
+            shortcutDiv.style = `
+                display: flex;
+                flex-direction: column;
+                padding: 12px;
+                margin-bottom: 10px;
+                background: #2d2d2d;
+                border-radius: 6px;
+            `;
+
+            shortcutDiv.innerHTML = `
+                <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                    <div style="font-weight: bold; font-size: 15px;">${shortcut.tagName}</div>
+                    <div style="font-weight: bold; color: #4CAF50;">${shortcut.keyCombo}</div>
+                </div>
+                <div style="font-size: 13px; color: #ccc; margin-bottom: 8px;">
+                    Groups: ${shortcut.groupNames.join(', ')} | Delay: ${shortcut.delay}ms
+                </div>
+                <div style="display: flex; gap: 8px;">
+                    <button class="editShortcutBtn" data-index="${index}" style="flex: 1; padding: 6px; background: #555; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                        ✏️ Edit
+                    </button>
+                    <button class="deleteShortcutBtn" data-index="${index}" style="flex: 1; padding: 6px; background: #d9534f; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                        ❌ Delete
+                    </button>
+                </div>
+            `;
+
+            container.appendChild(shortcutDiv);
         });
 
-        const delBtn = document.createElement('button');
-        delBtn.textContent = '✕';
-        delBtn.title = 'Delete spiel';
-        delBtn.style = `
-            background: transparent;
-            border: none;
-            color: #ff5c5c;
-            font-size: 18px;
-            cursor: pointer;
-            padding: 0;
-            width: 24px;
-            height: 24px;
-            line-height: 24px;
-            text-align: center;
-            user-select: none;
-            flex-shrink: 0;
-            transition: color 0.2s;
-        `;
-        delBtn.onmouseenter = () => delBtn.style.color = '#ff1c1c';
-        delBtn.onmouseleave = () => delBtn.style.color = '#ff5c5c';
+        document.querySelectorAll('.editShortcutBtn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const index = parseInt(e.target.closest('button').getAttribute('data-index'));
+                showAddShortcutModal(index);
+            });
+        });
 
-        delBtn.onclick = () => {
-            savedSpiels.splice(index, 1);
-            saveSpiels();
-            renderSpiels();
-        };
-
-        wrapper.appendChild(input);
-        wrapper.appendChild(hotkeyInput);
-        wrapper.appendChild(delBtn);
-        container.appendChild(wrapper);
-    });
-}
-
-function saveSpiels() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(savedSpiels));
-}
-
-addBtn.addEventListener('click', () => {
-    savedSpiels.push({ text: '', hotkey: '' });
-    saveSpiels();
-    renderSpiels();
-});
-
-document.addEventListener('keydown', (e) => {
-    if (document.activeElement && (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA')) {
-        return; // avoid triggering while typing
+        document.querySelectorAll('.deleteShortcutBtn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                if (confirm('Are you sure you want to delete this shortcut?')) {
+                    const index = parseInt(e.target.closest('button').getAttribute('data-index'));
+                    const shortcuts = getCookie('tagShortcuts') || [];
+                    shortcuts.splice(index, 1);
+                    setCookie('tagShortcuts', shortcuts);
+                    renderShortcuts();
+                    initializeHotkeys();
+                }
+            });
+        });
     }
 
-    const combo = getKeyCombo(e);
-    if (!combo) return;
+    function initializeHotkeys() {
+        document.removeEventListener('keydown', handleHotkeyPress);
+        document.addEventListener('keydown', handleHotkeyPress);
+    }
 
-    for (const spiel of savedSpiels) {
-        if (spiel.hotkey && spiel.hotkey === combo) {
-            navigator.clipboard.writeText(spiel.text);
-            break;
+    function handleHotkeyPress(e) {
+        const shortcuts = getCookie('tagShortcuts') || [];
+
+        for (const shortcut of shortcuts) {
+            const comboParts = shortcut.keyCombo.split(' + ');
+            const key = comboParts.pop();
+
+            const ctrlRequired = comboParts.includes('Ctrl');
+            const altRequired = comboParts.includes('Alt');
+            const shiftRequired = comboParts.includes('Shift');
+
+            const keyMatch = e.key.toUpperCase() === key.toUpperCase();
+            const ctrlMatch = e.ctrlKey === ctrlRequired;
+            const altMatch = e.altKey === altRequired;
+            const shiftMatch = e.shiftKey === shiftRequired;
+
+            if (keyMatch && ctrlMatch && altMatch && shiftMatch) {
+                e.preventDefault();
+                clickTag(shortcut.tagName, shortcut.groupNames, shortcut.delay);
+                break; // Only trigger one shortcut
+            }
         }
     }
-});
 
-renderSpiels();
+    // Toggle panel with Alt + V
+    document.addEventListener('keydown', (e) => {
+        if (e.altKey && e.key.toLowerCase() === 'v' && !e.ctrlKey && !e.shiftKey) {
+            e.preventDefault();
+            const panel = document.getElementById('tagShortcutPanel');
+            if (!panel) {
+                Tags();
+            } else {
+                panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+            }
+        }
+    });
 
+    // Initialize
+    initializeHotkeys();
 
-    makeDraggable(form);
+    makeDraggable(Tags);
 
 
 function createDashboard() {
