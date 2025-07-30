@@ -1,0 +1,105 @@
+// ==UserScript==
+// @name         Auto-Check
+// @match        https://pancake.ph/*
+// @match        https://pos.pancake.ph/*
+// @grant        none
+// ==/UserScript==
+
+(function () {
+    'use strict';
+
+    const blackColor = 'rgb(18, 49, 35)';
+
+    // Create floating box
+    const box = document.createElement('div');
+    box.style = `
+        position: fixed;
+        top: 100px;
+        left: 100px;
+        z-index: 9999;
+        background: #111;
+        color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: monospace;
+        font-size: 13px;
+        box-shadow: 0 0 10px #000;
+        min-width: 260px;
+        max-height: 300px;
+        overflow: auto;
+        cursor: move;
+    `;
+    box.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center;">
+            <div style="font-weight:bold;">🧪 Name Auto-Checker</div>
+            <button id="closeChecker" style="background:red; color:white; border:none; border-radius:5px; cursor:pointer;">❌</button>
+        </div>
+        <button id="runCheck" style="margin-top: 5px; margin-bottom: 5px; width: 100%; padding: 4px;">Run (Ctrl+Shift+X)</button>
+        <div id="results" style="max-height: 200px; overflow-y: auto;"></div>
+    `;
+    document.body.appendChild(box);
+
+    // Close button
+    document.getElementById('closeChecker').onclick = () => box.remove();
+
+    // Drag logic
+    let isDragging = false, offsetX, offsetY;
+    box.addEventListener('mousedown', function (e) {
+        if (e.target.tagName !== 'BUTTON') {
+            isDragging = true;
+            offsetX = e.clientX - box.offsetLeft;
+            offsetY = e.clientY - box.offsetTop;
+        }
+    });
+    document.addEventListener('mousemove', function (e) {
+        if (isDragging) {
+            box.style.left = e.clientX - offsetX + 'px';
+            box.style.top = e.clientY - offsetY + 'px';
+        }
+    });
+    document.addEventListener('mouseup', function () {
+        isDragging = false;
+    });
+
+    // Main logic
+    function runCheckAndClick() {
+        const allTags = document.querySelectorAll('.tag-filter-item');
+        let changed = [], alreadyChecked = [];
+
+        allTags.forEach(item => {
+            const tag = item.querySelector('.ant-tag');
+            const checkbox = item.querySelector('input[type="checkbox"]');
+
+            if (tag && checkbox && tag.style.backgroundColor === blackColor) {
+                const name = tag.textContent.trim();
+
+                if (!checkbox.checked) {
+                    // Simulate a click to check it
+                    checkbox.click();
+                    changed.push(name);
+                } else {
+                    alreadyChecked.push(name);
+                }
+
+                tag.style.outline = '1px solid lime';
+            }
+        });
+
+        const results = document.getElementById('results');
+        results.innerHTML = `
+            ✅ <b>Now Checked (${changed.length}):</b><br>${changed.join('<br>')}<br><br>
+            ✔️ <b>Already Checked (${alreadyChecked.length}):</b><br>${alreadyChecked.join('<br>')}
+        `;
+    }
+
+    // Button trigger
+    const runBtn = document.getElementById('runCheck');
+    runBtn.addEventListener('click', runCheckAndClick);
+
+    // Shortcut: Ctrl + Shift + X
+    document.addEventListener('keydown', function (e) {
+        if (e.ctrlKey && e.shiftKey && e.code === 'KeyX') {
+            runBtn.click();
+        }
+    });
+})();
